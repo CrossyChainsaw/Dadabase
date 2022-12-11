@@ -51,8 +51,7 @@ async def __update_link(ctx, ranked_stats):
   
       
 def __request(brawlhalla_id):
-  stats = json.loads(fetch_player_ranked_stats(brawlhalla_id).content)
-  return stats
+  return fetch_player_ranked_stats(brawlhalla_id)
 
 def __save_link(ctx, ranked_stats):
   user = __create_user(ctx, ranked_stats)
@@ -73,4 +72,3 @@ def __save_data(user):
     write_link_data(link_data)
 
 
-  

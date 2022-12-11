@@ -4,9 +4,10 @@ from discord.ext import commands
 from modules.claim import claim
 from modules.check import check
 from modules.ping import ping
+from modules.keep_alive import keep_alive
 
 intents = discord.Intents().all()
-bot = commands.Bot(command_prefix=['d'], intents=intents)
+bot = commands.Bot(command_prefix=['d!'], intents=intents)
 
 @bot.event
 async def on_ready():
@@ -30,7 +31,7 @@ async def claim_command_error(ctx, error):
         await ctx.send('format your message like the following\n`'+bot.command_prefix[0]+'claim brawlhalla_id`')
 
   
-
+keep_alive()
 bot.run(os.environ['BOT_KEY'])
 
 
