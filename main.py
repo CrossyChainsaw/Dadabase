@@ -64,5 +64,5 @@ async def claim_command_error(ctx, error):
                        bot.command_prefix[0] + 'claim brawlhalla_id`')
 
 
-keep_alive()
-bot.run(os.environ['BOT_KEY'])
+#keep_alive()
+#bot.run(os.environ['BOT_KEY'])

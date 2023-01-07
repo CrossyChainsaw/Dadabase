@@ -10,7 +10,7 @@ def __remove_ps4_player(ctx, bh_id, data):
   bh_name = ""
   index = 0
   for player in data['ps4_players']:
-    if player['id'] == str(bh_id):
+    if player['brawlhalla_id'] == str(bh_id):
       bh_name = data['ps4_players'].pop(index)['brawlhalla_name']
       with open(DATA_LOCATION + str(ctx.guild.id) + '.json', 'w') as file:
         json.dump(data, file)
