@@ -41,3 +41,6 @@ configuring a clan (server) enables the admin of the server to add console playe
 ![image](https://github.com/Skyward-Brawlhalla/Dadabase/assets/74303221/06cce104-5e7e-40c1-9058-ee5ef576530e)
 
 5. now you can start using the command d!claim brawlhalla_id
+
+![image](https://github.com/Skyward-Brawlhalla/Dadabase/assets/74303221/af65881a-2cf4-46a8-abe0-abffd7ab39f6)
+
