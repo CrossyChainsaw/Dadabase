@@ -1,7 +1,7 @@
 # Dadabase Documentation
 This documentation is mainly aimed at myself since I will be the one setting up Dadabase in your server.
-- [Configure Clan]()
-- [Configure Server]()
+- [Configure Clan](#configure-clan)
+- [Configure Server](#configure-server)
 
 ## Configure Clan
 configuring a clan (server) enables the admin of the server to add console players to their Ranknir elo lists.
