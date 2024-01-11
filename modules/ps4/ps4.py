@@ -1,6 +1,6 @@
 import json
 
-DATA_LOCATION = 'data/servers/'
+DATA_LOCATION = 'data/clans/'
 
 def load_data(server_id):
   with open(DATA_LOCATION + str(server_id) + '.json', 'r') as file:

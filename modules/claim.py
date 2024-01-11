@@ -4,7 +4,8 @@ import json
 from modules.data import read_link_data, write_data, read_data
 from classes.Server import Server
 
-DATA_LINKS_LOCATION = 'data/links.json'
+DATA_LINKS_LOCATION_SERVER_SINGLE_ID = 'data/servers/'
+#DATA_LINKS_LOCATION_SERVER_MULTI_ID = 'data/servers_multi_id/'
 
 async def claim(ctx, brawlhalla_id):
   ranked_stats = __request(brawlhalla_id)
@@ -19,8 +20,9 @@ async def claim(ctx, brawlhalla_id):
     await ctx.channel.send("Account with `brawlhalla_id: "+brawlhalla_id+"` does not exist or hasn't played ranked yet")
 
 def already_claimed(ctx):
+  print('Entered: already_claimed()')
   link_data = []
-  link_data = read_link_data(ctx.guild.id)
+  link_data = read_link_data(DATA_LINKS_LOCATION_SERVER_SINGLE_ID, ctx.guild.id)
   for user in link_data:
     if str(ctx.author.id) == str(user['discord_id']):
       return True
@@ -37,7 +39,7 @@ async def __add_link(ctx, ranked_stats):
 
 async def __update_link(ctx, ranked_stats):
   user = __create_user(ctx, ranked_stats)
-  link_data = read_link_data()
+  link_data = read_link_data(DATA_LINKS_LOCATION_SERVER_SINGLE_ID, ctx.guild.id)
   x = 0
   print('g')
   for link in link_data:
@@ -47,9 +49,9 @@ async def __update_link(ctx, ranked_stats):
   print(link_data[x])
   link_data[x]['brawlhalla_id'] = user.brawlhalla_id
   link_data[x]['brawlhalla_name'] = user.brawlhalla_name
-  with open('data/links.json', 'w') as data_file:
-    json.dump(link_data, data_file)
-    await ctx.channel.send("Updated claimed brawlhalla account to ```brawlhalla_name: "+user.brawlhalla_name+'\nbrawlhalla_id: '+str(user.brawlhalla_id)+'```')
+  server = Server(ctx.guild.name, link_data)
+  write_data(DATA_LINKS_LOCATION_SERVER_SINGLE_ID, server.__dict__, ctx.guild.id)
+  await ctx.channel.send("Updated claimed brawlhalla account to ```brawlhalla_name: "+user.brawlhalla_name+'\nbrawlhalla_id: '+str(user.brawlhalla_id)+'```')
     
   
       
@@ -74,9 +76,9 @@ def __create_user(ctx, ranked_stats):
 
 def __save_data(user, ctx):
     print('Entered: __save_data()')
-    link_data = read_link_data(ctx.guild.id)
+    link_data = read_link_data(DATA_LINKS_LOCATION_SERVER_SINGLE_ID, ctx.guild.id)
     link_data.append(user.__dict__)  
     server = Server(ctx.guild.name, link_data)   
-    write_data(server.__dict__, ctx.guild.id)
+    write_data(DATA_LINKS_LOCATION_SERVER_SINGLE_ID, server.__dict__, ctx.guild.id)
 
 

@@ -1,21 +1,20 @@
 import json
 
-DATA_LINKS_LOCATION = 'data/servers/'
 
-def read_link_data(id):
-  with open(DATA_LINKS_LOCATION + str(id) + '.json') as data:
+def read_link_data(path, id):
+  with open(path + str(id) + '.json') as data:
     link_data = json.load(data)["links"]
     return link_data
 
-def read_data(id):
-  with open(DATA_LINKS_LOCATION + str(id) + '.json') as data:
-    link_data = json.load(data)
-    return data
 
-def write_data(data, id):
+def read_data(path, id):
+  with open(path + str(id) + '.json') as data:
+    the_data = json.load(data)
+    return the_data
+
+def write_data(path, data, id):
   print('Entered: write_data()')
-  with open(DATA_LINKS_LOCATION + str(id) + '.json', 'w') as write_file:
+  with open(path + str(id) + '.json', 'w') as write_file:
     json.dump(data, write_file)
-  
 
     

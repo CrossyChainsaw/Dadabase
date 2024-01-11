@@ -11,6 +11,9 @@ from modules.ps4.ps4_list import ps4_list
 from modules.ps4.ps4_remove import ps4_remove
 from discord.ext.commands import has_permissions
 from modules.configure_server import configure_server
+from modules.frost_commands.create_player import create_player
+from modules.frost_commands.legend_list import legend_list
+from modules.frost_commands.legend_help import legend_help
 os = Xos()
 
 intents = discord.Intents().all()
@@ -56,14 +59,30 @@ async def ps4_remove_command(ctx, brawlhalla_id):
     await ps4_remove(ctx, brawlhalla_id)
 
 @has_permissions(administrator=True)
-@bot.command('configureclan')
+@bot.command(name='configureclan', aliases=['configclan'])
 async def configure_clan_command(ctx):
     await configure_clan(ctx)
 
 @has_permissions(administrator=True)
-@bot.command('configureserver')
+@bot.command(name='configureserver', aliases=['configserver'])
 async def configure_server_command(ctx):
     await configure_server(ctx)
+
+
+@commands.has_role("Special Snowflakes")
+@bot.command(name='createplayer', aliases=['cp'])
+async def create_player_command(ctx, brawlhalla_id_list, nickname):
+   await create_player(ctx, brawlhalla_id_list, nickname)
+
+@commands.has_role("Special Snowflakes")
+@bot.command(name='legendlist', aliases=['lls'])
+async def legend_list_command(ctx, legend_id):
+   await legend_list(ctx, legend_id)
+
+
+@bot.command(name='legendhelp', aliases=['lhelp'])
+async def legend_help_command(ctx):
+   await legend_help(ctx)
 
 keep_alive()
 bot.run(os.environ[2])

@@ -1,8 +1,10 @@
 from modules.data import read_link_data
 from classes.User import User
 
+DATA_LINKS_LOCATION_SERVER_SINGLE_ID = 'data/servers/'
+
 async def check(ctx):
-  link_data = read_link_data(ctx.guild.id)
+  link_data = read_link_data(DATA_LINKS_LOCATION_SERVER_SINGLE_ID, ctx.guild.id)
   user = ''
   for link in link_data:
     if str(ctx.author.id) == str(link['discord_id']):
