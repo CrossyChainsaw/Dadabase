@@ -1,9 +1,5 @@
-# OOPS! Wrong Repository
-Dadabase is still being worked on and is now part of [Ranknir](https://github.com/CrossyChainsaw/Ranknir)
 
-### ----------------------------------------------------------------------------------------------
-
-# Dadabase Documentation
+# Dadabase (Outdated) Documentation
 This documentation is mainly aimed at myself since I will be the one setting up Dadabase in your server.
 - [Configure Clan](#configure-clan)
 - [Configure Server](#configure-server)
