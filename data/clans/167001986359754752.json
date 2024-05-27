@@ -16,12 +16,28 @@
         {
             "brawlhalla_id": "7013979",
             "brawlhalla_name": "CrossyChris"
+        },
+        {
+            "brawlhalla_id": "253063",
+            "brawlhalla_name": "Frost | BOOMKAMi"
+        },
+        {
+            "brawlhalla_id": "607951",
+            "brawlhalla_name": "Frost | Erg0"
         }
     ],
     "console_players": [
         {
             "brawlhalla_id": "12974529",
             "brawlhalla_name": "CrossyChris (PS4)"
+        },
+        {
+            "brawlhalla_id": "253063",
+            "brawlhalla_name": "Frost | BOOMKAMi"
+        },
+        {
+            "brawlhalla_id": "607951",
+            "brawlhalla_name": "Frost | Erg0"
         }
     ]
 }
