@@ -1,0 +1,34 @@
+{
+    "server_name": "Client Org",
+    "clan_names": [
+        "Client",
+        "Client II",
+        "Client Org"
+    ],
+    "discord_server_id": "1244055902730981436",
+    "id_array": [
+        "2372717",
+        "2372721",
+        "2376196"
+    ],
+    "color": "0xFFFFFF",
+    "image": "https://static.wikia.nocookie.net/aesthetics/images/7/7d/Brown_Texture.jpg/revision/latest?cb=20201102152124",
+    "channel_1v1_id": 1247092390959775795,
+    "channel_2v2_id": 1247093040011673680,
+    "channel_rotating_id": null,
+    "sorting_method": "current",
+    "show_member_count": true,
+    "show_xp": false,
+    "show_no_elo_players": true,
+    "account_linkers": [],
+    "console_players": [
+        {
+            "brawlhalla_id": 111913218,
+            "brawlhalla_name": "borgirneedasneez"
+        },
+        {
+            "brawlhalla_id": 54397470,
+            "brawlhalla_name": "Kurfrost"
+        }
+    ]
+}
