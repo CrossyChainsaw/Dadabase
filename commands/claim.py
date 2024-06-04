@@ -43,6 +43,7 @@ async def __update_link(interaction, user):
     link['country'] = user.country
     link['ethnicity'] = user.ethnicity
     server_data['links'][link_index] = link
+    write_data(SERVERS_DATA_PATH, server_data, interaction.guild.id)
     await interaction.response.send_message(f"Updated claimed brawlhalla account {codeblock_with_link_data(user)}")
 
 def __save_data(interaction, user):
