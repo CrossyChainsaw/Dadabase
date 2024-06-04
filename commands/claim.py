@@ -34,6 +34,7 @@ async def __add_link(interaction, user):
 async def __update_link(interaction, user):
     print('Entered: __update_link()')
     server_data = read_data(SERVERS_DATA_PATH, interaction.guild.id)
+    print(server_data)
     link_data = server_data['links']
     link_index = find_link_index(interaction.user.id, link_data)
     link = link_data[link_index]
