@@ -920,6 +920,15 @@
             "region": "EU",
             "country": "NL",
             "ethnicity": "NL"
+        },
+        {
+            "brawlhalla_id": 78773901,
+            "brawlhalla_name": "dex\u00c3\u00a8",
+            "discord_id": 975500341942554685,
+            "discord_name": "juken._",
+            "region": "EU",
+            "country": "NL",
+            "ethnicity": "VN"
         }
     ]
 }
