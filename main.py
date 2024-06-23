@@ -23,6 +23,7 @@ from Dadabase.commands.server_player_list import server_player_list
 from Dadabase.commands.edit_clan import edit_clan
 from Dadabase.commands.edit_server import edit_server
 from Dadabase.modules.data_management import FlagType
+from Dadabase.modules.keep_alive import keep_alive
 
 
 intents = discord.Intents.default()
@@ -205,6 +206,7 @@ async def on_ready():
     print(f'We have logged in as {client.user}')
 
 def run_dadabase():
-    client.run(env_variable("DADABASE_BOT_TOKEN"))
-    #client.run(env_variable("TEST_BOT_TOKEN"))
+    keep_alive()
+    # client.run(env_variable("DADABASE_BOT_TOKEN"))
+    client.run(env_variable("TEST_BOT_TOKEN"))
     # return
