@@ -12,7 +12,7 @@
         "2376196"
     ],
     "color": "0xFFFFFF",
-    "image": "https://static.wikia.nocookie.net/aesthetics/images/7/7d/Brown_Texture.jpg/revision/latest?cb=20201102152124",
+    "image": "https://media.discordapp.net/attachments/1245056842749444138/1248582160735010867/Client1.png?ex=6664d900&is=66638780&hm=568e539dc26a707a7ddf997c7f6cdc30e0812292a4894bdb10b76b9d0c8d5e28&",
     "channel_1v1_id": 1247092390959775795,
     "channel_2v2_id": 1247093040011673680,
     "channel_rotating_id": null,
@@ -29,6 +29,22 @@
         {
             "brawlhalla_id": 54397470,
             "brawlhalla_name": "Kurfrost"
+        },
+        {
+            "brawlhalla_id": 14749257,
+            "brawlhalla_name": "Touma3461"
+        },
+        {
+            "brawlhalla_id": 57796636,
+            "brawlhalla_name": "pixarXmember"
+        },
+        {
+            "brawlhalla_id": 14019370,
+            "brawlhalla_name": "it0xic-btw"
+        },
+        {
+            "brawlhalla_id": 30746013,
+            "brawlhalla_name": "CLN | GreenStar"
         }
     ]
 }

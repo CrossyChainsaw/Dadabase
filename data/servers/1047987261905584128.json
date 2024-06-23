@@ -929,6 +929,15 @@
             "region": "EU",
             "country": "NL",
             "ethnicity": "VN"
+        },
+        {
+            "brawlhalla_id": 3829956,
+            "brawlhalla_name": "Lenny",
+            "discord_id": 268454569128886274,
+            "discord_name": "miyaowo",
+            "region": "EU",
+            "country": "NL",
+            "ethnicity": "NL"
         }
     ]
 }

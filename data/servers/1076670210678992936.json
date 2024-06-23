@@ -605,6 +605,24 @@
             "region": "SEA",
             "country": "VN",
             "ethnicity": "VN"
+        },
+        {
+            "brawlhalla_id": 64104427,
+            "brawlhalla_name": "VL GLORY",
+            "discord_id": 991049658702901258,
+            "discord_name": "malstracklife",
+            "region": "USE",
+            "country": "US",
+            "ethnicity": "US"
+        },
+        {
+            "brawlhalla_id": 90497643,
+            "brawlhalla_name": "M3W | BigBrain",
+            "discord_id": 546228673590853642,
+            "discord_name": "bigbrainimp",
+            "region": "USE",
+            "country": "US",
+            "ethnicity": "US"
         }
     ]
 }
