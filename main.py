@@ -207,6 +207,6 @@ async def on_ready():
 
 def run_dadabase():
     keep_alive()
-    # client.run(env_variable("DADABASE_BOT_TOKEN"))
-    client.run(env_variable("TEST_BOT_TOKEN"))
+    client.run(env_variable("DADABASE_BOT_TOKEN"))
+    # client.run(env_variable("TEST_BOT_TOKEN"))
     # return
