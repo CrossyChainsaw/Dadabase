@@ -5,6 +5,7 @@ from Dadabase.modules.data_management import read_data, CLANS_DATA_PATH, SERVERS
 from Dadabase.modules.env import env_variable
 
 DADABASE_API_KEY = env_variable("DADABASE_API_KEY")
+HOST_PORT = env_variable("HOST_PORT")
 API_ERROR_MSG = "please provide a valid api_key"
 ID_ERROR_MSG = "please provide a valid ID"
 
@@ -39,7 +40,7 @@ def get_clan_data():
     return API_ERROR_MSG
 
 def run():
-  app.run(host='0.0.0.0', port=1001)
+  app.run(host='0.0.0.0', port=HOST_PORT)
 
 
 def keep_alive():
