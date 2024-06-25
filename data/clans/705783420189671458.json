@@ -18,13 +18,13 @@
     "show_no_elo_players": true,
     "account_linkers": [
         {
-            "brawlhalla_id": 7364605,
+            "brawlhalla_id": "7364605",
             "brawlhalla_name": "crossy"
         }
     ],
     "console_players": [
         {
-            "brawlhalla_id": 2,
+            "brawlhalla_id": "2",
             "brawlhalla_name": "bmgdan"
         }
     ]
