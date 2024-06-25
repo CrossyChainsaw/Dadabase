@@ -623,6 +623,15 @@
             "region": "USE",
             "country": "US",
             "ethnicity": "US"
+        },
+        {
+            "brawlhalla_id": 71181298,
+            "brawlhalla_name": "Expansion",
+            "discord_id": 992799084668788869,
+            "discord_name": "lyncere",
+            "region": "USE",
+            "country": "US",
+            "ethnicity": "US"
         }
     ]
 }
