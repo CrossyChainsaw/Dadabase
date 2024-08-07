@@ -67,7 +67,7 @@ async def add_server_player_command(interaction: discord.Interaction, brawlhalla
 
 
 @tree.command(name=CHECK_COMMAND[1:], description='Check your linked Brawlhalla account')
-async def check_command(interaction):
+async def check_command(interaction: discord.Interaction):
     await check(interaction)
 
 
@@ -208,5 +208,5 @@ async def on_ready():
 def run_dadabase():
     keep_alive()
     client.run(env_variable("DADABASE_BOT_TOKEN"))
-    # client.run(env_variable("TEST_BOT_TOKEN"))
+    #client.run(env_variable("RANKNIR_TESTING_BOT_TOKEN"))
     # return
