@@ -1,11 +1,11 @@
-from Dadabase.modules.data_management import codeblock_with_link_data, find_link, read_link_data, SERVERS_DATA_PATH
+from Dadabase.modules.data_management import embed_with_link_data, find_link, read_link_data, SERVERS_DATA_PATH, embed_no_claimed_account
 from Dadabase.classes.Link import Link
 
 
 async def check(interaction):
     link_data = read_link_data(SERVERS_DATA_PATH, interaction.guild.id)
-    user = find_link(interaction.user.id, link_data)
-    if user:
-        await interaction.response.send_message(f"Currently claimed Brawlhalla account {codeblock_with_link_data(user)}")
+    link = find_link(interaction.user.id, link_data)
+    if link:
+        await interaction.response.send_message(embed=embed_with_link_data(link, interaction))
     else:
-        await interaction.response.send_message("You haven't claimed an account yet, use `/claim` to claim your Brawlhalla account.")
+        await interaction.response.send_message(embed=embed_no_claimed_account())

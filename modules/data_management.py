@@ -2,6 +2,7 @@ from enum import Enum
 import json
 from discord import app_commands
 from Dadabase.classes.Link import Link
+import discord 
 
 # Paths
 DADABASE_DATA_PATH = 'Dadabase/data/'
@@ -101,12 +102,32 @@ def __check_empty(value):
    
 
 
-def codeblock_with_link_data(user):
-    return f"```ts\nbrawlhalla_name: {__empty_name(user.brawlhalla_name)}\nbrawlhalla_id: {user.brawlhalla_id}\nregion: {__check_empty(user.region)}\ncountry: {__check_empty(user.country)}\nethnicity: {__check_empty(user.ethnicity)}```"
+def codeblock_with_link_data(link:Link):
+    return f"```ts\nbrawlhalla_name: {__empty_name(link.brawlhalla_name)}\nbrawlhalla_id: {link.brawlhalla_id}\nregion: {__check_empty(link.region)}\ncountry: {__check_empty(link.country)}\nethnicity: {__check_empty(link.ethnicity)}```"
 
+def embed_with_link_data(link:Link, interaction:discord.Interaction):
+    embed = discord.Embed(
+        title=f"{link.brawlhalla_name}'s Claimed Profile",
+        color=0x09fbd7
+    )
+    embed.set_thumbnail(url=interaction.user.avatar)
+    embed.add_field(name="Brawlhalla Name", value=link.brawlhalla_name, inline=False)
+    embed.add_field(name="Brawlhalla ID", value=link.brawlhalla_id, inline=False)
+    embed.add_field(name="Region", value=__check_empty(link.region), inline=False)
+    embed.add_field(name="Country", value=__check_empty(link.country), inline=False)
+    embed.add_field(name="Ethnicity", value=__check_empty(link.ethnicity), inline=False)
+    return embed
 
 def __empty_name(name):
     if name == "":
         return "N/A (finish 1s placement matches)"
     else:
         return name
+    
+def embed_no_claimed_account():
+    embed = discord.Embed(
+        title="Oops!",
+        description="You haven't claimed an account yet",
+        color=0x09fbd7
+    )
+    return embed

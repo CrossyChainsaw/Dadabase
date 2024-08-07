@@ -23,12 +23,12 @@
         },
         {
             "brawlhalla_id": 7364605,
-            "brawlhalla_name": "CrossyChainsaw LFT 2400+",
+            "brawlhalla_name": "CrossyChainsaw",
             "discord_id": 413070742591373314,
             "discord_name": "crossychainsaw",
-            "region": "",
-            "country": "NL",
-            "ethnicity": "TR"
+            "region": "USE",
+            "country": "",
+            "ethnicity": ""
         },
         {
             "brawlhalla_id": 23795559,
@@ -797,12 +797,12 @@
         },
         {
             "brawlhalla_id": 8948682,
-            "brawlhalla_name": "DVL",
+            "brawlhalla_name": "Lucid",
             "discord_id": 317567558112772098,
             "discord_name": "devolos",
-            "region": "",
-            "country": "NL",
-            "ethnicity": "NL"
+            "region": "EU",
+            "country": "BE",
+            "ethnicity": "BE"
         },
         {
             "brawlhalla_id": 28663599,
@@ -935,6 +935,33 @@
             "brawlhalla_name": "Lenny",
             "discord_id": 268454569128886274,
             "discord_name": "miyaowo",
+            "region": "EU",
+            "country": "NL",
+            "ethnicity": "NL"
+        },
+        {
+            "brawlhalla_id": 60006064,
+            "brawlhalla_name": "i eat bananas",
+            "discord_id": 509657526481190922,
+            "discord_name": "schizoidperson",
+            "region": "EU",
+            "country": "NL",
+            "ethnicity": "VN"
+        },
+        {
+            "brawlhalla_id": 40464,
+            "brawlhalla_name": "",
+            "discord_id": 463047314592890882,
+            "discord_name": "patotoman",
+            "region": "EU",
+            "country": "NL",
+            "ethnicity": "NL"
+        },
+        {
+            "brawlhalla_id": 102833078,
+            "brawlhalla_name": "CLN | Pinguu",
+            "discord_id": 786946036496990228,
+            "discord_name": "pingubh_",
             "region": "EU",
             "country": "NL",
             "ethnicity": "NL"
