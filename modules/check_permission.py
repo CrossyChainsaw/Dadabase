@@ -4,9 +4,10 @@ import discord
 BRAWLHALLA_HUNGARY_SERVER_ID = 1209624739635531857
 # have on of these roles
 M30W_ROLE = "M30W"
-BRAWLHALLA_NL_ROLE = "Verified ✔"
+BRAWLHALLA_NL_ROLE_1 = "Nederland"
+BRAWLHALLA_NL_ROLE_2 = "België"
 M3W_ROLE = "M3W"
-ROLES_TO_CHECK = [BRAWLHALLA_NL_ROLE, M30W_ROLE, M3W_ROLE]
+ROLES_TO_CHECK = [BRAWLHALLA_NL_ROLE_1, BRAWLHALLA_NL_ROLE_2, M30W_ROLE, M3W_ROLE]
 
 def has_permission(interaction):
     if any(__has_role(interaction.user, role) for role in ROLES_TO_CHECK) or __is_member(interaction, BRAWLHALLA_HUNGARY_SERVER_ID):
