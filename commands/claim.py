@@ -28,7 +28,7 @@ def __already_claimed(interaction):
 async def __add_link(interaction, link:Link):
     print('Entered: __add_link()')
     __save_data(interaction, link)
-    await interaction.response.send_message(f"Claimed brawlhalla account {embed_with_link_data(link, interaction)}")
+    await interaction.response.send_message(embed=embed_with_link_data(link, interaction))
 
 
 async def __update_link(interaction, new_link:Link):
@@ -45,7 +45,7 @@ async def __update_link(interaction, new_link:Link):
     link['ethnicity'] = new_link.ethnicity
     server_data['links'][link_index] = link
     write_data(SERVERS_DATA_PATH, server_data, interaction.guild.id)
-    await interaction.response.send_message(f"Updated claimed brawlhalla account {embed_with_link_data(new_link, interaction)}")
+    await interaction.response.send_message(embed=embed_with_link_data(new_link, interaction))
 
 def __save_data(interaction, user):
     print('Entered: __save_data()')
