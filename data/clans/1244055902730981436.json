@@ -3,13 +3,15 @@
     "clan_names": [
         "Client",
         "Client II",
-        "Client Org"
+        "Client Org",
+        "Client Community"
     ],
     "discord_server_id": "1244055902730981436",
     "id_array": [
         "2372717",
         "2372721",
-        "2376196"
+        "2376196",
+        "2399173"
     ],
     "color": "0xFFFFFF",
     "image": "https://media.discordapp.net/attachments/1245056842749444138/1248582160735010867/Client1.png?ex=6664d900&is=66638780&hm=568e539dc26a707a7ddf997c7f6cdc30e0812292a4894bdb10b76b9d0c8d5e28&",
@@ -18,7 +20,7 @@
     "channel_rotating_id": null,
     "sorting_method": "current",
     "show_member_count": true,
-    "show_xp": false,
+    "show_xp": "show",
     "show_no_elo_players": true,
     "account_linkers": [],
     "console_players": [

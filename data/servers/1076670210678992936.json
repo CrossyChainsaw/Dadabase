@@ -598,8 +598,8 @@
             "ethnicity": "VN"
         },
         {
-            "brawlhalla_id": 100130626,
-            "brawlhalla_name": "M3W | Toad",
+            "brawlhalla_id": 59809856,
+            "brawlhalla_name": "Tran La Luot#toad",
             "discord_id": 1001778720509530122,
             "discord_name": "itskhoitoad",
             "region": "SEA",
@@ -632,6 +632,69 @@
             "region": "USE",
             "country": "US",
             "ethnicity": "US"
+        },
+        {
+            "brawlhalla_id": 7738345,
+            "brawlhalla_name": "BTH | Jaddboi",
+            "discord_id": 352780466690064384,
+            "discord_name": "jaddboi",
+            "region": "USE",
+            "country": "CA",
+            "ethnicity": "SY"
+        },
+        {
+            "brawlhalla_id": 30470375,
+            "brawlhalla_name": "M3W SteeL | Seiya",
+            "discord_id": 726922911494963251,
+            "discord_name": "whoisseiya",
+            "region": "BR",
+            "country": "BR",
+            "ethnicity": "BR"
+        },
+        {
+            "brawlhalla_id": 6318907,
+            "brawlhalla_name": "jeetle buice",
+            "discord_id": 187632150424584193,
+            "discord_name": "xephyrbh",
+            "region": "EU",
+            "country": "NL",
+            "ethnicity": "NL"
+        },
+        {
+            "brawlhalla_id": 104858472,
+            "brawlhalla_name": "",
+            "discord_id": 427316110036041739,
+            "discord_name": "1hipper",
+            "region": "BR",
+            "country": "BR",
+            "ethnicity": "TR"
+        },
+        {
+            "brawlhalla_id": 35647515,
+            "brawlhalla_name": "TenK Thxghtz",
+            "discord_id": 271084970443800577,
+            "discord_name": "thxghtzlol",
+            "region": "USE",
+            "country": "US",
+            "ethnicity": "US"
+        },
+        {
+            "brawlhalla_id": 91579524,
+            "brawlhalla_name": "M3W | Master Goonway",
+            "discord_id": 828249575823114240,
+            "discord_name": "im_hleb",
+            "region": "EU",
+            "country": "",
+            "ethnicity": ""
+        },
+        {
+            "brawlhalla_id": 5824509,
+            "brawlhalla_name": "Nosferatu",
+            "discord_id": 725859639404789834,
+            "discord_name": "vigarista6504",
+            "region": "BR",
+            "country": "BR",
+            "ethnicity": "BR"
         }
     ]
 }
