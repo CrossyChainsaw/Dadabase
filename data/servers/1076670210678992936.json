@@ -10,14 +10,14 @@
     "channel_rotating_id": 1207374136188338258,
     "image": "https://media.discordapp.net/attachments/1110725749859688648/1207376677110415411/new_pink_yellow_m30w_header.png?ex=65df6c27&is=65ccf727&hm=6b5096a4a5706c225e7c67caa3c01e2c3ac5b2fbeb7b7c1cc5a30bcb3d43144a&=&format=webp&quality=lossless&width=1440&height=480",
     "color": "0xd6307a",
-    "flag_type": "country",
+    "flag_type": "region",
     "links": [
         {
             "brawlhalla_id": 60269269,
             "brawlhalla_name": "M30W | frieren <3",
             "discord_id": 673371837782032434,
             "discord_name": "yurei._.",
-            "region": "",
+            "region": "USE",
             "country": "US",
             "ethnicity": "IT"
         },
@@ -26,7 +26,7 @@
             "brawlhalla_name": "M30W | Dobleh",
             "discord_id": 360866188684689409,
             "discord_name": "dobleh",
-            "region": "",
+            "region": "EU",
             "country": "",
             "ethnicity": ""
         },
@@ -35,7 +35,7 @@
             "brawlhalla_name": "M30W | Capit\u00c3\u00a1n Lis",
             "discord_id": 449378964562116618,
             "discord_name": "capitan_lis",
-            "region": "",
+            "region": "BRS",
             "country": "",
             "ethnicity": ""
         },
@@ -44,7 +44,7 @@
             "brawlhalla_name": "prplexity",
             "discord_id": 186881526494003200,
             "discord_name": "prplexity",
-            "region": "",
+            "region": "USE",
             "country": "",
             "ethnicity": ""
         },
@@ -53,7 +53,7 @@
             "brawlhalla_name": "BBBalloonBoi",
             "discord_id": 729711524851220490,
             "discord_name": "bbballoonboy",
-            "region": "",
+            "region": "USE",
             "country": "",
             "ethnicity": ""
         },
@@ -71,7 +71,7 @@
             "brawlhalla_name": "M30W | Blackout",
             "discord_id": 880048323770318879,
             "discord_name": "blackoutmauro",
-            "region": "",
+            "region": "EU",
             "country": "",
             "ethnicity": ""
         },
@@ -80,7 +80,7 @@
             "brawlhalla_name": "shaw",
             "discord_id": 210475701072166912,
             "discord_name": "shaw__",
-            "region": "",
+            "region": "EU",
             "country": "",
             "ethnicity": ""
         },
@@ -89,7 +89,7 @@
             "brawlhalla_name": "M30W | Box",
             "discord_id": 883264391628353566,
             "discord_name": "boxbh",
-            "region": "",
+            "region": "EU",
             "country": "",
             "ethnicity": ""
         },
@@ -98,7 +98,7 @@
             "brawlhalla_name": "Zeltol",
             "discord_id": 544562390931472415,
             "discord_name": "zeltol",
-            "region": "",
+            "region": "EU",
             "country": "",
             "ethnicity": ""
         },
@@ -110,15 +110,6 @@
             "region": "",
             "country": "",
             "ethnicity": ""
-        },
-        {
-            "brawlhalla_id": 7364605,
-            "brawlhalla_name": "CrossyChainsaw LFT 2400+",
-            "discord_id": 413070742591373314,
-            "discord_name": "crossychainsaw",
-            "region": "",
-            "country": "NL",
-            "ethnicity": "TR"
         },
         {
             "brawlhalla_id": 7108006,
@@ -134,7 +125,7 @@
             "brawlhalla_name": "Duugu.",
             "discord_id": 280028216457166849,
             "discord_name": "duugu.",
-            "region": "",
+            "region": "EU",
             "country": "",
             "ethnicity": ""
         },
@@ -143,7 +134,7 @@
             "brawlhalla_name": "FoxxNoodles",
             "discord_id": 439995565611286570,
             "discord_name": "foxxnoodles",
-            "region": "",
+            "region": "USE",
             "country": "",
             "ethnicity": ""
         },
@@ -170,7 +161,7 @@
             "brawlhalla_name": "Hase",
             "discord_id": "280766453509128192",
             "discord_name": "piggiebh",
-            "region": "",
+            "region": "EU",
             "country": "",
             "ethnicity": ""
         },
@@ -179,7 +170,7 @@
             "brawlhalla_name": "M30W | ByDynoo",
             "discord_id": "325741705062252545",
             "discord_name": "bydynoo",
-            "region": "",
+            "region": "USE",
             "country": "",
             "ethnicity": ""
         },
@@ -188,7 +179,7 @@
             "brawlhalla_name": "",
             "discord_id": "100238982788452352",
             "discord_name": "addymestic",
-            "region": "",
+            "region": "EU",
             "country": "",
             "ethnicity": ""
         },
@@ -197,7 +188,7 @@
             "brawlhalla_name": "Kugo but a bit scarier",
             "discord_id": 1139880866236092516,
             "discord_name": "kugoooooooo",
-            "region": "",
+            "region": "EU",
             "country": "",
             "ethnicity": ""
         },
@@ -206,7 +197,7 @@
             "brawlhalla_name": "QUATSCHKOPF",
             "discord_id": "142747065926156289",
             "discord_name": "eagleadi",
-            "region": "",
+            "region": "EU",
             "country": "",
             "ethnicity": ""
         },
@@ -242,7 +233,7 @@
             "brawlhalla_name": "Yeeto",
             "discord_id": 268826654032265216,
             "discord_name": "siebah",
-            "region": "",
+            "region": "EU",
             "country": "",
             "ethnicity": ""
         },
@@ -260,7 +251,7 @@
             "brawlhalla_name": "Phix",
             "discord_id": 599978819889135618,
             "discord_name": "_phix",
-            "region": "",
+            "region": "EU",
             "country": "",
             "ethnicity": ""
         },
@@ -305,7 +296,7 @@
             "brawlhalla_name": "Dipu",
             "discord_id": 284343601910251520,
             "discord_name": "dipu_",
-            "region": "",
+            "region": "EU",
             "country": "",
             "ethnicity": ""
         },
@@ -395,7 +386,7 @@
             "brawlhalla_name": "Lexi",
             "discord_id": 236127985500028928,
             "discord_name": "_elk",
-            "region": "",
+            "region": "USE",
             "country": "US",
             "ethnicity": "US"
         },
@@ -467,7 +458,7 @@
             "brawlhalla_name": "Lamo",
             "discord_id": 821469455175385118,
             "discord_name": "lamobh",
-            "region": "",
+            "region": "EU",
             "country": "",
             "ethnicity": ""
         },
@@ -521,7 +512,7 @@
             "brawlhalla_name": "M3W | zenit",
             "discord_id": 654730224583311382,
             "discord_name": "zenitxd",
-            "region": "BR",
+            "region": "BRS",
             "country": "BR",
             "ethnicity": "BR"
         },
@@ -530,7 +521,7 @@
             "brawlhalla_name": "M3W | youtube.com/Nublado",
             "discord_id": 226030603399593984,
             "discord_name": "nubladotenderpaw",
-            "region": "BR",
+            "region": "BRS",
             "country": "BR",
             "ethnicity": "BR"
         },
@@ -647,7 +638,7 @@
             "brawlhalla_name": "M3W SteeL | Seiya",
             "discord_id": 726922911494963251,
             "discord_name": "whoisseiya",
-            "region": "BR",
+            "region": "BRS",
             "country": "BR",
             "ethnicity": "BR"
         },
@@ -665,7 +656,7 @@
             "brawlhalla_name": "",
             "discord_id": 427316110036041739,
             "discord_name": "1hipper",
-            "region": "BR",
+            "region": "BRS",
             "country": "BR",
             "ethnicity": "TR"
         },
@@ -692,7 +683,7 @@
             "brawlhalla_name": "Nosferatu",
             "discord_id": 725859639404789834,
             "discord_name": "vigarista6504",
-            "region": "BR",
+            "region": "BRS",
             "country": "BR",
             "ethnicity": "BR"
         }
