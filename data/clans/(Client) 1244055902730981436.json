@@ -1,0 +1,52 @@
+{
+    "server_name": "Client Org",
+    "clan_names": [
+        "Client",
+        "Client II",
+        "Client Org",
+        "Client Community"
+    ],
+    "discord_server_id": "1244055902730981436",
+    "id_array": [
+        "2372717",
+        "2372721",
+        "2376196",
+        "2399173"
+    ],
+    "color": "0xFFFFFF",
+    "image": "https://media.discordapp.net/attachments/1245056842749444138/1248582160735010867/Client1.png?ex=6664d900&is=66638780&hm=568e539dc26a707a7ddf997c7f6cdc30e0812292a4894bdb10b76b9d0c8d5e28&",
+    "channel_1v1_id": 1247092390959775795,
+    "channel_2v2_id": 1247093040011673680,
+    "channel_rotating_id": null,
+    "sorting_method": "current",
+    "show_member_count": true,
+    "show_xp": "show",
+    "show_no_elo_players": true,
+    "account_linkers": [],
+    "console_players": [
+        {
+            "brawlhalla_id": 111913218,
+            "brawlhalla_name": "borgirneedasneez"
+        },
+        {
+            "brawlhalla_id": 54397470,
+            "brawlhalla_name": "Kurfrost"
+        },
+        {
+            "brawlhalla_id": 14749257,
+            "brawlhalla_name": "Touma3461"
+        },
+        {
+            "brawlhalla_id": 57796636,
+            "brawlhalla_name": "pixarXmember"
+        },
+        {
+            "brawlhalla_id": 14019370,
+            "brawlhalla_name": "it0xic-btw"
+        },
+        {
+            "brawlhalla_id": 30746013,
+            "brawlhalla_name": "CLN | GreenStar"
+        }
+    ]
+}
