@@ -1,0 +1,17 @@
+{
+    "server_name": "aura",
+    "clan_names": ["Aura"],
+    "discord_server_id": "1271719485887479818",
+    "id_array": ["2309909"],
+    "color": "0xdb0c3c",
+    "image": "https://cdn.discordapp.com/attachments/1272923179307761706/1273472339081691178/ranking.jpg?ex=66bebd09&is=66bd6b89&hm=535b31a7af8901f834924c74e9264edd4da83553b52d1833e4ac5ab15e5775e9&",
+    "channel_1v1_id": 1272923170424488000,
+    "channel_2v2_id": 1272923172102213664,
+    "channel_rotating_id": null,
+    "sorting_method": "peak",
+    "show_member_count": true,
+    "show_xp": false,
+    "show_no_elo_players": false,
+    "account_linkers": [],
+    "console_players": []
+}
