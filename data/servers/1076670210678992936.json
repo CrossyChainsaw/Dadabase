@@ -686,6 +686,15 @@
             "region": "BRS",
             "country": "BR",
             "ethnicity": "BR"
+        },
+        {
+            "brawlhalla_id": 96935052,
+            "brawlhalla_name": "Maxiii",
+            "discord_id": 881310759110443030,
+            "discord_name": "maxiigr",
+            "region": "BRS",
+            "country": "AR",
+            "ethnicity": "AR"
         }
     ]
 }
