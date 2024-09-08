@@ -38,6 +38,42 @@ DATA_KEY_FOR_COLOR = 'color'
 
 
 # Functions
+async def add_link(interaction, link: Link):
+    print('Entered: __add_link()')
+    __save_data(interaction, link)
+    await interaction.response.send_message(embed=embed_with_link_data(link, interaction))
+
+def __save_data(interaction, user):
+    print('Entered: __save_data()')
+    server_data = read_data(SERVERS_DATA_PATH, interaction.guild.id)
+    link_data = server_data['links']
+    link_data.append(user.__dict__)
+    server_data['links'] = link_data
+    write_data(SERVERS_DATA_PATH, server_data, interaction.guild.id)
+
+async def update_link(interaction, new_link:Link):
+    print('Entered: __update_link()')
+    server_data = read_data(SERVERS_DATA_PATH, interaction.guild.id)
+    link_data = server_data['links']
+    link_index = find_link_index(interaction.user.id, link_data)
+    link = link_data[link_index]
+    link['brawlhalla_id'] = new_link.brawlhalla_id
+    link['brawlhalla_name'] = new_link.brawlhalla_name
+    link['region'] = new_link.region
+    link['country'] = new_link.country
+    link['ethnicity'] = new_link.ethnicity
+    write_data(SERVERS_DATA_PATH, server_data, interaction.guild.id)
+    await interaction.response.send_message(embed=embed_with_link_data(new_link, interaction))
+
+def already_claimed(interaction):
+    print('Entered: already_claimed()')
+    link_data = []
+    link_data = read_link_data(SERVERS_DATA_PATH, interaction.guild.id)
+    for user in link_data:
+        if str(interaction.user.id) == str(user['discord_id']):
+            return True
+    return False
+
 def read_data(path, id):
   """Read clan or server data"""
   with open(path + str(id) + '.json') as file:
