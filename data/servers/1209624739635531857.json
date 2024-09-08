@@ -371,6 +371,15 @@
             "region": "",
             "country": "",
             "ethnicity": ""
+        },
+        {
+            "brawlhalla_id": 7035297,
+            "brawlhalla_name": "Riker !",
+            "discord_id": 111,
+            "discord_name": "Riker",
+            "region": "",
+            "country": "",
+            "ethnicity": ""
         }
     ]
 }
