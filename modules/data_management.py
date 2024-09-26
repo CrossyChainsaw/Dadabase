@@ -103,13 +103,15 @@ def add_player_to_clan_data(interaction, data, brawlhalla_account, data_location
 def remove_player_from_clan_data(interaction, brawlhalla_id, data, key):
     """Removes a player from clan data. Used for Console Players and Account Linkers"""
     bh_name = ""
+    removed_player = False
     for index, player in enumerate(data[key]):
-        if player['brawlhalla_id'] == str(brawlhalla_id):
+        if str(player['brawlhalla_id']) == str(brawlhalla_id):
             bh_name = data[key].pop(index)['brawlhalla_name']
             with open(CLANS_DATA_PATH + str(interaction.guild.id) + '.json', 'w') as file:
                 json.dump(data, file)
+                removed_player = True
             break
-    return bh_name
+    return bh_name, removed_player
 
 def find_link(discord_id, link_data):
     for link in link_data:
