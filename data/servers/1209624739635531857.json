@@ -319,15 +319,6 @@
             "ethnicity": ""
         },
         {
-            "brawlhalla_id": 5718617,
-            "brawlhalla_name": "\u00e3\u0083\u00a1Smowy\u00e3\u0083\u00a1",
-            "discord_id": 3211,
-            "discord_name": "Smowy",
-            "region": "",
-            "country": "",
-            "ethnicity": ""
-        },
-        {
             "brawlhalla_id": 39883964,
             "brawlhalla_name": "Szl\u00c3\u00a1ven",
             "discord_id": 71,
@@ -377,6 +368,24 @@
             "brawlhalla_name": "Riker !",
             "discord_id": 111,
             "discord_name": "Riker",
+            "region": "",
+            "country": "",
+            "ethnicity": ""
+        },
+        {
+            "brawlhalla_id": 6280261,
+            "brawlhalla_name": "Bagoly_Atya",
+            "discord_id": 689,
+            "discord_name": "Bagoly_Atya",
+            "region": "",
+            "country": "",
+            "ethnicity": ""
+        },
+        {
+            "brawlhalla_id": 2386900,
+            "brawlhalla_name": "alfa.k",
+            "discord_id": 767,
+            "discord_name": "alfa.k",
             "region": "",
             "country": "",
             "ethnicity": ""

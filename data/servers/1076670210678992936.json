@@ -695,6 +695,24 @@
             "region": "BRS",
             "country": "AR",
             "ethnicity": "AR"
+        },
+        {
+            "brawlhalla_id": 41360201,
+            "brawlhalla_name": "McThiccum",
+            "discord_id": 823621033621585960,
+            "discord_name": "live_jerry",
+            "region": "USE",
+            "country": "US",
+            "ethnicity": "US"
+        },
+        {
+            "brawlhalla_id": 7913714,
+            "brawlhalla_name": "M3W | v3zpera",
+            "discord_id": 495646950301892640,
+            "discord_name": "v3zpera",
+            "region": "EU",
+            "country": "",
+            "ethnicity": ""
         }
     ]
 }
