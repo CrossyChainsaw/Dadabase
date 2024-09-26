@@ -10,6 +10,7 @@ async def console_player_list(interaction):
     msg = format_embed_list(clan_data, DATA_KEY_FOR_CONSOLE_PLAYERS)
     embed = __create_embed(msg)
     await interaction.response.send_message(embed=embed)
+    print(f"Succesfully ran: console_player_list()")
 
 
 def __create_embed(msg):
