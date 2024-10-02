@@ -713,6 +713,15 @@
             "region": "EU",
             "country": "",
             "ethnicity": ""
+        },
+        {
+            "brawlhalla_id": 72723752,
+            "brawlhalla_name": "The Man",
+            "discord_id": 1208306686574600202,
+            "discord_name": "theman_bh",
+            "region": "AUS",
+            "country": "AUS",
+            "ethnicity": "AUS"
         }
     ]
 }

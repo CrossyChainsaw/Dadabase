@@ -15,9 +15,9 @@
     ],
     "color": "0xfaf9f9",
     "image": "https://media.discordapp.net/attachments/958131738503155714/958141534455337031/standard.gif",
-    "channel_1v1_id": 1258062271004020806,
-    "channel_2v2_id": 1258062407968886835,
-    "channel_rotating_id": 1258062539695194203,
+    "channel_1v1_id": 1290797898291744809,
+    "channel_2v2_id": 1290797973491683409,
+    "channel_rotating_id": 1290798057654325279,
     "sorting_method": "peak",
     "show_member_count": true,
     "show_xp": false,
@@ -79,10 +79,6 @@
         {
             "brawlhalla_id": 17310392,
             "brawlhalla_name": "Siiyah--"
-        },
-        {
-            "brawlhalla_id": 17545915,
-            "brawlhalla_name": "VeyaaX"
         }
     ]
 }
