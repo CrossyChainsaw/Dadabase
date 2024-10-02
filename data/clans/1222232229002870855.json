@@ -2,17 +2,19 @@
     "server_name": "vcnty",
     "clan_names": [
         "Vicinity",
-        "Vicinity II"
+        "Vicinity II",
+        "Vicinity III"
     ],
-    "discord_server_id": "1222232229002870855",
+    "discord_server_id": "1289993577534984192",
     "id_array": [
         "2392327",
-        "2392354"
+        "2392354",
+        "2416340"
     ],
     "color": "0xb7d0da",
     "image": "https://media.discordapp.net/attachments/1260545125692473355/1261971298754756668/vcnty_banner.png?ex=66bdc45b&is=66bc72db&hm=96360afbdcdfe62f528fcc0cecde092e3812d2461d0e1ab33736e2621252bc32&=&format=webp&quality=lossless&width=550&height=194",
-    "channel_1v1_id": 1273222735853781057,
-    "channel_2v2_id": 1273222769064280115,
+    "channel_1v1_id": 1291016143762620447,
+    "channel_2v2_id": 1291016176129806450,
     "channel_rotating_id": 1273212696355143735,
     "sorting_method": "peak",
     "show_member_count": true,
