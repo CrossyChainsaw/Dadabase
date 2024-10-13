@@ -389,6 +389,24 @@
             "region": "",
             "country": "",
             "ethnicity": ""
+        },
+        {
+            "brawlhalla_id": 1326276,
+            "brawlhalla_name": "",
+            "discord_id": 7676,
+            "discord_name": "valti",
+            "region": "",
+            "country": "",
+            "ethnicity": ""
+        },
+        {
+            "brawlhalla_id": 100487663,
+            "brawlhalla_name": "\u00f3\u00a0\u0081\u00b3\u00e2\u0081\u00a7\u00e2\u0081\u00a7\u00e2\u0098\u0086 Headcarve",
+            "discord_id": 9423,
+            "discord_name": "\udb40\udc73\u2067\u2067\u2606 Headcarve",
+            "region": "",
+            "country": "",
+            "ethnicity": ""
         }
     ]
 }

@@ -722,6 +722,24 @@
             "region": "AUS",
             "country": "AUS",
             "ethnicity": "AUS"
+        },
+        {
+            "brawlhalla_id": 58816595,
+            "brawlhalla_name": "",
+            "discord_id": 653665053165486080,
+            "discord_name": "williamthearrow",
+            "region": "USW",
+            "country": "US",
+            "ethnicity": "US"
+        },
+        {
+            "brawlhalla_id": 76561617,
+            "brawlhalla_name": "MusicalMulch",
+            "discord_id": 879289060659707914,
+            "discord_name": "musicalmulch",
+            "region": "USE",
+            "country": "US",
+            "ethnicity": ""
         }
     ]
 }
