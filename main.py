@@ -4,6 +4,7 @@
 import discord
 from discord import app_commands
 from Dadabase.commands.claim import claim
+from Dadabase.commands.claim_2v2_legend import claim_2v2_legend
 from Dadabase.commands.check import check
 from Dadabase.commands.ping import ping
 from Dadabase.commands.initialise_clan import initialise_clan
@@ -16,7 +17,7 @@ from Dadabase.commands.remove_server_player import remove_server_player
 from Dadabase.commands.add_account_linker import add_account_linker
 from Dadabase.commands.account_linker_list import account_linker_list
 from Dadabase.commands.remove_account_linker import remove_account_linker
-from Dadabase.modules.command import ALL_COUNTRIES, BRAWL_SERVERS, CHECK_COMMAND, CLAIM_COMMAND, INITIALISE_CLAN_COMMAND, INITIALISE_SERVER_COMMAND, CONSOLE_PLAYER_LIST, FLAG_TYPE_OPTIONS, REMOVE_ACCOUNT_LINKER_COMMAND, SERVER_PLAYER_LIST, SORTING_METHOD_OPTIONS, ACCOUNT_LINKER_LIST_COMMAND, ADD_ACCOUNT_LINKER_COMMAND, PING_COMMAND, EDIT_CLAN_COMMAND, ADD_SERVER_PLAYER_COMMAND, EDIT_SERVER_COMMAND, ADD_CONSOLE_PLAYER_COMMAND, REMOVE_SERVER_PLAYER_COMMAND, REMOVE_CONSOLE_PLAYER_COMMAND
+from Dadabase.modules.command import ALL_COUNTRIES, BRAWL_SERVERS, BRAWLHALLA_LEGENDS_A_J, BRAWLHALLA_LEGENDS_K_R, BRAWLHALLA_LEGENDS_S_Z, CHECK_COMMAND, CLAIM_COMMAND, CLAIM_2V2_LEGEND, INITIALISE_CLAN_COMMAND, INITIALISE_SERVER_COMMAND, CONSOLE_PLAYER_LIST, FLAG_TYPE_OPTIONS, REMOVE_ACCOUNT_LINKER_COMMAND, SERVER_PLAYER_LIST, SORTING_METHOD_OPTIONS, ACCOUNT_LINKER_LIST_COMMAND, ADD_ACCOUNT_LINKER_COMMAND, PING_COMMAND, EDIT_CLAN_COMMAND, ADD_SERVER_PLAYER_COMMAND, EDIT_SERVER_COMMAND, ADD_CONSOLE_PLAYER_COMMAND, REMOVE_SERVER_PLAYER_COMMAND, REMOVE_CONSOLE_PLAYER_COMMAND
 from Dadabase.modules.env import env_variable
 from Dadabase.modules.check_permission import has_permission
 from Dadabase.commands.server_player_list import server_player_list
@@ -87,6 +88,28 @@ async def claim_command(interaction, brawlhalla_id:int,
         await claim(interaction, brawlhalla_id, region.value, country_of_residence.value, ethnicity.value)
     else:
         await interaction.response.send_message(f'{interaction.user.name} does not have permission to use this command')
+
+@tree.command(name=CLAIM_2V2_LEGEND[1:], description='Tell Ranknir what legend you play in 2v2')
+@app_commands.describe(legend_a_j="[A-J] What legend do you play in 2v2?")
+@app_commands.choices(legend_a_j=BRAWLHALLA_LEGENDS_A_J)
+@app_commands.describe(legend_k_r="[K-R] What legend do you play in 2v2?")
+@app_commands.choices(legend_k_r=BRAWLHALLA_LEGENDS_K_R)
+@app_commands.describe(legend_s_z="[S-Z] What legend do you play in 2v2?")
+@app_commands.choices(legend_s_z=BRAWLHALLA_LEGENDS_S_Z)
+async def claim_2v2_legend_command(interaction, brawlhalla_id:int, 
+                                   legend_a_j: app_commands.Choice[str] = None, 
+                                   legend_k_r: app_commands.Choice[str] = None, 
+                                   legend_s_z: app_commands.Choice[str] = None):
+    # Check which fields is provided
+    legend = None
+    if legend_a_j:
+        legend = legend_a_j
+    elif legend_k_r:
+        legend = legend_k_r
+    elif legend_s_z:
+        legend = legend_s_z
+    print(f'{interaction.user.name} called claim!')
+    await claim_2v2_legend(interaction, brawlhalla_id, legend.value)
 
 
 

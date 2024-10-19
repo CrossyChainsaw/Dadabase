@@ -5,7 +5,7 @@
     ],
     "discord_server_id": "705783420189671458",
     "id_array": [
-        "2021161"
+        "1702413"
     ],
     "color": "0x222222",
     "image": "",
@@ -18,16 +18,13 @@
     "show_no_elo_players": true,
     "show_win_loss": true,
     "show_legends": true,
-    "account_linkers": [
+    "account_linkers": [],
+    "console_players": [],
+    "legends_for_2v2": [
         {
-            "brawlhalla_id": "7364605",
-            "brawlhalla_name": "crossy"
-        }
-    ],
-    "console_players": [
-        {
-            "brawlhalla_id": "2",
-            "brawlhalla_name": "bmgdan"
+            "brawlhalla_id": 10330876,
+            "brawlhalla_name": "crossychainsaw",
+            "legend_key": "lordvraxx"
         }
     ]
 }

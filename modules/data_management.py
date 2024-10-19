@@ -15,6 +15,7 @@ CLANS_DATA_PATH = DADABASE_DATA_PATH + 'clans/'
 DATA_KEY_FOR_ACCOUNT_LINKERS = 'account_linkers' # account linkers / remove players / crossplayers
 DATA_KEY_FOR_CONSOLE_PLAYERS = 'console_players' # console players
 DATA_KEY_FOR_SHOW_XP = 'show_xp'
+DATA_KEY_FOR_2V2_LEGENDS = 'legends_for_2v2'
 # Server
 DATA_KEY_FOR_SERVER_ID = 'id'
 DATA_KEY_FOR_SERVER_NAME = "name"

@@ -19,5 +19,6 @@
     "show_win_loss": true,
     "show_legends": true,
     "account_linkers": [],
-    "console_players": []
+    "console_players": [],
+    "legends_for_2v2": []
 }
