@@ -101,7 +101,7 @@ async def claim_2v2_legend_command(interaction, brawlhalla_id:int,
                                    legend_k_r: app_commands.Choice[str] = None, 
                                    legend_s_z: app_commands.Choice[str] = None):
     # Check which fields is provided
-    legend = None
+    legend = 'random'
     if legend_a_j:
         legend = legend_a_j
     elif legend_k_r:
