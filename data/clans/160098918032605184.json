@@ -12,6 +12,8 @@
     "show_member_count": true,
     "show_xp": false,
     "show_no_elo_players": true,
+    "show_win_loss": true,
+    "show_legends": true,
     "account_linkers": [],
     "console_players": []
 }
