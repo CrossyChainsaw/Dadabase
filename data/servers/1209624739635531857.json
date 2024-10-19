@@ -407,6 +407,24 @@
             "region": "",
             "country": "",
             "ethnicity": ""
+        },
+        {
+            "brawlhalla_id": 9113845,
+            "brawlhalla_name": "Blaspheme",
+            "discord_id": 546,
+            "discord_name": "Blaspheme",
+            "region": "",
+            "country": "",
+            "ethnicity": ""
+        },
+        {
+            "brawlhalla_id": 110399287,
+            "brawlhalla_name": "\u00e2\u0080\u00a0Blasio\u00e2\u0080\u00a0",
+            "discord_id": 676312,
+            "discord_name": "Blasio",
+            "region": "",
+            "country": "",
+            "ethnicity": ""
         }
     ]
 }
