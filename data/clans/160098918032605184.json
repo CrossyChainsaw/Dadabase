@@ -16,5 +16,11 @@
     "show_legends": true,
     "account_linkers": [],
     "console_players": [],
-    "legends_for_2v2": []
+    "legends_for_2v2": [        
+        {
+            "brawlhalla_id": 3764805,
+            "brawlhalla_name": "lilfox",
+            "legend_key": "scarlet"
+        }
+    ]
 }

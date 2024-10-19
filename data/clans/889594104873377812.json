@@ -83,5 +83,11 @@
             "brawlhalla_name": "Siiyah--"
         }
     ],
-    "legends_for_2v2": []
+    "legends_for_2v2": [
+        {
+            "brawlhalla_id": 10330876,
+            "brawlhalla_name": "Pandaze",
+            "legend_key": "val"
+        }
+    ]
 }

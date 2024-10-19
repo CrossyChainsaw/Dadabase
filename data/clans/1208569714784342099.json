@@ -16,5 +16,11 @@
     "show_legends": true,
     "account_linkers": [],
     "console_players": [],
-    "legends_for_2v2": []
+    "legends_for_2v2": [
+        {
+            "brawlhalla_id": 4423461,
+            "brawlhalla_name": "neeze",
+            "legend_key": "wushang"
+        }
+    ]
 }

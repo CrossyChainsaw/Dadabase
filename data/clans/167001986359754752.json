@@ -1,8 +1,12 @@
 {
     "server_name": "Frost",
-    "clan_names": ["Frost Leaderboard"],
+    "clan_names": [
+        "Frost Leaderboard"
+    ],
     "discord_server_id": "167001986359754752",
-    "id_array": ["12"],
+    "id_array": [
+        "12"
+    ],
     "color": "0x30cff1",
     "image": "",
     "channel_1v1_id": 1093898006299934781,
@@ -42,5 +46,16 @@
             "brawlhalla_name": "Frost | Erg0"
         }
     ],
-    "legends_for_2v2": []
+    "legends_for_2v2": [
+        {
+            "brawlhalla_id": 7364605,
+            "brawlhalla_name": "crossychainsaw",
+            "legend_key": "asuri"
+        },
+        {
+            "brawlhalla_id": 28799696,
+            "brawlhalla_name": "tosf",
+            "legend_key": "jiro"
+        }
+    ]
 }
