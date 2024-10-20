@@ -16,6 +16,8 @@ DATA_KEY_FOR_ACCOUNT_LINKERS = 'account_linkers' # account linkers / remove play
 DATA_KEY_FOR_CONSOLE_PLAYERS = 'console_players' # console players
 DATA_KEY_FOR_SHOW_XP = 'show_xp'
 DATA_KEY_FOR_2V2_LEGENDS = 'legends_for_2v2'
+DATA_KEY_FOR_OWN_2V2_LEGEND = 'own_legend'
+DATA_KEY_FOR_MATE_2V2_LEGEND = 'mate_legend'
 # Server
 DATA_KEY_FOR_SERVER_ID = 'id'
 DATA_KEY_FOR_SERVER_NAME = "name"
@@ -36,6 +38,20 @@ DATA_KEY_FOR_CHANNEL_2V2_ID = "channel_2v2_id"
 DATA_KEY_FOR_CHANNEL_ROTATING_ID = "channel_rotating_id"
 DATA_KEY_FOR_IMAGE = 'image'
 DATA_KEY_FOR_COLOR = 'color'
+
+# Legends
+BRAWLHALLA_LEGENDS = [
+    "ada", "arcadia", "artemis", "asuri", "azoth", "barraza", "bodvar", "brynn", 
+    "caspian", "cassidy", "cross", "diana", "dusk", "ember", "ezio", "fait", 
+    "gnash", "hattori", "imugi", "isaiah", "jaeyun", "jhala", "jiro", "kaya", 
+    "kingzuva", "koji", "kor", "linfei", "loki", "lordvraxx", "lucien", "magyar", 
+    "mako", "mirage", "mordex", "munin", "queennai", "nix", "onyx", "orion", 
+    "petra", "queennai", "ragnir", "random", "rayman", "redraptor", "reno", 
+    "scarlet", "sentinel", "seven", "sidra", "sirroland", "teros", 
+    "tezca", "thatch", "thea", "thor", "ulgrim", "val", "vector", "vivi", 
+    "volkov", "lordvraxx", "wushang", "xull", "yumiko", "zariel"
+]
+
 
 
 # Functions

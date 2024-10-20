@@ -19,12 +19,22 @@
     "show_win_loss": true,
     "show_legends": true,
     "account_linkers": [],
-    "console_players": [],
+    "console_players": [
+        {
+            "brawlhalla_id": 7364605,
+            "brawlhalla_name": "crossy",
+            "discord_id": null,
+            "own_legend": "random",
+            "mate_legend": "random"
+        }
+    ],
     "legends_for_2v2": [
         {
-            "brawlhalla_id": 10330876,
+            "brawlhalla_id": 7364605,
             "brawlhalla_name": "crossychainsaw",
-            "legend_key": "lordvraxx"
+            "discord_id": 413070742591373314,
+            "own_legend": "artemis",
+            "mate_legend": "ada"
         }
     ]
 }
