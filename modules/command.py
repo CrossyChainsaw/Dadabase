@@ -1,26 +1,48 @@
 from discord import app_commands
+from Dadabase.classes.Command import Command
 
 from Dadabase.modules.data_management import FlagType
 
-# Command Names
-ACCOUNT_LINKER_LIST_COMMAND = '/account_linker_list'
-ADD_ACCOUNT_LINKER_COMMAND = "/add_account_linker"
-ADD_CONSOLE_PLAYER_COMMAND = "/add_console_player"
-ADD_SERVER_PLAYER_COMMAND = "/add_server_player"
-CHECK_COMMAND = "/check"
-CLAIM_COMMAND = "/claim"
-CLAIM_2V2_LEGEND = "/claim_2v2_legend"
-CONSOLE_PLAYER_LIST = "/console_player_list"
-EDIT_SERVER_COMMAND = "/edit_server"
-EDIT_CLAN_COMMAND = "/edit_clan"
-INITIALISE_CLAN_COMMAND = "/initialise_clan"
-INITIALISE_SERVER_COMMAND = "/initialise_server"
-PING_COMMAND = "/ping"
-REMOVE_ACCOUNT_LINKER_COMMAND = "/remove_account_linker"
-REMOVE_CONSOLE_PLAYER_COMMAND = "/remove_console_player"
-REMOVE_SERVER_PLAYER_COMMAND = "/remove_server_player"
-SERVER_PLAYER_LIST = "/server_player_list"
+# Defining all commands
+ACCOUNT_LINKER_LIST_COMMAND = Command(name='account_linker_list', description='List all Account Linkers (Account Linker: player that should be removed from leaderboard manually)')
+ADD_ACCOUNT_LINKER_COMMAND = Command(name='add_account_linker', description='Specify a player to remove from the leaderboard')
+ADD_CONSOLE_PLAYER_COMMAND = Command(name='add_console_player', description='Add a console player')
+ADD_SERVER_PLAYER_COMMAND = Command(name='add_server_player', description="(You aren't supposed to run this) Manually add a player to the server leaderboard")
+CHECK_COMMAND = Command(name='check', description='Check your linked Brawlhalla account')
+CLAIM_COMMAND = Command(name='claim', description='Link your Brawlhalla account to Discord')
+CLAIM_2V2_LEGEND = Command(name='claim_2v2_legend', description='Tell Ranknir what legend you play in 2v2')
+CONSOLE_PLAYER_LIST = Command(name='console_player_list', description='List all console players')
+EDIT_SERVER_COMMAND = Command(name='edit_server', description='Edit server data')
+EDIT_CLAN_COMMAND = Command(name='edit_clan', description='Edit clan data')
+HELP_COMMAND = Command(name='help', description='Help Command')
+INITIALISE_CLAN_COMMAND = Command(name='initialise_clan', description="(You aren't supposed to run this) Generate a file with clan data for the current clan server")
+INITIALISE_SERVER_COMMAND = Command(name='initialise_server', description="(You aren't supposed to run this) Generate a file with clan data for the current server")
+PING_COMMAND = Command(name='ping', description='Check server response time')
+REMOVE_ACCOUNT_LINKER_COMMAND = Command(name='remove_account_linker', description='Remove an Account Linker')
+REMOVE_CONSOLE_PLAYER_COMMAND = Command(name='remove_console_player', description='Remove a console player')
+REMOVE_SERVER_PLAYER_COMMAND = Command(name='remove_server_player', description="(You aren't supposed to run this) Manually remove a player from the server leaderboard")
+SERVER_PLAYER_LIST = Command(name='server_player_list', description='List all server players')
 
+ALL_COMMANDS = [
+    ACCOUNT_LINKER_LIST_COMMAND,
+    ADD_ACCOUNT_LINKER_COMMAND,
+    ADD_CONSOLE_PLAYER_COMMAND,
+    ADD_SERVER_PLAYER_COMMAND,
+    CHECK_COMMAND,
+    CLAIM_COMMAND,
+    CLAIM_2V2_LEGEND,
+    CONSOLE_PLAYER_LIST,
+    EDIT_SERVER_COMMAND,
+    EDIT_CLAN_COMMAND,
+    HELP_COMMAND,
+    INITIALISE_CLAN_COMMAND,
+    INITIALISE_SERVER_COMMAND,
+    PING_COMMAND,
+    REMOVE_ACCOUNT_LINKER_COMMAND,
+    REMOVE_CONSOLE_PLAYER_COMMAND,
+    REMOVE_SERVER_PLAYER_COMMAND,
+    SERVER_PLAYER_LIST
+]
 
 
 # App Commands Choices
