@@ -1,26 +1,48 @@
 from discord import app_commands
+from Dadabase.classes.Command import Command
 
 from Dadabase.modules.data_management import FlagType
 
-# Command Names
-ACCOUNT_LINKER_LIST_COMMAND = '/account_linker_list'
-ADD_ACCOUNT_LINKER_COMMAND = "/add_account_linker"
-ADD_CONSOLE_PLAYER_COMMAND = "/add_console_player"
-ADD_SERVER_PLAYER_COMMAND = "/add_server_player"
-CHECK_COMMAND = "/check"
-CLAIM_COMMAND = "/claim"
-CLAIM_2V2_LEGEND = "/claim_2v2_legend"
-CONSOLE_PLAYER_LIST = "/console_player_list"
-EDIT_SERVER_COMMAND = "/edit_server"
-EDIT_CLAN_COMMAND = "/edit_clan"
-INITIALISE_CLAN_COMMAND = "/initialise_clan"
-INITIALISE_SERVER_COMMAND = "/initialise_server"
-PING_COMMAND = "/ping"
-REMOVE_ACCOUNT_LINKER_COMMAND = "/remove_account_linker"
-REMOVE_CONSOLE_PLAYER_COMMAND = "/remove_console_player"
-REMOVE_SERVER_PLAYER_COMMAND = "/remove_server_player"
-SERVER_PLAYER_LIST = "/server_player_list"
+# Defining all commands
+ACCOUNT_LINKER_LIST_COMMAND = Command(name='account_linker_list', description='List all Account Linkers (Account Linker: player that should be removed from leaderboard manually)')
+ADD_ACCOUNT_LINKER_COMMAND = Command(name='add_account_linker', description='Specify a player to remove from the leaderboard')
+ADD_CONSOLE_PLAYER_COMMAND = Command(name='add_console_player', description='Add a console player')
+ADD_SERVER_PLAYER_COMMAND = Command(name='add_server_player', description="(You aren't supposed to run this) Manually add a player to the server leaderboard")
+CHECK_COMMAND = Command(name='check', description='Check your linked Brawlhalla account')
+CLAIM_COMMAND = Command(name='claim', description='Link your Brawlhalla account to Discord')
+CLAIM_2V2_LEGEND = Command(name='claim_2v2_legend', description='Tell Ranknir what legend you play in 2v2')
+CONSOLE_PLAYER_LIST = Command(name='console_player_list', description='List all console players')
+EDIT_SERVER_COMMAND = Command(name='edit_server', description='Edit server data')
+EDIT_CLAN_COMMAND = Command(name='edit_clan', description='Edit clan data')
+HELP_COMMAND = Command(name='help', description='Help Command (This one)')
+INITIALISE_CLAN_COMMAND = Command(name='initialise_clan', description="(You aren't supposed to run this) Generate a file with clan data for the current clan server")
+INITIALISE_SERVER_COMMAND = Command(name='initialise_server', description="(You aren't supposed to run this) Generate a file with clan data for the current server")
+PING_COMMAND = Command(name='ping', description='Check server response time')
+REMOVE_ACCOUNT_LINKER_COMMAND = Command(name='remove_account_linker', description='Remove an Account Linker')
+REMOVE_CONSOLE_PLAYER_COMMAND = Command(name='remove_console_player', description='Remove a console player')
+REMOVE_SERVER_PLAYER_COMMAND = Command(name='remove_server_player', description="(You aren't supposed to run this) Manually remove a player from the server leaderboard")
+SERVER_PLAYER_LIST = Command(name='server_player_list', description='List all server players')
 
+ALL_COMMANDS = [
+    ACCOUNT_LINKER_LIST_COMMAND,
+    ADD_ACCOUNT_LINKER_COMMAND,
+    ADD_CONSOLE_PLAYER_COMMAND,
+    ADD_SERVER_PLAYER_COMMAND,
+    CHECK_COMMAND,
+    CLAIM_COMMAND,
+    CLAIM_2V2_LEGEND,
+    CONSOLE_PLAYER_LIST,
+    EDIT_SERVER_COMMAND,
+    EDIT_CLAN_COMMAND,
+    HELP_COMMAND,
+    INITIALISE_CLAN_COMMAND,
+    INITIALISE_SERVER_COMMAND,
+    PING_COMMAND,
+    REMOVE_ACCOUNT_LINKER_COMMAND,
+    REMOVE_CONSOLE_PLAYER_COMMAND,
+    REMOVE_SERVER_PLAYER_COMMAND,
+    SERVER_PLAYER_LIST
+]
 
 
 # App Commands Choices
@@ -132,9 +154,7 @@ BRAWLHALLA_LEGENDS_EMOJIS = [
     app_commands.Choice(name="vivi", value="<:vivi:1295145176221745265>"),
     app_commands.Choice(name="imugi", value="<:imugi:1295145187903012884>"),
     app_commands.Choice(name="kingzuva", value="(i didnt add king zuva yet x crossy)")
-]
-    
-    
+]   
 BRAWLHALLA_LEGENDS = [
     app_commands.Choice(name="Ada", value="ada"),
     app_commands.Choice(name="Arcadia", value="arcadia"),
@@ -184,83 +204,6 @@ BRAWLHALLA_LEGENDS = [
     app_commands.Choice(name="Redraptor", value="redraptor"),
     app_commands.Choice(name="Reno", value="reno"),
     app_commands.Choice(name="Sir Roland", value="sirroland"),
-    app_commands.Choice(name="Scarlet", value="scarlet"),
-    app_commands.Choice(name="Sentinel", value="sentinel"),
-    app_commands.Choice(name="Seven", value="seven"),
-    app_commands.Choice(name="Sidra", value="sidra"),
-    app_commands.Choice(name="Sir Roland", value="sirroland"),
-    app_commands.Choice(name="Teros", value="teros"),
-    app_commands.Choice(name="Tezca", value="tezca"),
-    app_commands.Choice(name="Thatch", value="thatch"),
-    app_commands.Choice(name="Thea", value="thea"),
-    app_commands.Choice(name="Thor", value="thor"),
-    app_commands.Choice(name="Ulgrim", value="ulgrim"),
-    app_commands.Choice(name="Val", value="val"),
-    app_commands.Choice(name="Vector", value="vector"),
-    app_commands.Choice(name="Vivi", value="vivi"),
-    app_commands.Choice(name="Volkov", value="volkov"),
-    app_commands.Choice(name="Lord Vraxx", value="lordvraxx"),
-    app_commands.Choice(name="Wushang", value="wushang"),
-    app_commands.Choice(name="Xull", value="xull"),
-    app_commands.Choice(name="Yumiko", value="yumiko"),
-    app_commands.Choice(name="Zariel", value="zariel"),
-]
-
-BRAWLHALLA_LEGENDS_A_J = [
-    app_commands.Choice(name="Ada", value="ada"),
-    app_commands.Choice(name="Arcadia", value="arcadia"),
-    app_commands.Choice(name="Artemis", value="artemis"),
-    app_commands.Choice(name="Asuri", value="asuri"),
-    app_commands.Choice(name="Azoth", value="azoth"),
-    app_commands.Choice(name="Barraza", value="barraza"),
-    app_commands.Choice(name="Bodvar", value="bodvar"),
-    app_commands.Choice(name="Brynn", value="brynn"),
-    app_commands.Choice(name="Caspian", value="caspian"),
-    app_commands.Choice(name="Cassidy", value="cassidy"),
-    app_commands.Choice(name="Cross", value="cross"),
-    app_commands.Choice(name="Diana", value="diana"),
-    app_commands.Choice(name="Dusk", value="dusk"),
-    app_commands.Choice(name="Ember", value="ember"),
-    app_commands.Choice(name="Ezio", value="ezio"),
-    app_commands.Choice(name="Fait", value="fait"),
-    app_commands.Choice(name="Gnash", value="gnash"),
-    app_commands.Choice(name="Hattori", value="hattori"),
-    app_commands.Choice(name="Imugi", value="imugi"),
-    app_commands.Choice(name="Isaiah", value="isaiah"),
-    app_commands.Choice(name="Jaeyun", value="jaeyun"),
-    app_commands.Choice(name="Jhala", value="jhala"),
-    app_commands.Choice(name="Jiro", value="jiro"),
-
-]
-BRAWLHALLA_LEGENDS_K_R = [
-    app_commands.Choice(name="Kaya", value="kaya"),
-    app_commands.Choice(name="King zuva", value="kingzuva"),
-    app_commands.Choice(name="Koji", value="koji"),
-    app_commands.Choice(name="Kor", value="kor"),
-    app_commands.Choice(name="Linfei", value="linfei"),
-    app_commands.Choice(name="Loki", value="loki"),
-    app_commands.Choice(name="Lord Vraxx", value="lordvraxx"),
-    app_commands.Choice(name="Lucien", value="lucien"),
-    app_commands.Choice(name="Magyar", value="magyar"),
-    app_commands.Choice(name="Mako", value="mako"),
-    app_commands.Choice(name="Mirage", value="mirage"),
-    app_commands.Choice(name="Mordex", value="mordex"),
-    app_commands.Choice(name="Munin", value="munin"),
-    app_commands.Choice(name="Queen Nai", value="queennai"),    
-    app_commands.Choice(name="Nix", value="nix"),
-    app_commands.Choice(name="Onyx", value="onyx"),
-    app_commands.Choice(name="Orion", value="orion"),
-    app_commands.Choice(name="Petra", value="petra"),
-    app_commands.Choice(name="Queen Nai", value="queennai"),
-    app_commands.Choice(name="Ragnir", value="ragnir"),
-    app_commands.Choice(name="Random", value="random"),
-    app_commands.Choice(name="Rayman", value="rayman"),
-    app_commands.Choice(name="Redraptor", value="redraptor"),
-    app_commands.Choice(name="Reno", value="reno"),
-    app_commands.Choice(name="Sir Roland", value="sirroland"),
-
-]
-BRAWLHALLA_LEGENDS_S_Z = [
     app_commands.Choice(name="Scarlet", value="scarlet"),
     app_commands.Choice(name="Sentinel", value="sentinel"),
     app_commands.Choice(name="Seven", value="seven"),
