@@ -154,9 +154,7 @@ BRAWLHALLA_LEGENDS_EMOJIS = [
     app_commands.Choice(name="vivi", value="<:vivi:1295145176221745265>"),
     app_commands.Choice(name="imugi", value="<:imugi:1295145187903012884>"),
     app_commands.Choice(name="kingzuva", value="(i didnt add king zuva yet x crossy)")
-]
-    
-    
+]   
 BRAWLHALLA_LEGENDS = [
     app_commands.Choice(name="Ada", value="ada"),
     app_commands.Choice(name="Arcadia", value="arcadia"),
