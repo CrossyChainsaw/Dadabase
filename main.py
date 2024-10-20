@@ -2,7 +2,7 @@
 ## and cleaning functions cleaning modules making them more independant
 
 import discord
-from discord import app_commands, Interaction
+from discord import app_commands
 from Dadabase.commands.claim import claim
 from Dadabase.commands.claim_2v2_legend import claim_2v2_legend
 from Dadabase.commands.check import check
@@ -39,19 +39,19 @@ async def on_ready():
 
 
 @tree.command(name=ACCOUNT_LINKER_LIST_COMMAND.name, description=ACCOUNT_LINKER_LIST_COMMAND.description)
-async def account_linker_list_command(interaction:Interaction):
+async def account_linker_list_command(interaction):
     await account_linker_list(interaction)
 
 
 @tree.command(name=ADD_ACCOUNT_LINKER_COMMAND.name, description=ADD_ACCOUNT_LINKER_COMMAND.description)
 @app_commands.checks.has_permissions(administrator=True)
-async def add_account_linker_command(interaction:Interaction, brawlhalla_id:int, brawlhalla_name:str):
+async def add_account_linker_command(interaction, brawlhalla_id:int, brawlhalla_name:str):
     await add_account_linker(interaction, brawlhalla_id, brawlhalla_name)
 
 
 @tree.command(name=ADD_CONSOLE_PLAYER_COMMAND.name, description=ADD_CONSOLE_PLAYER_COMMAND.description)
 @app_commands.checks.has_permissions(administrator=True)
-async def add_console_player_command(interaction:Interaction, brawlhalla_id:int, brawlhalla_name:str):
+async def add_console_player_command(interaction, brawlhalla_id:int, brawlhalla_name:str):
     await add_console_player(interaction, brawlhalla_id, brawlhalla_name)
 
 
@@ -63,13 +63,13 @@ async def add_console_player_command(interaction:Interaction, brawlhalla_id:int,
 @app_commands.choices(country_of_residence=ALL_COUNTRIES)
 @app_commands.describe(ethnicity="Which country does the player live in?")
 @app_commands.choices(ethnicity=ALL_COUNTRIES)
-async def add_server_player_command(interaction:Interaction, brawlhalla_id:int, discord_id:str, discord_name:str, region: app_commands.Choice[str]="", country_of_residence: app_commands.Choice[str]="", ethnicity: app_commands.Choice[str]=""):
+async def add_server_player_command(interaction, brawlhalla_id:int, discord_id:str, discord_name:str, region: app_commands.Choice[str]="", country_of_residence: app_commands.Choice[str]="", ethnicity: app_commands.Choice[str]=""):
     discord_id = int(discord_id)
     await add_server_player(interaction, brawlhalla_id, discord_id, discord_name, region, country_of_residence, ethnicity)
 
 
 @tree.command(name=CHECK_COMMAND.name, description=CHECK_COMMAND.description)
-async def check_command(interaction:Interaction):
+async def check_command(interaction):
     await check(interaction)
 
 
@@ -80,7 +80,7 @@ async def check_command(interaction:Interaction):
 @app_commands.choices(country_of_residence=ALL_COUNTRIES)
 @app_commands.describe(ethnicity="What is your ethnicity?")
 @app_commands.choices(ethnicity=ALL_COUNTRIES)
-async def claim_command(interaction:Interaction, 
+async def claim_command(interaction, 
                         brawlhalla_id:int, 
                         region: app_commands.Choice[str],
                         country_of_residence: app_commands.Choice[str], 
@@ -95,12 +95,12 @@ async def claim_command(interaction:Interaction,
 @tree.command(name=CLAIM_2V2_LEGEND.name, description=CLAIM_2V2_LEGEND.description)
 @app_commands.describe(your_legend="Type the legend you play in 2v2")
 @app_commands.describe(teammate_legend="Type the legend your teammate plays in 2v2")
-async def claim_2v2_legend_command(interaction:Interaction, brawlhalla_id:int, your_legend:str, teammate_legend:str):
+async def claim_2v2_legend_command(interaction, brawlhalla_id:int, your_legend:str, teammate_legend:str):
     await claim_2v2_legend(interaction, brawlhalla_id, your_legend, teammate_legend)
 
 
 @tree.command(name=CONSOLE_PLAYER_LIST.name, description=CONSOLE_PLAYER_LIST.description)
-async def console_player_list_command(interaction:Interaction):
+async def console_player_list_command(interaction):
     await console_player_list(interaction)
 
 
@@ -108,7 +108,7 @@ async def console_player_list_command(interaction:Interaction):
 @app_commands.checks.has_permissions(administrator=True)
 @app_commands.describe(sorting_method="What elo should be prioritised?")
 @app_commands.choices(sorting_method=SORTING_METHOD_OPTIONS)
-async def edit_clan_command(interaction:Interaction, channel_1v1_id:str=None, channel_2v2_id:str=None, color:str=None, image:str=None, sorting_method:str=None, show_member_count:bool=None, show_xp:bool=None, show_no_elo_players:bool=None, channel_rotating_id:str = None):
+async def edit_clan_command(interaction, channel_1v1_id:str=None, channel_2v2_id:str=None, color:str=None, image:str=None, sorting_method:str=None, show_member_count:bool=None, show_xp:bool=None, show_no_elo_players:bool=None, channel_rotating_id:str = None):
     await edit_clan(interaction, channel_1v1_id, channel_2v2_id, color, image, sorting_method, show_member_count, show_xp, show_no_elo_players, channel_rotating_id)
 
 
@@ -118,7 +118,7 @@ async def edit_clan_command(interaction:Interaction, channel_1v1_id:str=None, ch
 @app_commands.choices(sorting_method=SORTING_METHOD_OPTIONS)
 @app_commands.describe(flag_type="What flag should be shown next to each player?")
 @app_commands.choices(flag_type=FLAG_TYPE_OPTIONS)
-async def edit_server_command(interaction:Interaction, 
+async def edit_server_command(interaction, 
                               leaderboard_title:str=None, 
                               sorting_method:app_commands.Choice[str]=None, 
                               show_member_count:bool=None, 
