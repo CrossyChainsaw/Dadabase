@@ -7,7 +7,7 @@
     "id_array": [
         "1702413"
     ],
-    "color": "0x222222",
+    "color": "0x00ECFF",
     "image": "",
     "channel_1v1_id": 1131552899378466887,
     "channel_2v2_id": 1131552899378466887,
@@ -15,7 +15,7 @@
     "sorting_method": "current",
     "show_member_count": true,
     "show_xp": false,
-    "show_no_elo_players": true,
+    "show_no_elo_players": false,
     "show_win_loss": true,
     "show_legends": true,
     "account_linkers": [],
@@ -23,7 +23,7 @@
         {
             "brawlhalla_id": 7364605,
             "brawlhalla_name": "crossy",
-            "discord_id": null,
+            "discord_id": 0,
             "own_legend": "random",
             "mate_legend": "random"
         }
