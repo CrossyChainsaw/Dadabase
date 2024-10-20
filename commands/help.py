@@ -1,6 +1,5 @@
 from Dadabase.modules.command import ALL_COMMANDS
 from discord import Interaction, Embed
-import discord
 
 async def help(interaction:Interaction):
     embed = Embed(title='All the Commands', description='')
