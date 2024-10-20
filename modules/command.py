@@ -14,7 +14,7 @@ CLAIM_2V2_LEGEND = Command(name='claim_2v2_legend', description='Tell Ranknir wh
 CONSOLE_PLAYER_LIST = Command(name='console_player_list', description='List all console players')
 EDIT_SERVER_COMMAND = Command(name='edit_server', description='Edit server data')
 EDIT_CLAN_COMMAND = Command(name='edit_clan', description='Edit clan data')
-HELP_COMMAND = Command(name='help', description='Help Command')
+HELP_COMMAND = Command(name='help', description='Help Command (This one)')
 INITIALISE_CLAN_COMMAND = Command(name='initialise_clan', description="(You aren't supposed to run this) Generate a file with clan data for the current clan server")
 INITIALISE_SERVER_COMMAND = Command(name='initialise_server', description="(You aren't supposed to run this) Generate a file with clan data for the current server")
 PING_COMMAND = Command(name='ping', description='Check server response time')
@@ -206,83 +206,6 @@ BRAWLHALLA_LEGENDS = [
     app_commands.Choice(name="Redraptor", value="redraptor"),
     app_commands.Choice(name="Reno", value="reno"),
     app_commands.Choice(name="Sir Roland", value="sirroland"),
-    app_commands.Choice(name="Scarlet", value="scarlet"),
-    app_commands.Choice(name="Sentinel", value="sentinel"),
-    app_commands.Choice(name="Seven", value="seven"),
-    app_commands.Choice(name="Sidra", value="sidra"),
-    app_commands.Choice(name="Sir Roland", value="sirroland"),
-    app_commands.Choice(name="Teros", value="teros"),
-    app_commands.Choice(name="Tezca", value="tezca"),
-    app_commands.Choice(name="Thatch", value="thatch"),
-    app_commands.Choice(name="Thea", value="thea"),
-    app_commands.Choice(name="Thor", value="thor"),
-    app_commands.Choice(name="Ulgrim", value="ulgrim"),
-    app_commands.Choice(name="Val", value="val"),
-    app_commands.Choice(name="Vector", value="vector"),
-    app_commands.Choice(name="Vivi", value="vivi"),
-    app_commands.Choice(name="Volkov", value="volkov"),
-    app_commands.Choice(name="Lord Vraxx", value="lordvraxx"),
-    app_commands.Choice(name="Wushang", value="wushang"),
-    app_commands.Choice(name="Xull", value="xull"),
-    app_commands.Choice(name="Yumiko", value="yumiko"),
-    app_commands.Choice(name="Zariel", value="zariel"),
-]
-
-BRAWLHALLA_LEGENDS_A_J = [
-    app_commands.Choice(name="Ada", value="ada"),
-    app_commands.Choice(name="Arcadia", value="arcadia"),
-    app_commands.Choice(name="Artemis", value="artemis"),
-    app_commands.Choice(name="Asuri", value="asuri"),
-    app_commands.Choice(name="Azoth", value="azoth"),
-    app_commands.Choice(name="Barraza", value="barraza"),
-    app_commands.Choice(name="Bodvar", value="bodvar"),
-    app_commands.Choice(name="Brynn", value="brynn"),
-    app_commands.Choice(name="Caspian", value="caspian"),
-    app_commands.Choice(name="Cassidy", value="cassidy"),
-    app_commands.Choice(name="Cross", value="cross"),
-    app_commands.Choice(name="Diana", value="diana"),
-    app_commands.Choice(name="Dusk", value="dusk"),
-    app_commands.Choice(name="Ember", value="ember"),
-    app_commands.Choice(name="Ezio", value="ezio"),
-    app_commands.Choice(name="Fait", value="fait"),
-    app_commands.Choice(name="Gnash", value="gnash"),
-    app_commands.Choice(name="Hattori", value="hattori"),
-    app_commands.Choice(name="Imugi", value="imugi"),
-    app_commands.Choice(name="Isaiah", value="isaiah"),
-    app_commands.Choice(name="Jaeyun", value="jaeyun"),
-    app_commands.Choice(name="Jhala", value="jhala"),
-    app_commands.Choice(name="Jiro", value="jiro"),
-
-]
-BRAWLHALLA_LEGENDS_K_R = [
-    app_commands.Choice(name="Kaya", value="kaya"),
-    app_commands.Choice(name="King zuva", value="kingzuva"),
-    app_commands.Choice(name="Koji", value="koji"),
-    app_commands.Choice(name="Kor", value="kor"),
-    app_commands.Choice(name="Linfei", value="linfei"),
-    app_commands.Choice(name="Loki", value="loki"),
-    app_commands.Choice(name="Lord Vraxx", value="lordvraxx"),
-    app_commands.Choice(name="Lucien", value="lucien"),
-    app_commands.Choice(name="Magyar", value="magyar"),
-    app_commands.Choice(name="Mako", value="mako"),
-    app_commands.Choice(name="Mirage", value="mirage"),
-    app_commands.Choice(name="Mordex", value="mordex"),
-    app_commands.Choice(name="Munin", value="munin"),
-    app_commands.Choice(name="Queen Nai", value="queennai"),    
-    app_commands.Choice(name="Nix", value="nix"),
-    app_commands.Choice(name="Onyx", value="onyx"),
-    app_commands.Choice(name="Orion", value="orion"),
-    app_commands.Choice(name="Petra", value="petra"),
-    app_commands.Choice(name="Queen Nai", value="queennai"),
-    app_commands.Choice(name="Ragnir", value="ragnir"),
-    app_commands.Choice(name="Random", value="random"),
-    app_commands.Choice(name="Rayman", value="rayman"),
-    app_commands.Choice(name="Redraptor", value="redraptor"),
-    app_commands.Choice(name="Reno", value="reno"),
-    app_commands.Choice(name="Sir Roland", value="sirroland"),
-
-]
-BRAWLHALLA_LEGENDS_S_Z = [
     app_commands.Choice(name="Scarlet", value="scarlet"),
     app_commands.Choice(name="Sentinel", value="sentinel"),
     app_commands.Choice(name="Seven", value="seven"),
