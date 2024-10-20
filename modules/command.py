@@ -22,6 +22,7 @@ REMOVE_ACCOUNT_LINKER_COMMAND = Command(name='remove_account_linker', descriptio
 REMOVE_CONSOLE_PLAYER_COMMAND = Command(name='remove_console_player', description='Remove a console player')
 REMOVE_SERVER_PLAYER_COMMAND = Command(name='remove_server_player', description="(You aren't supposed to run this) Manually remove a player from the server leaderboard")
 SERVER_PLAYER_LIST = Command(name='server_player_list', description='List all server players')
+VIEW_CLAN_DATA = Command(name='view_clan_data', description='List all the fields that are being used in the leaderboard')
 
 ALL_COMMANDS = [
     ACCOUNT_LINKER_LIST_COMMAND,
@@ -41,7 +42,8 @@ ALL_COMMANDS = [
     REMOVE_ACCOUNT_LINKER_COMMAND,
     REMOVE_CONSOLE_PLAYER_COMMAND,
     REMOVE_SERVER_PLAYER_COMMAND,
-    SERVER_PLAYER_LIST
+    SERVER_PLAYER_LIST,
+    VIEW_CLAN_DATA
 ]
 
 
