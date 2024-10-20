@@ -86,8 +86,10 @@
     "legends_for_2v2": [
         {
             "brawlhalla_id": 10330876,
-            "brawlhalla_name": "Pandaze",
-            "legend_key": "val"
+            "brawlhalla_name": "pandaze",
+            "discord_id": 447767065437274121,
+            "own_legend": "val",
+            "mate_legend": "teros"
         }
     ]
 }

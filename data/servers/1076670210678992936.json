@@ -139,15 +139,6 @@
             "ethnicity": ""
         },
         {
-            "brawlhalla_id": 6049888,
-            "brawlhalla_name": "SZ",
-            "discord_id": "959540362857291836",
-            "discord_name": "santiwastaken1",
-            "region": "EU",
-            "country": "",
-            "ethnicity": ""
-        },
-        {
             "brawlhalla_id": 3788705,
             "brawlhalla_name": "Hase",
             "discord_id": "280766453509128192",
@@ -188,15 +179,6 @@
             "brawlhalla_name": "M30W | Chops",
             "discord_id": 269270454110257154,
             "discord_name": "chopsbh",
-            "region": "",
-            "country": "",
-            "ethnicity": ""
-        },
-        {
-            "brawlhalla_id": 33218149,
-            "brawlhalla_name": "twitch.tv/worthybh",
-            "discord_id": 462743424106496006,
-            "discord_name": "6cyx",
             "region": "",
             "country": "",
             "ethnicity": ""
@@ -679,8 +661,8 @@
             "ethnicity": ""
         },
         {
-            "brawlhalla_id": 11478979,
-            "brawlhalla_name": "",
+            "brawlhalla_id": 114782979,
+            "brawlhalla_name": "M3W | Ange",
             "discord_id": 571883346880364554,
             "discord_name": "angeced",
             "region": "EU",
@@ -695,6 +677,51 @@
             "region": "USW",
             "country": "ID",
             "ethnicity": "VN"
+        },
+        {
+            "brawlhalla_id": 96941415,
+            "brawlhalla_name": "M3W | tieknax",
+            "discord_id": 565671232956268544,
+            "discord_name": "wouuh",
+            "region": "USE",
+            "country": "US",
+            "ethnicity": ""
+        },
+        {
+            "brawlhalla_id": 11637734,
+            "brawlhalla_name": "",
+            "discord_id": 861494221080363018,
+            "discord_name": ".colusammy",
+            "region": "USE",
+            "country": "US",
+            "ethnicity": "US"
+        },
+        {
+            "brawlhalla_id": 14003577,
+            "brawlhalla_name": "diamondsniperPS",
+            "discord_id": 439634982273548288,
+            "discord_name": "diadrawz",
+            "region": "USE",
+            "country": "US",
+            "ethnicity": "AR"
+        },
+        {
+            "brawlhalla_id": 115280540,
+            "brawlhalla_name": "Thoughtful Lynx 004606",
+            "discord_id": 1176652682090516523,
+            "discord_name": "d1archon_",
+            "region": "USE",
+            "country": "US",
+            "ethnicity": "NG"
+        },
+        {
+            "brawlhalla_id": 34067752,
+            "brawlhalla_name": "gatico",
+            "discord_id": 930203491551571979,
+            "discord_name": "faygo_bh",
+            "region": "BRS",
+            "country": "AR",
+            "ethnicity": "AR"
         }
     ]
 }

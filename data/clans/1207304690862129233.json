@@ -20,5 +20,13 @@
     "show_legends": true,
     "account_linkers": [],
     "console_players": [],
-    "legends_for_2v2": []
+    "legends_for_2v2": [
+        {
+            "brawlhalla_id": 74271359,
+            "brawlhalla_name": ".115.",
+            "discord_id": 267436726107111424,
+            "own_legend": "vivi",
+            "mate_legend": "wushang"
+        }
+    ]
 }
