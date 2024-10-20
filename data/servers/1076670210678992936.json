@@ -130,15 +130,6 @@
             "ethnicity": ""
         },
         {
-            "brawlhalla_id": 10950696,
-            "brawlhalla_name": "FoxxNoodles",
-            "discord_id": 439995565611286570,
-            "discord_name": "foxxnoodles",
-            "region": "USE",
-            "country": "",
-            "ethnicity": ""
-        },
-        {
             "brawlhalla_id": 19896714,
             "brawlhalla_name": "BIastahh",
             "discord_id": 601956411789803540,
@@ -179,15 +170,6 @@
             "brawlhalla_name": "",
             "discord_id": "100238982788452352",
             "discord_name": "addymestic",
-            "region": "EU",
-            "country": "",
-            "ethnicity": ""
-        },
-        {
-            "brawlhalla_id": 84830078,
-            "brawlhalla_name": "Kugo but a bit scarier",
-            "discord_id": 1139880866236092516,
-            "discord_name": "kugoooooooo",
             "region": "EU",
             "country": "",
             "ethnicity": ""
@@ -274,15 +256,6 @@
             "ethnicity": ""
         },
         {
-            "brawlhalla_id": 4077949,
-            "brawlhalla_name": "Shadow Jesus",
-            "discord_id": 221634198505521153,
-            "discord_name": "zaydk",
-            "region": "",
-            "country": "",
-            "ethnicity": ""
-        },
-        {
             "brawlhalla_id": 36601090,
             "brawlhalla_name": "Cyclonix",
             "discord_id": 392415551357714432,
@@ -292,37 +265,10 @@
             "ethnicity": ""
         },
         {
-            "brawlhalla_id": 8112740,
-            "brawlhalla_name": "Dipu",
-            "discord_id": 284343601910251520,
-            "discord_name": "dipu_",
-            "region": "EU",
-            "country": "",
-            "ethnicity": ""
-        },
-        {
             "brawlhalla_id": 10160742,
             "brawlhalla_name": "M3W | naki?",
             "discord_id": 755468572041674832,
             "discord_name": "whoisnaki",
-            "region": "",
-            "country": "",
-            "ethnicity": ""
-        },
-        {
-            "brawlhalla_id": 9928137,
-            "brawlhalla_name": "Kunina",
-            "discord_id": 224078743197450242,
-            "discord_name": "kunina",
-            "region": "",
-            "country": "",
-            "ethnicity": ""
-        },
-        {
-            "brawlhalla_id": 51364569,
-            "brawlhalla_name": "M3W | DoMyBest4u",
-            "discord_id": 478754417584242688,
-            "discord_name": "onetrickmaster",
             "region": "",
             "country": "",
             "ethnicity": ""
@@ -544,15 +490,6 @@
             "ethnicity": ""
         },
         {
-            "brawlhalla_id": 65781772,
-            "brawlhalla_name": "DSN | Gojo Satoru",
-            "discord_id": 553676449588969473,
-            "discord_name": "chr1ssy.",
-            "region": "USE",
-            "country": "US",
-            "ethnicity": ""
-        },
-        {
             "brawlhalla_id": 31376067,
             "brawlhalla_name": "vshq",
             "discord_id": 361886500520198146,
@@ -740,6 +677,24 @@
             "region": "USE",
             "country": "US",
             "ethnicity": ""
+        },
+        {
+            "brawlhalla_id": 11478979,
+            "brawlhalla_name": "",
+            "discord_id": 571883346880364554,
+            "discord_name": "angeced",
+            "region": "EU",
+            "country": "",
+            "ethnicity": ""
+        },
+        {
+            "brawlhalla_id": 24481461,
+            "brawlhalla_name": "reviled",
+            "discord_id": 601589144124260362,
+            "discord_name": "reviled",
+            "region": "USW",
+            "country": "ID",
+            "ethnicity": "VN"
         }
     ]
 }

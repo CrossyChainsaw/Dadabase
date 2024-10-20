@@ -90,26 +90,11 @@ async def claim_command(interaction, brawlhalla_id:int,
         await interaction.response.send_message(f'{interaction.user.name} does not have permission to use this command')
 
 @tree.command(name=CLAIM_2V2_LEGEND[1:], description='Tell Ranknir what legend you play in 2v2')
-@app_commands.describe(legend_a_j="[A-J] What legend do you play in 2v2?")
-@app_commands.choices(legend_a_j=BRAWLHALLA_LEGENDS_A_J)
-@app_commands.describe(legend_k_r="[K-R] What legend do you play in 2v2?")
-@app_commands.choices(legend_k_r=BRAWLHALLA_LEGENDS_K_R)
-@app_commands.describe(legend_s_z="[S-Z] What legend do you play in 2v2?")
-@app_commands.choices(legend_s_z=BRAWLHALLA_LEGENDS_S_Z)
-async def claim_2v2_legend_command(interaction, brawlhalla_id:int, 
-                                   legend_a_j: app_commands.Choice[str] = None, 
-                                   legend_k_r: app_commands.Choice[str] = None, 
-                                   legend_s_z: app_commands.Choice[str] = None):
-    # Check which fields is provided
-    legend = 'random'
-    if legend_a_j:
-        legend = legend_a_j
-    elif legend_k_r:
-        legend = legend_k_r
-    elif legend_s_z:
-        legend = legend_s_z
-    print(f'{interaction.user.name} called claim!')
-    await claim_2v2_legend(interaction, brawlhalla_id, legend.value)
+@app_commands.describe(your_legend="Type the legend you play in 2v2")
+@app_commands.describe(teammate_legend="Type the legend your teammate plays in 2v2")
+async def claim_2v2_legend_command(interaction, brawlhalla_id:int, your_legend:str, teammate_legend:str):
+    print(f'{interaction.user.name} called 2v2 claim!')
+    await claim_2v2_legend(interaction, brawlhalla_id, your_legend, teammate_legend)
 
 
 
