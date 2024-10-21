@@ -722,6 +722,15 @@
             "region": "BRS",
             "country": "AR",
             "ethnicity": "AR"
+        },
+        {
+            "brawlhalla_id": 5246094,
+            "brawlhalla_name": "Jeff",
+            "discord_id": 242000901328338944,
+            "discord_name": "jeffwardo",
+            "region": "USE",
+            "country": "US",
+            "ethnicity": "US"
         }
     ]
 }
