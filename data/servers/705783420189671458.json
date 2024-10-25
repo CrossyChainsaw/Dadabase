@@ -13,6 +13,28 @@
     "flag_type": "region",
     "show_win_loss": true,
     "show_legends": true,
-    "links": [],
-    "legends_for_2v2": []
+    "links": [
+        {
+            "brawlhalla_id": 1196822,
+            "brawlhalla_name": "zeusz",
+            "discord_id": 0,
+            "discord_name": "zeusz",
+            "region": "",
+            "country": "",
+            "ethnicity": ""
+        },
+        {
+            "brawlhalla_id": 7364605,
+            "brawlhalla_name": "CrossyChainsaw #motivation",
+            "discord_id": 413070742591373314,
+            "discord_name": "crossychainsaw",
+            "region": "USE",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "ada",
+                "mate_legend": "ada"
+            }
+        }
+    ]
 }
