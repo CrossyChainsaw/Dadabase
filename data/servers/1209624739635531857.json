@@ -21,7 +21,15 @@
             "discord_name": "pierchy_",
             "region": "",
             "country": "",
-            "ethnicity": ""
+            "ethnicity": "",
+            "legends_for_2v2":         
+            {
+                "brawlhalla_id": 10241375,
+                "brawlhalla_name": "KC | Pierchy",
+                "discord_id": 1121243884865990666,
+                "own_legend": "sidra",
+                "mate_legend": "koji"
+            }
         },
         {
             "brawlhalla_id": 1196822,
