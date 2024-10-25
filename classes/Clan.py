@@ -21,6 +21,7 @@ class Clan:
         # Required
         self.server_name = server_name
         self.clan_names = clan_names
+        self.leaderboard_title = clan_names[0]
         self.discord_server_id = server_id
         self.id_array = clan_id_list
         self.color = color
