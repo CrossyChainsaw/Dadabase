@@ -5,7 +5,7 @@ from Dadabase.modules.validate_type import cast_to_int
 
 class Server:
     def __init__(self, id, name, leaderboard_title, sorting_method, show_member_count, show_no_elo_players, 
-                 channel_1v1_id="", channel_2v2_id="", channel_rotating_id="", color="", image="", flag_type:str = None, links=[]):
+                 channel_1v1_id="", channel_2v2_id="", channel_rotating_id="", color="", image="", flag_type:str=None, show_win_loss=False, show_legends=False, links=[]):
         
         # Convert Fields
         channel_1v1_id = int(channel_1v1_id)
@@ -28,4 +28,6 @@ class Server:
         self.image = image
         self.color = color
         self.flag_type = flag_type
+        self.show_win_loss = show_win_loss
+        self.show_legends = show_legends
         self.links = links
