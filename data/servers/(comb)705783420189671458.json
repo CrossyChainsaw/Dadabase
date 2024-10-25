@@ -1,0 +1,31 @@
+{
+    "discord_server_id": "705783420189671458",
+    "discord_server_name": "Skyward",
+    "brawlhalla_id_array": [
+        "1702413"
+    ],
+    "brawlhalla_clan_names": [
+        "Skyward"
+    ],
+    "embed_color": "0x222222",
+    "leaderboard_image": "",
+    "leaderboard_title": "Skyward Epico",
+    "discord_channel_1v1_id": 1131552899378466887,
+    "discord_channel_2v2_id": 1131552899378466887,
+    "discord_channel_rotating_id": 1131552899378466887,
+    "players_sorting_method": "current",
+    "show_member_count": true,
+    "show_clan_xp": false,
+    "show_no_elo_players": true,
+    "show_player_win_loss": true,
+    "show_player_legends": true,
+    "flag_type": "region",
+    "account_linkers": [],
+    "console_players": [],
+    "legends_for_2v2": [
+        {
+            "brawlhalla_id": "10330876",
+            "legend_key": "wushang"
+        }
+    ]
+}
