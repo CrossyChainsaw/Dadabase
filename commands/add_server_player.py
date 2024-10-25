@@ -21,7 +21,6 @@ async def add_server_player(interaction, brawlhalla_id, discord_id, discord_name
 
 def __structure_option_if_empty(option):
     try:
-        print(option.value)
         return option.value
     except:
         return ""
