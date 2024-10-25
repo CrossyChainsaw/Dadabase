@@ -67,6 +67,27 @@
             "discord_id": 344099628322390016,
             "own_legend": "ulgrim",
             "mate_legend": "val"
+        },
+        {
+            "brawlhalla_id": 5013091,
+            "brawlhalla_name": ".kimono.",
+            "discord_id": 608054975452676106,
+            "own_legend": "sidra",
+            "mate_legend": "rayman"
+        },
+        {
+            "brawlhalla_id": 74967350,
+            "brawlhalla_name": "spark6988",
+            "discord_id": 865271626646683668,
+            "own_legend": "wushang",
+            "mate_legend": "random"
+        },
+        {
+            "brawlhalla_id": 7159263,
+            "brawlhalla_name": "shadrabaguettesenpai",
+            "discord_id": 394967313041981442,
+            "own_legend": "mirage",
+            "mate_legend": "yumiko"
         }
     ]
 }
