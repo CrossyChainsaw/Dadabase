@@ -81,6 +81,7 @@ async def update_link(interaction, new_link:Link):
     link['region'] = new_link.region
     link['country'] = new_link.country
     link['ethnicity'] = new_link.ethnicity
+    link['legends_for_2v2'] = new_link.legends_for_2v2
     write_data(SERVERS_DATA_PATH, server_data, interaction.guild.id)
     await interaction.response.send_message(embed=embed_with_link_data(new_link, interaction))
 
@@ -99,18 +100,15 @@ def read_data(path, id):
     data = json.load(file)
     return data
   
-
 def read_link_data(path, id):
   with open(path + str(id) + '.json') as data:
     link_data = json.load(data)["links"]
     return link_data
 
-
 def write_data(path, data, id):
   print('Entered: write_data()')
   with open(path + str(id) + '.json', 'w') as write_file:
     json.dump(data, write_file, indent=4)
-
 
 def add_player_to_clan_data(interaction, data, brawlhalla_account, data_location, key):
     """Adds a player to clan data. Used for Console Players and Account Linkers"""
@@ -173,6 +171,7 @@ def embed_with_link_data(link:Link, interaction:discord.Interaction):
     embed.add_field(name="Region", value=__check_empty(link.region), inline=False)
     embed.add_field(name="Country", value=__check_empty(link.country), inline=False)
     embed.add_field(name="Ethnicity", value=__check_empty(link.ethnicity), inline=False)
+    embed.add_field(name="My 2v2 Comp", value=f"{__check_empty(link.legends_for_2v2[DATA_KEY_FOR_OWN_2V2_LEGEND]).capitalize()} & {__check_empty(link.legends_for_2v2[DATA_KEY_FOR_MATE_2V2_LEGEND]).capitalize()}", inline=False)
     return embed
 
 def __empty_name(name):

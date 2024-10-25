@@ -81,14 +81,18 @@ async def check_command(interaction):
 @app_commands.choices(country_of_residence=ALL_COUNTRIES)
 @app_commands.describe(ethnicity="What is your ethnicity?")
 @app_commands.choices(ethnicity=ALL_COUNTRIES)
+@app_commands.describe(your_legend="Type the legend you play in 2v2")
+@app_commands.describe(teammate_legend="Type the legend your teammate plays in 2v2")
 async def claim_command(interaction, 
                         brawlhalla_id:int, 
                         region: app_commands.Choice[str],
                         country_of_residence: app_commands.Choice[str], 
-                        ethnicity: app_commands.Choice[str]):
+                        ethnicity: app_commands.Choice[str],
+                        your_legend: str = 'random',
+                        teammate_legend: str = 'random'):
     print(f'{interaction.user.name} called claim!')
     if has_permission(interaction):
-        await claim(interaction, brawlhalla_id, region.value, country_of_residence.value, ethnicity.value)
+        await claim(interaction, brawlhalla_id, region.value, country_of_residence.value, ethnicity.value, your_legend, teammate_legend)
     else:
         await interaction.response.send_message(f'{interaction.user.name} does not have permission to use this command')
 
@@ -239,6 +243,6 @@ async def on_ready():
 
 def run_dadabase():
     keep_alive()
-    client.run(env_variable("DADABASE_BOT_TOKEN"))
-    #client.run(env_variable("RANKNIR_TESTING_BOT_TOKEN"))
+    #client.run(env_variable("DADABASE_BOT_TOKEN"))
+    client.run(env_variable("RANKNIR_TESTING_BOT_TOKEN"))
     return
