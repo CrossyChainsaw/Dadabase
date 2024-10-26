@@ -10,7 +10,7 @@ ADD_CONSOLE_PLAYER_COMMAND = Command(name='add_console_player', description='Add
 ADD_SERVER_PLAYER_COMMAND = Command(name='add_server_player', description="(You aren't supposed to run this) Manually add a player to the server leaderboard")
 CHECK_COMMAND = Command(name='check', description='Check your linked Brawlhalla account')
 CLAIM_COMMAND = Command(name='claim', description='Link your Brawlhalla account to Discord')
-CLAIM_2V2_LEGEND = Command(name='claim_2v2_legend', description='Tell Ranknir what legend you play in 2v2')
+CLAIM_2V2_LEGEND = Command(name='claim_2v2_legend_for_clans', description='Tell Ranknir what legend you play in 2v2')
 CONSOLE_PLAYER_LIST = Command(name='console_player_list', description='List all console players')
 EDIT_SERVER_COMMAND = Command(name='edit_server', description='Edit server data')
 EDIT_CLAN_COMMAND = Command(name='edit_clan', description='Edit clan data')
