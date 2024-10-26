@@ -16,12 +16,16 @@
     "links": [
         {
             "brawlhalla_id": 60269269,
-            "brawlhalla_name": "M30W | frieren <3",
+            "brawlhalla_name": "M30W | I LOVE MY GF <3",
             "discord_id": 673371837782032434,
             "discord_name": "yurei._.",
             "region": "USE",
             "country": "US",
-            "ethnicity": "IT"
+            "ethnicity": "IT",
+            "legends_for_2v2": {
+                "own_legend": "kaya",
+                "mate_legend": "isaiah"
+            }
         },
         {
             "brawlhalla_id": 26417667,
@@ -312,15 +316,6 @@
             "ethnicity": ""
         },
         {
-            "brawlhalla_id": 6152274,
-            "brawlhalla_name": "Lexi",
-            "discord_id": 236127985500028928,
-            "discord_name": "_elk",
-            "region": "USE",
-            "country": "US",
-            "ethnicity": "US"
-        },
-        {
             "brawlhalla_id": 27492017,
             "brawlhalla_name": "M30W|JiroToDeath\u00e2\u0084\u00a2",
             "discord_id": 338427554895757312,
@@ -479,15 +474,6 @@
             "discord_id": 361886500520198146,
             "discord_name": "queen.lexa",
             "region": "EU",
-            "country": "",
-            "ethnicity": ""
-        },
-        {
-            "brawlhalla_id": 6246636,
-            "brawlhalla_name": "^-^",
-            "discord_id": 614658671514877953,
-            "discord_name": "serenxyz",
-            "region": "SEA",
             "country": "",
             "ethnicity": ""
         },
