@@ -655,7 +655,11 @@
             "discord_name": "angeced",
             "region": "EU",
             "country": "",
-            "ethnicity": ""
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "Diana",
+                "mate_legend": "Kaya"
+            }
         },
         {
             "brawlhalla_id": 24481461,
@@ -719,6 +723,28 @@
             "region": "USE",
             "country": "US",
             "ethnicity": "US"
+        },
+        {
+            "brawlhalla_id": 60646251,
+            "brawlhalla_name": "HeyItsJakHere",
+            "discord_id": 797559857775378503,
+            "discord_name": "rctjak",
+            "region": "EU",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "Val",
+                "mate_legend": "Vivi"
+            }
+        },
+        {
+            "brawlhalla_id": 24116692,
+            "brawlhalla_name": "M30W | Bunny <3",
+            "discord_id": 1265789851223986334,
+            "discord_name": "starshipsgirl",
+            "region": "USE",
+            "country": "US",
+            "ethnicity": ""
         }
     ]
 }
