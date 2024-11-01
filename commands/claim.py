@@ -7,7 +7,7 @@ from discord import Interaction
 
 async def claim(interaction:Interaction, brawlhalla_id, region, country_of_residence, ethnicity, your_legend, teammate_legend):
     ranked_stats = await fetch_player_ranked_stats(brawlhalla_id)
-    link = Link(ranked_stats['brawlhalla_id'], ranked_stats['name'], interaction.user.id, interaction.user.name, region, country_of_residence, ethnicity, own_legend=your_legend, mate_legend=teammate_legend)
+    link = Link(ranked_stats['brawlhalla_id'], ranked_stats['name'], interaction.user.id, interaction.user.name, region, country_of_residence, ethnicity, own_legend=your_legend.lower(), mate_legend=teammate_legend.lower())
     condition = already_claimed(interaction)
     if condition == True:
         print('updating link')
