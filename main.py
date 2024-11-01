@@ -147,8 +147,10 @@ async def edit_server_command(interaction,
                               channel_rotating_id:str = None, 
                               image:str=None, 
                               color:str=None, 
-                              flag_type:app_commands.Choice[str]=None):
-    await edit_server(interaction, leaderboard_title, sorting_method, show_member_count, show_no_elo_players, channel_1v1_id, channel_2v2_id, channel_rotating_id, image, color, flag_type)
+                              flag_type:app_commands.Choice[str]=None,
+                              show_win_loss:bool=None,
+                              show_legends:bool=None):
+    await edit_server(interaction, leaderboard_title, sorting_method, show_member_count, show_no_elo_players, channel_1v1_id, channel_2v2_id, channel_rotating_id, image, color, flag_type, show_win_loss, show_legends)
 
 
 @tree.command(name=HELP_COMMAND.name, description=HELP_COMMAND.description)

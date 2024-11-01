@@ -1,7 +1,7 @@
 {
     "id": 1076670210678992936,
     "name": "M30W",
-    "leaderboard_title": "M30W Leaderboard",
+    "leaderboard_title": "meow meow meow",
     "sorting_method": "peak",
     "show_member_count": true,
     "show_no_elo_players": true,
@@ -424,13 +424,17 @@
             "ethnicity": "BR"
         },
         {
-            "brawlhalla_id": 51653936,
-            "brawlhalla_name": "M30w | Kyu",
+            "brawlhalla_id": 51654936,
+            "brawlhalla_name": "Moo deng",
             "discord_id": 561832330340073472,
             "discord_name": "700uyk",
             "region": "SEA",
             "country": "",
-            "ethnicity": ""
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "brynn",
+                "mate_legend": "random"
+            }
         },
         {
             "brawlhalla_id": 34309437,
@@ -657,8 +661,8 @@
             "country": "",
             "ethnicity": "",
             "legends_for_2v2": {
-                "own_legend": "Diana",
-                "mate_legend": "Kaya"
+                "own_legend": "diana",
+                "mate_legend": "kaya"
             }
         },
         {
@@ -733,8 +737,8 @@
             "country": "",
             "ethnicity": "",
             "legends_for_2v2": {
-                "own_legend": "Val",
-                "mate_legend": "Vivi"
+                "own_legend": "val",
+                "mate_legend": "vivi"
             }
         },
         {
@@ -744,7 +748,37 @@
             "discord_name": "starshipsgirl",
             "region": "USE",
             "country": "US",
-            "ethnicity": ""
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "rayman",
+                "mate_legend": "sidra"
+            }
+        },
+        {
+            "brawlhalla_id": 62319521,
+            "brawlhalla_name": "M3W | Nainjasu",
+            "discord_id": 841340829742268427,
+            "discord_name": "nainjasu",
+            "region": "EU",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "hattori",
+                "mate_legend": "brynn"
+            }
+        },
+        {
+            "brawlhalla_id": 3978405,
+            "brawlhalla_name": "M3W | Sudenaz",
+            "discord_id": 1171175340551454745,
+            "discord_name": "sudenazlys",
+            "region": "EU",
+            "country": "",
+            "ethnicity": "TR",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
         }
     ]
 }

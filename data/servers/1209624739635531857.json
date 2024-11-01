@@ -37,15 +37,6 @@
             "ethnicity": ""
         },
         {
-            "brawlhalla_id": 32273665,
-            "brawlhalla_name": "molo",
-            "discord_id": 0,
-            "discord_name": "molo",
-            "region": "",
-            "country": "",
-            "ethnicity": ""
-        },
-        {
             "brawlhalla_id": 5662756,
             "brawlhalla_name": "Ju.",
             "discord_id": 0,
@@ -199,15 +190,6 @@
             "ethnicity": ""
         },
         {
-            "brawlhalla_id": 3017772,
-            "brawlhalla_name": "NAdam1995",
-            "discord_id": 45,
-            "discord_name": "NAdam1995",
-            "region": "",
-            "country": "",
-            "ethnicity": ""
-        },
-        {
             "brawlhalla_id": 8122721,
             "brawlhalla_name": "gatya",
             "discord_id": 46,
@@ -235,15 +217,6 @@
             "ethnicity": ""
         },
         {
-            "brawlhalla_id": 97639933,
-            "brawlhalla_name": "",
-            "discord_id": 51,
-            "discord_name": "csillagszemu",
-            "region": "",
-            "country": "",
-            "ethnicity": ""
-        },
-        {
             "brawlhalla_id": 2129752,
             "brawlhalla_name": "QB | Mr. Szillaz",
             "discord_id": 53,
@@ -266,15 +239,6 @@
             "brawlhalla_name": "yang",
             "discord_id": 54,
             "discord_name": "gri2",
-            "region": "",
-            "country": "",
-            "ethnicity": ""
-        },
-        {
-            "brawlhalla_id": 24737524,
-            "brawlhalla_name": "KC | carry me alhamdulillah",
-            "discord_id": 57,
-            "discord_name": "DeniaL_",
             "region": "",
             "country": "",
             "ethnicity": ""
@@ -432,7 +396,7 @@
             "country": "",
             "ethnicity": "",
             "legends_for_2v2": {
-                "own_legend": "Tezca",
+                "own_legend": "tezca",
                 "mate_legend": "random"
             }
         },
@@ -458,8 +422,8 @@
             "country": "",
             "ethnicity": "",
             "legends_for_2v2": {
-                "own_legend": "Teros",
-                "mate_legend": "Ulgrim"
+                "own_legend": "teros",
+                "mate_legend": "ulgrim"
             }
         },
         {
@@ -471,8 +435,8 @@
             "country": "",
             "ethnicity": "",
             "legends_for_2v2": {
-                "own_legend": "Mordex",
-                "mate_legend": "Rayman & Petra"
+                "own_legend": "mordex",
+                "mate_legend": "rayman"
             }
         }
     ]

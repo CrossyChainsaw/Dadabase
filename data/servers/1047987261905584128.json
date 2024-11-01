@@ -11,7 +11,7 @@
     "image": "",
     "color": "0xff6404",
     "flag_type": "ethnicity",
-    "show_win_loss": false,
+    "show_win_loss": true,
     "show_legends": true,
     "links": [
         {

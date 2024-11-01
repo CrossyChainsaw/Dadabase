@@ -24,16 +24,16 @@
             "ethnicity": ""
         },
         {
-            "brawlhalla_id": 7364605,
-            "brawlhalla_name": "CrossyChainsaw #motivation",
+            "brawlhalla_id": 2,
+            "brawlhalla_name": "",
             "discord_id": 413070742591373314,
             "discord_name": "crossychainsaw",
             "region": "USE",
             "country": "",
             "ethnicity": "",
             "legends_for_2v2": {
-                "own_legend": "ada",
-                "mate_legend": "ada"
+                "own_legend": "rayman",
+                "mate_legend": "random"
             }
         }
     ]
