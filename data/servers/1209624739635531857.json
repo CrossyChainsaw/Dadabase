@@ -16,19 +16,15 @@
     "links": [
         {
             "brawlhalla_id": 10241375,
-            "brawlhalla_name": "KC | Pierchy",
+            "brawlhalla_name": "isten k\u00c3\u00bcld\u00c3\u00b6tt hajl\u00c3\u00a9ktalan",
             "discord_id": 1121243884865990666,
             "discord_name": "pierchy_",
-            "region": "",
+            "region": "EU",
             "country": "",
             "ethnicity": "",
-            "legends_for_2v2":         
-            {
-                "brawlhalla_id": 10241375,
-                "brawlhalla_name": "KC | Pierchy",
-                "discord_id": 1121243884865990666,
-                "own_legend": "sidra",
-                "mate_legend": "koji"
+            "legends_for_2v2": {
+                "own_legend": "rayman",
+                "mate_legend": "sidra"
             }
         },
         {
@@ -36,15 +32,6 @@
             "brawlhalla_name": "zeusz",
             "discord_id": 0,
             "discord_name": "zeusz",
-            "region": "",
-            "country": "",
-            "ethnicity": ""
-        },
-        {
-            "brawlhalla_id": 32273665,
-            "brawlhalla_name": "molo",
-            "discord_id": 0,
-            "discord_name": "molo",
             "region": "",
             "country": "",
             "ethnicity": ""
@@ -203,15 +190,6 @@
             "ethnicity": ""
         },
         {
-            "brawlhalla_id": 3017772,
-            "brawlhalla_name": "NAdam1995",
-            "discord_id": 45,
-            "discord_name": "NAdam1995",
-            "region": "",
-            "country": "",
-            "ethnicity": ""
-        },
-        {
             "brawlhalla_id": 8122721,
             "brawlhalla_name": "gatya",
             "discord_id": 46,
@@ -239,15 +217,6 @@
             "ethnicity": ""
         },
         {
-            "brawlhalla_id": 97639933,
-            "brawlhalla_name": "",
-            "discord_id": 51,
-            "discord_name": "csillagszemu",
-            "region": "",
-            "country": "",
-            "ethnicity": ""
-        },
-        {
             "brawlhalla_id": 2129752,
             "brawlhalla_name": "QB | Mr. Szillaz",
             "discord_id": 53,
@@ -270,24 +239,6 @@
             "brawlhalla_name": "yang",
             "discord_id": 54,
             "discord_name": "gri2",
-            "region": "",
-            "country": "",
-            "ethnicity": ""
-        },
-        {
-            "brawlhalla_id": 24737524,
-            "brawlhalla_name": "KC | carry me alhamdulillah",
-            "discord_id": 57,
-            "discord_name": "DeniaL_",
-            "region": "",
-            "country": "",
-            "ethnicity": ""
-        },
-        {
-            "brawlhalla_id": 2097151,
-            "brawlhalla_name": "1571.",
-            "discord_id": 60,
-            "discord_name": "Isti",
             "region": "",
             "country": "",
             "ethnicity": ""
@@ -435,6 +386,58 @@
             "region": "",
             "country": "",
             "ethnicity": ""
+        },
+        {
+            "brawlhalla_id": 97639933,
+            "brawlhalla_name": "barou",
+            "discord_id": 920820686753267722,
+            "discord_name": "csillagszemu",
+            "region": "EU",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "tezca",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 3017772,
+            "brawlhalla_name": "NAdam1995",
+            "discord_id": 262308539844919298,
+            "discord_name": "adam1995",
+            "region": "EU",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 32273665,
+            "brawlhalla_name": "molo",
+            "discord_id": 386883934245486623,
+            "discord_name": "vagyonor",
+            "region": "EU",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "teros",
+                "mate_legend": "ulgrim"
+            }
+        },
+        {
+            "brawlhalla_id": 24737524,
+            "brawlhalla_name": "DeniaL",
+            "discord_id": 920688804082352198,
+            "discord_name": "denialdani",
+            "region": "EU",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "mordex",
+                "mate_legend": "rayman"
+            }
         }
     ]
 }
