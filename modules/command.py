@@ -54,7 +54,6 @@ BENELUX_COUNTRIES = [
     app_commands.Choice(name="Luxembourg", value="LU")]
 ALL_COUNTRIES = [
     app_commands.Choice(name="Don't Specify", value=""),
-    app_commands.Choice(name="Algeria", value="DZ"),
     app_commands.Choice(name="Argentina", value="AR"),
     app_commands.Choice(name="Belgium", value="BE"),
     app_commands.Choice(name="Brazil", value="BR"),
@@ -62,6 +61,7 @@ ALL_COUNTRIES = [
     app_commands.Choice(name="Chile", value="CL"),
     app_commands.Choice(name="Curacao", value="CW"),
     app_commands.Choice(name="Dominican Republic", value="DO"),
+    app_commands.Choice(name="France", value="FR"),
     app_commands.Choice(name="Germany", value="DE"),
     app_commands.Choice(name="Indonesia", value="ID"),
     app_commands.Choice(name="Iraq", value="IQ"),
@@ -76,8 +76,8 @@ ALL_COUNTRIES = [
     app_commands.Choice(name="Suriname", value="SR"),
     app_commands.Choice(name="Syria", value="SY"),
     app_commands.Choice(name="Turkey", value="TR"),
-    app_commands.Choice(name="United States of America", value="US"),
-    app_commands.Choice(name="Vietnam", value="VN")
+    app_commands.Choice(name="United Kingdom", value="UK"),
+    app_commands.Choice(name="United States of America", value="US")
 ]
 BRAWL_SERVERS = [
     app_commands.Choice(name="US-E", value="USE"),
