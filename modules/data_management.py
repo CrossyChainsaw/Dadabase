@@ -140,8 +140,8 @@ def find_link(discord_id, link_data):
                         region=__check_empty(link.get('region')), 
                         country=__check_empty(link.get('country')), 
                         ethnicity=__check_empty(link.get('ethnicity')),
-                        own_legend=__check_empty(link[DATA_KEY_FOR_2V2_LEGENDS][DATA_KEY_FOR_OWN_2V2_LEGEND]),
-                        mate_legend=__check_empty(link[DATA_KEY_FOR_2V2_LEGENDS][DATA_KEY_FOR_MATE_2V2_LEGEND]))
+                        own_legend=__check_empty(link.get(DATA_KEY_FOR_2V2_LEGENDS, {}).get(DATA_KEY_FOR_OWN_2V2_LEGEND)),
+                        mate_legend=__check_empty(link.get(DATA_KEY_FOR_2V2_LEGENDS, {}).get(DATA_KEY_FOR_MATE_2V2_LEGEND)))
             return user
     else:
         return None
