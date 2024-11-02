@@ -133,13 +133,15 @@ def remove_player_from_clan_data(interaction, brawlhalla_id, data, key):
 def find_link(discord_id, link_data):
     for link in link_data:
         if str(discord_id) == str(link['discord_id']):
-            user = Link(link['brawlhalla_id'], 
-                        link['brawlhalla_name'],
-                        link['discord_id'], 
-                        link['discord_name'], 
-                        __check_empty(link.get('region')), 
-                        __check_empty(link.get('country')), 
-                        __check_empty(link.get('ethnicity')))
+            user:Link = Link(brawlhalla_id=link['brawlhalla_id'], 
+                        brawlhalla_name=link['brawlhalla_name'],
+                        discord_id=link['discord_id'], 
+                        discord_name=link['discord_name'], 
+                        region=__check_empty(link.get('region')), 
+                        country=__check_empty(link.get('country')), 
+                        ethnicity=__check_empty(link.get('ethnicity')),
+                        own_legend=__check_empty(link[DATA_KEY_FOR_2V2_LEGENDS][DATA_KEY_FOR_OWN_2V2_LEGEND]),
+                        mate_legend=__check_empty(link[DATA_KEY_FOR_2V2_LEGENDS][DATA_KEY_FOR_MATE_2V2_LEGEND]))
             return user
     else:
         return None
