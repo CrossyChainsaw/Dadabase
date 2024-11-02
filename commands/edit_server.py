@@ -1,6 +1,7 @@
 from Dadabase.modules.data_management import DATA_KEY_FOR_SHOW_LEGENDS, DATA_KEY_FOR_SHOW_WIN_LOSS, DATA_KEY_FOR_COLOR, DATA_KEY_FOR_IMAGE, DATA_KEY_FOR_SHOW_MEMBER_COUNT, DATA_KEY_FOR_CHANNEL_1V1_ID, DATA_KEY_FOR_CHANNEL_2V2_ID, DATA_KEY_FOR_CHANNEL_ROTATING_ID, DATA_KEY_FOR_LEADERBOARD_TITLE, DATA_KEY_FOR_FLAG_TYPE, DATA_KEY_FOR_SERVER_ID, DATA_KEY_FOR_SERVER_NAME, DATA_KEY_FOR_SHOW_NO_ELO_PLAYERS, DATA_KEY_FOR_SHOW_XP, DATA_KEY_FOR_SORTING_METHOD, DATA_KEY_FOR_SHOW_MEMBER_COUNT, DATA_KEY_FOR_SHOW_NO_ELO_PLAYERS, SERVERS_DATA_PATH, FlagType, read_data, write_data, DATA_KEY_FOR_SHOW_XP
 from Dadabase.modules.format import bool_to_show_hide, format_color
 from Dadabase.classes.Server import Server
+from discord import Embed
 
 
 async def edit_server(interaction, leaderboard_title, sorting_method:str, show_member_count:bool,
@@ -14,32 +15,83 @@ async def edit_server(interaction, leaderboard_title, sorting_method:str, show_m
         channel_rotating_id is not None, image is not None, color is not None, flag_type is not None, 
         show_win_loss is not None, show_legends is not None]):
 
+        variable_names = []
+        old_values = []
+        new_values = []
+
         if leaderboard_title:
+            variable_names.append("leaderboard_title")
+            old_values.append(server_data[DATA_KEY_FOR_LEADERBOARD_TITLE])
+            new_values.append(leaderboard_title)
             server_data[DATA_KEY_FOR_LEADERBOARD_TITLE] = leaderboard_title
         if sorting_method:
+            variable_names.append("sorting_method")
+            old_values.append(server_data[DATA_KEY_FOR_SORTING_METHOD])
+            new_values.append(sorting_method.value)
             server_data[DATA_KEY_FOR_SORTING_METHOD] = sorting_method.value
         if show_member_count is not None:
+            variable_names.append("show_member_count")
+            old_values.append(server_data[DATA_KEY_FOR_SHOW_MEMBER_COUNT])
+            new_values.append(show_member_count)
             server_data[DATA_KEY_FOR_SHOW_MEMBER_COUNT] = show_member_count
         if show_no_elo_players is not None:
+            variable_names.append("show_no_elo_players")
+            old_values.append(server_data[DATA_KEY_FOR_SHOW_NO_ELO_PLAYERS])
+            new_values.append(show_no_elo_players)
             server_data[DATA_KEY_FOR_SHOW_NO_ELO_PLAYERS] = show_no_elo_players
         if channel_1v1_id:
+            variable_names.append("channel_1v1_id")
+            old_values.append(server_data[DATA_KEY_FOR_CHANNEL_1V1_ID])
+            new_values.append(int(channel_1v1_id))
             server_data[DATA_KEY_FOR_CHANNEL_1V1_ID] = int(channel_1v1_id)
         if channel_2v2_id:
+            variable_names.append("channel_2v2_id")
+            old_values.append(server_data[DATA_KEY_FOR_CHANNEL_2V2_ID])
+            new_values.append(int(channel_2v2_id))
             server_data[DATA_KEY_FOR_CHANNEL_2V2_ID] = int(channel_2v2_id)
         if channel_rotating_id:
+            variable_names.append("channel_rotating_id")
+            old_values.append(server_data[DATA_KEY_FOR_CHANNEL_ROTATING_ID])
+            new_values.append(int(channel_rotating_id))
             server_data[DATA_KEY_FOR_CHANNEL_ROTATING_ID] = int(channel_rotating_id)
         if image:
+            variable_names.append("image")
+            old_values.append(server_data[DATA_KEY_FOR_IMAGE])
+            new_values.append(image)
             server_data[DATA_KEY_FOR_IMAGE] = image
         if color:
+            variable_names.append("color")
+            old_values.append(server_data[DATA_KEY_FOR_COLOR])
+            new_values.append(color)
             server_data[DATA_KEY_FOR_COLOR] = color
         if flag_type:
+            variable_names.append("flag_type")
+            old_values.append(server_data[DATA_KEY_FOR_FLAG_TYPE])
+            new_values.append(flag_type.value)
             server_data[DATA_KEY_FOR_FLAG_TYPE] = flag_type.value
         if show_win_loss is not None:
+            variable_names.append("show_win_loss")
+            old_values.append(server_data[DATA_KEY_FOR_SHOW_WIN_LOSS])
+            new_values.append(show_win_loss)
             server_data[DATA_KEY_FOR_SHOW_WIN_LOSS] = show_win_loss
         if show_legends is not None:
+            variable_names.append("show_legends")
+            old_values.append(server_data[DATA_KEY_FOR_SHOW_LEGENDS])
+            new_values.append(show_legends)
             server_data[DATA_KEY_FOR_SHOW_LEGENDS] = show_legends
 
+
         write_data(SERVERS_DATA_PATH, server_data, interaction.guild.id)
-        await interaction.response.send_message("Update clan data")
+        await interaction.response.send_message(embed=prep_edit_guild_embed(old_values, new_values, variable_names))
     else:
         await interaction.response.send_message("No parameter has been provided")
+
+def prep_edit_guild_embed(old_values:list, new_values:list, variable_names:list):
+    embed = Embed(title='Data Changes', description='')
+    embed.description+='**Old Values**\n'
+    for name, val in zip(variable_names, old_values):
+        embed.description+=f'- {name}: {val}\n'
+    embed.description+='**New Values**\n'
+    for name, val in zip(variable_names, new_values):
+        embed.description+=f'- {name}: {val}\n'
+    return embed
