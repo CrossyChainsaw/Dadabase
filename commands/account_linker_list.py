@@ -1,6 +1,6 @@
-from Dadabase.modules.data_management import read_data, CLANS_DATA_PATH, DATA_KEY_FOR_ACCOUNT_LINKERS
-from Dadabase.modules.command import REMOVE_SERVER_PLAYER_COMMAND
-from Dadabase.modules.format import format_embed_list
+from modules.data_management import read_data, CLANS_DATA_PATH, DATA_KEY_FOR_ACCOUNT_LINKERS
+from modules.command import REMOVE_SERVER_PLAYER_COMMAND
+from modules.format import format_embed_list
 from discord import Interaction, Embed
 import discord
 

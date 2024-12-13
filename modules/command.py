@@ -1,7 +1,7 @@
 from discord import app_commands
-from Dadabase.classes.Command import Command
+from classes.Command import Command
 
-from Dadabase.modules.data_management import FlagType
+from modules.data_management import FlagType
 
 # Defining all commands
 ACCOUNT_LINKER_LIST_COMMAND = Command(name='account_linker_list', description='List all Account Linkers (Account Linker: player that should be removed from leaderboard manually)')

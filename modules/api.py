@@ -1,7 +1,10 @@
 import aiohttp
-from Dadabase.modules.env import env_variable
+from dotenv import load_dotenv
+import os
 
-BRAWLHALLA_API_KEY = env_variable("BRAWLHALLA_API_KEY")
+load_dotenv()
+
+BRAWLHALLA_API_KEY = os.environ.get("BRAWLHALLA_API_KEY")
 
 async def fetch_player_ranked_stats(brawlhalla_id):
     url = f"https://api.brawlhalla.com/player/{brawlhalla_id}/ranked?api_key={BRAWLHALLA_API_KEY}"

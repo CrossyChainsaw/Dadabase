@@ -1,4 +1,4 @@
-from Dadabase.modules.command import ALL_COMMANDS
+from modules.command import ALL_COMMANDS
 from discord import Interaction, Embed
 
 async def help(interaction:Interaction):

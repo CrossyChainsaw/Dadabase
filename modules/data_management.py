@@ -1,7 +1,7 @@
 from enum import Enum
 import json
 from discord import app_commands
-from Dadabase.classes.Link import Link
+from classes.Link import Link
 import discord 
 
 # Paths

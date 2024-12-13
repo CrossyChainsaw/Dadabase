@@ -1,5 +1,5 @@
-from Dadabase.modules.data_management import DATA_KEY_FOR_SHOW_LEGENDS, DATA_KEY_FOR_SHOW_WIN_LOSS, DATA_KEY_FOR_SHOW_MEMBER_COUNT, DATA_KEY_FOR_SHOW_NO_ELO_PLAYERS, read_data, CLANS_DATA_PATH, write_data, DATA_KEY_FOR_SHOW_XP
-from Dadabase.modules.format import bool_to_show_hide, format_color
+from modules.data_management import DATA_KEY_FOR_SHOW_LEGENDS, DATA_KEY_FOR_SHOW_WIN_LOSS, DATA_KEY_FOR_SHOW_MEMBER_COUNT, DATA_KEY_FOR_SHOW_NO_ELO_PLAYERS, read_data, CLANS_DATA_PATH, write_data, DATA_KEY_FOR_SHOW_XP
+from modules.format import bool_to_show_hide, format_color
 from discord import Embed
 
 

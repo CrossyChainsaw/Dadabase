@@ -1,7 +1,7 @@
 import json
-from Dadabase.classes.BrawlhallaAccount import BrawlhallaAccount
-from Dadabase.modules.data_management import read_data, add_player_to_clan_data, CLANS_DATA_PATH, DATA_KEY_FOR_CONSOLE_PLAYERS
-from Dadabase.modules.validate_type import id_is_int
+from classes.BrawlhallaAccount import BrawlhallaAccount
+from modules.data_management import read_data, add_player_to_clan_data, CLANS_DATA_PATH, DATA_KEY_FOR_CONSOLE_PLAYERS
+from modules.validate_type import id_is_int
 
 async def add_console_player(interaction, brawlhalla_id, brawlhalla_name):
     if id_is_int(brawlhalla_id):

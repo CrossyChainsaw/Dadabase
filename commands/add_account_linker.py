@@ -1,7 +1,7 @@
 import json
-from Dadabase.classes.BrawlhallaAccount import BrawlhallaAccount
-from Dadabase.modules.data_management import read_data, add_player_to_clan_data, CLANS_DATA_PATH, DATA_KEY_FOR_ACCOUNT_LINKERS
-from Dadabase.modules.validate_type import id_is_int
+from classes.BrawlhallaAccount import BrawlhallaAccount
+from modules.data_management import read_data, add_player_to_clan_data, CLANS_DATA_PATH, DATA_KEY_FOR_ACCOUNT_LINKERS
+from modules.validate_type import id_is_int
 from discord import Interaction
 
 async def add_account_linker(interaction:Interaction, brawlhalla_id:int, brawlhalla_name:str):

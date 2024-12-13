@@ -1,4 +1,4 @@
-from Dadabase.modules.data_management import read_data, CLANS_DATA_PATH
+from modules.data_management import read_data, CLANS_DATA_PATH
 from discord import Interaction, Embed
 
 async def view_clan_data(interaction:Interaction):

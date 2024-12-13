@@ -3,31 +3,33 @@
 
 import discord
 from discord import app_commands
-from Dadabase.commands.account_linker_list import account_linker_list
-from Dadabase.commands.add_account_linker import add_account_linker
-from Dadabase.commands.add_console_player import add_console_player
-from Dadabase.commands.add_server_player import add_server_player
-from Dadabase.commands.console_player_list import console_player_list
-from Dadabase.commands.check import check
-from Dadabase.commands.claim import claim
-from Dadabase.commands.claim_2v2_legend import claim_2v2_legend
-from Dadabase.commands.edit_clan import edit_clan
-from Dadabase.commands.edit_server import edit_server
-from Dadabase.commands.help import help
-from Dadabase.commands.initialise_clan import initialise_clan
-from Dadabase.commands.initialise_server import initialise_server
-from Dadabase.commands.ping import ping
-from Dadabase.commands.remove_account_linker import remove_account_linker
-from Dadabase.commands.remove_console_player import remove_console_player
-from Dadabase.commands.remove_server_player import remove_server_player
-from Dadabase.commands.server_player_list import server_player_list
-from Dadabase.commands.view_clan_data import view_clan_data
-from Dadabase.modules.command import ALL_COUNTRIES, VIEW_CLAN_DATA, BRAWL_SERVERS, HELP_COMMAND, CHECK_COMMAND, CLAIM_COMMAND, CLAIM_2V2_LEGEND, INITIALISE_CLAN_COMMAND, INITIALISE_SERVER_COMMAND, CONSOLE_PLAYER_LIST, FLAG_TYPE_OPTIONS, REMOVE_ACCOUNT_LINKER_COMMAND, SERVER_PLAYER_LIST, SORTING_METHOD_OPTIONS, ACCOUNT_LINKER_LIST_COMMAND, ADD_ACCOUNT_LINKER_COMMAND, PING_COMMAND, EDIT_CLAN_COMMAND, ADD_SERVER_PLAYER_COMMAND, EDIT_SERVER_COMMAND, ADD_CONSOLE_PLAYER_COMMAND, REMOVE_SERVER_PLAYER_COMMAND, REMOVE_CONSOLE_PLAYER_COMMAND
-from Dadabase.modules.env import env_variable
-from Dadabase.modules.check_permission import has_permission
-from Dadabase.modules.data_management import FlagType
-from Dadabase.modules.keep_alive import keep_alive
+from commands.account_linker_list import account_linker_list
+from commands.add_account_linker import add_account_linker
+from commands.add_console_player import add_console_player
+from commands.add_server_player import add_server_player
+from commands.console_player_list import console_player_list
+from commands.check import check
+from commands.claim import claim
+from commands.claim_2v2_legend import claim_2v2_legend
+from commands.edit_clan import edit_clan
+from commands.edit_server import edit_server
+from commands.help import help
+from commands.initialise_clan import initialise_clan
+from commands.initialise_server import initialise_server
+from commands.ping import ping
+from commands.remove_account_linker import remove_account_linker
+from commands.remove_console_player import remove_console_player
+from commands.remove_server_player import remove_server_player
+from commands.server_player_list import server_player_list
+from commands.view_clan_data import view_clan_data
+from modules.command import ALL_COUNTRIES, VIEW_CLAN_DATA, BRAWL_SERVERS, HELP_COMMAND, CHECK_COMMAND, CLAIM_COMMAND, CLAIM_2V2_LEGEND, INITIALISE_CLAN_COMMAND, INITIALISE_SERVER_COMMAND, CONSOLE_PLAYER_LIST, FLAG_TYPE_OPTIONS, REMOVE_ACCOUNT_LINKER_COMMAND, SERVER_PLAYER_LIST, SORTING_METHOD_OPTIONS, ACCOUNT_LINKER_LIST_COMMAND, ADD_ACCOUNT_LINKER_COMMAND, PING_COMMAND, EDIT_CLAN_COMMAND, ADD_SERVER_PLAYER_COMMAND, EDIT_SERVER_COMMAND, ADD_CONSOLE_PLAYER_COMMAND, REMOVE_SERVER_PLAYER_COMMAND, REMOVE_CONSOLE_PLAYER_COMMAND
+from modules.check_permission import has_permission
+from modules.data_management import FlagType
+from modules.keep_alive import keep_alive
+from dotenv import load_dotenv
+import os
 
+load_dotenv()
 
 intents = discord.Intents.default()
 client = discord.Client(intents=intents)
@@ -245,6 +247,6 @@ async def on_ready():
 
 def run_dadabase():
     keep_alive()
-    client.run(env_variable("DADABASE_BOT_TOKEN"))
+    client.run(os.environ.get("DADABASE_BOT_TOKEN"))
     #client.run(env_variable("RANKNIR_TESTING_BOT_TOKEN"))
     return

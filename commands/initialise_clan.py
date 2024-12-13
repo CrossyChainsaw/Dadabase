@@ -1,8 +1,8 @@
 import json
 import os
-from Dadabase.modules.data_management import CLANS_DATA_PATH 
-from Dadabase.modules.command import EDIT_CLAN_COMMAND
-from Dadabase.classes.Clan import Clan
+from modules.data_management import CLANS_DATA_PATH 
+from modules.command import EDIT_CLAN_COMMAND
+from classes.Clan import Clan
 
 async def initialise_clan(interaction, clan_names: str, channel_1v1_id:str, channel_2v2_id:str, clan_id:str, color:str, image:str, sorting_method:str, show_member_count:bool, show_xp:bool, show_no_elo_players:bool, channel_rotating_id:str, server_id=None, server_name=None):
     # Convert Fields

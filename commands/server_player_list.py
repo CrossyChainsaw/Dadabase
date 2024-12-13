@@ -1,6 +1,6 @@
-from Dadabase.modules.data_management import read_data, SERVERS_DATA_PATH, DATA_KEY_FOR_SERVER_LINKS
-from Dadabase.modules.command import ADD_SERVER_PLAYER_COMMAND, REMOVE_SERVER_PLAYER_COMMAND
-from Dadabase.modules.format import format_embed_list_big
+from modules.data_management import read_data, SERVERS_DATA_PATH, DATA_KEY_FOR_SERVER_LINKS
+from modules.command import ADD_SERVER_PLAYER_COMMAND, REMOVE_SERVER_PLAYER_COMMAND
+from modules.format import format_embed_list_big
 import discord
 
 

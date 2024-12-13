@@ -1,5 +1,5 @@
 import json
-from Dadabase.modules.data_management import read_data, remove_player_from_clan_data, CLANS_DATA_PATH, DATA_KEY_FOR_ACCOUNT_LINKERS
+from modules.data_management import read_data, remove_player_from_clan_data, CLANS_DATA_PATH, DATA_KEY_FOR_ACCOUNT_LINKERS
 
 async def remove_account_linker(interaction, brawlhalla_id):
     clan_data = read_data(CLANS_DATA_PATH, interaction.guild.id)

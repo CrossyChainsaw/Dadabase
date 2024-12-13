@@ -1,8 +1,8 @@
 import json
 import os
-from Dadabase.modules.data_management import SERVERS_DATA_PATH
-from Dadabase.modules.command import EDIT_SERVER_COMMAND
-from Dadabase.classes.Server import Server
+from modules.data_management import SERVERS_DATA_PATH
+from modules.command import EDIT_SERVER_COMMAND
+from classes.Server import Server
 
 async def initialise_server(interaction, leaderboard_title, sorting_method, show_member_count, show_no_elo_players, channel_1v1_id, channel_2v2_id, channel_rotating_id, color, image, flag_type):
     # Logic

@@ -1,5 +1,5 @@
 import json
-from Dadabase.modules.data_management import read_data, write_data, SERVERS_DATA_PATH
+from modules.data_management import read_data, write_data, SERVERS_DATA_PATH
 
 async def remove_server_player(interaction, brawlhalla_id):
     server_id = interaction.guild.id

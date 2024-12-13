@@ -1,5 +1,5 @@
 import json
-from Dadabase.modules.data_management import read_data, remove_player_from_clan_data, CLANS_DATA_PATH, DATA_KEY_FOR_CONSOLE_PLAYERS
+from modules.data_management import read_data, remove_player_from_clan_data, CLANS_DATA_PATH, DATA_KEY_FOR_CONSOLE_PLAYERS
 
 
 async def remove_console_player(interaction, brawlhalla_id):

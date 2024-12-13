@@ -1,6 +1,6 @@
 
-from Dadabase.modules.format import format_color
-from Dadabase.modules.validate_type import cast_to_int
+from modules.format import format_color
+from modules.validate_type import cast_to_int
 
 
 class Server:

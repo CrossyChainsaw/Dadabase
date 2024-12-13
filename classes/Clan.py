@@ -1,5 +1,5 @@
-from Dadabase.modules.format import format_color, split_string
-from Dadabase.modules.validate_type import cast_to_int
+from modules.format import format_color, split_string
+from modules.validate_type import cast_to_int
 
 
 class Clan:

@@ -1,13 +1,18 @@
 import os
 from flask import Flask, request
 from threading import Thread
-from Dadabase.modules.data_management import read_data, CLANS_DATA_PATH, SERVERS_DATA_PATH
-from Dadabase.modules.env import env_variable
+from modules.data_management import read_data, CLANS_DATA_PATH, SERVERS_DATA_PATH
+from dotenv import load_dotenv
+import os
 
-DADABASE_API_KEY = env_variable("DADABASE_API_KEY")
-HOST_PORT = env_variable("HOST_PORT")
+load_dotenv()
+
+DADABASE_API_KEY = os.environ.get("DADABASE_API_KEY") 
+HOST_PORT = os.environ.get("HOST_PORT")
 API_ERROR_MSG = "please provide a valid api_key"
 ID_ERROR_MSG = "please provide a valid ID"
+
+
 
 app = Flask('')
 

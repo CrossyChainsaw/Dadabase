@@ -1,6 +1,6 @@
-from Dadabase.modules.data_management import read_data, write_data, CLANS_DATA_PATH, DATA_KEY_FOR_2V2_LEGENDS, BRAWLHALLA_LEGENDS, DATA_KEY_FOR_OWN_2V2_LEGEND, DATA_KEY_FOR_MATE_2V2_LEGEND
+from modules.data_management import read_data, write_data, CLANS_DATA_PATH, DATA_KEY_FOR_2V2_LEGENDS, BRAWLHALLA_LEGENDS, DATA_KEY_FOR_OWN_2V2_LEGEND, DATA_KEY_FOR_MATE_2V2_LEGEND
 
-from Dadabase.classes.BrawlhallaAccount import BrawlhallaAccount
+from classes.BrawlhallaAccount import BrawlhallaAccount
 from discord import Interaction, Embed
 
 async def claim_2v2_legend(interaction:Interaction, brawlhalla_id:int, your_legend_input:str, teammate_legend_input:str):

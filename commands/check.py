@@ -1,5 +1,5 @@
-from Dadabase.modules.data_management import embed_with_link_data, find_link, read_link_data, SERVERS_DATA_PATH, embed_no_claimed_account
-from Dadabase.classes.Link import Link
+from modules.data_management import embed_with_link_data, find_link, read_link_data, SERVERS_DATA_PATH, embed_no_claimed_account
+from classes.Link import Link
 
 
 async def check(interaction):

@@ -1,6 +1,6 @@
-from Dadabase.modules.data_management import read_data, DATA_KEY_FOR_CONSOLE_PLAYERS, CLANS_DATA_PATH
-from Dadabase.modules.command import CONSOLE_PLAYER_LIST
-from Dadabase.modules.format import format_embed_list
+from modules.data_management import read_data, DATA_KEY_FOR_CONSOLE_PLAYERS, CLANS_DATA_PATH
+from modules.command import CONSOLE_PLAYER_LIST
+from modules.format import format_embed_list
 import discord
 
 
