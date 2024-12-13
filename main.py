@@ -245,8 +245,7 @@ async def on_ready():
     await tree.sync()
     print(f'We have logged in as {client.user}')
 
-def run_dadabase():
-    keep_alive()
-    client.run(os.environ.get("DADABASE_BOT_TOKEN"))
-    #client.run(env_variable("RANKNIR_TESTING_BOT_TOKEN"))
-    return
+keep_alive()
+client.run(os.environ.get("DADABASE_BOT_TOKEN"))
+#client.run(env_variable("RANKNIR_TESTING_BOT_TOKEN"))
+
