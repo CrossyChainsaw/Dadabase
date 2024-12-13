@@ -5,7 +5,7 @@ from classes.Link import Link
 import discord 
 
 # Paths
-DADABASE_DATA_PATH = 'Dadabase/data/'
+DADABASE_DATA_PATH = 'data/'
 SERVERS_DATA_PATH = DADABASE_DATA_PATH + 'servers/'
 CLANS_DATA_PATH = DADABASE_DATA_PATH + 'clans/'
 
