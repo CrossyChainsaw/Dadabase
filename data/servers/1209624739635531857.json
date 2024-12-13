@@ -1,32 +1,19 @@
 {
     "id": 1209624739635531857,
     "name": "Brawlhalla Hungary",
-    "leaderboard_title": "Brawlhalla Hungary Leaderboard",
+    "leaderboard_title": "Szeretn\u00e9l felker\u00fclni a ranglist\u00e1ra? \u00cdrj r\u00e1 valamelyik adminra a brawlhalla ID-ddel!",
     "sorting_method": "current",
     "show_member_count": false,
     "show_no_elo_players": true,
     "channel_1v1_id": 1209633413821108274,
     "channel_2v2_id": 1226931575724179628,
     "channel_rotating_id": "",
-    "image": "",
-    "color": "0xc1253b",
+    "image": "https://cdn.discordapp.com/attachments/1314314546860658689/1314951107113648148/leaderboard.gif?ex=6755a326&is=675451a6&hm=44b1286d6232948c81c77d4847e2e73ca575a6d448ce827b8001d54c391088a9&",
+    "color": "F2D320",
     "flag_type": "no_flags",
     "show_win_loss": true,
     "show_legends": true,
     "links": [
-        {
-            "brawlhalla_id": 10241375,
-            "brawlhalla_name": "isten k\u00c3\u00bcld\u00c3\u00b6tt hajl\u00c3\u00a9ktalan",
-            "discord_id": 1121243884865990666,
-            "discord_name": "pierchy_",
-            "region": "EU",
-            "country": "",
-            "ethnicity": "",
-            "legends_for_2v2": {
-                "own_legend": "rayman",
-                "mate_legend": "sidra"
-            }
-        },
         {
             "brawlhalla_id": 1196822,
             "brawlhalla_name": "zeusz",
@@ -414,16 +401,16 @@
             }
         },
         {
-            "brawlhalla_id": 32273665,
-            "brawlhalla_name": "molo",
+            "brawlhalla_id": 44533198,
+            "brawlhalla_name": "cocacola",
             "discord_id": 386883934245486623,
             "discord_name": "vagyonor",
-            "region": "EU",
+            "region": "",
             "country": "",
             "ethnicity": "",
             "legends_for_2v2": {
-                "own_legend": "teros",
-                "mate_legend": "ulgrim"
+                "own_legend": "random",
+                "mate_legend": "random"
             }
         },
         {
@@ -437,6 +424,71 @@
             "legends_for_2v2": {
                 "own_legend": "mordex",
                 "mate_legend": "rayman"
+            }
+        },
+        {
+            "brawlhalla_id": 1099796,
+            "brawlhalla_name": "Diaszq",
+            "discord_id": 326720648162443267,
+            "discord_name": "Diaszq",
+            "region": "",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 4163415,
+            "brawlhalla_name": "UriGnt",
+            "discord_id": 227500890196672512,
+            "discord_name": "UriGnt",
+            "region": "",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 10241375,
+            "brawlhalla_name": "KONYORGOKFOGDMARBEAPOFAD",
+            "discord_id": 1121243884865990666,
+            "discord_name": "Pierchy",
+            "region": "EU",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "rayman",
+                "mate_legend": "sidra"
+            }
+        },
+        {
+            "brawlhalla_id": 51640566,
+            "brawlhalla_name": "asdelmagad34",
+            "discord_id": 371674155357175808,
+            "discord_name": "Sajt",
+            "region": "",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 86221750,
+            "brawlhalla_name": "CLN | \u00d8\u00b2\u00d9\u008a\u00d8\u00b2\u00d9\u0088",
+            "discord_id": 599312021799960586,
+            "discord_name": "Zizu",
+            "region": "",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
             }
         }
     ]

@@ -30,6 +30,13 @@
         {
             "brawlhalla_id": "607951",
             "brawlhalla_name": "Frost | Erg0"
+        },
+        {
+            "brawlhalla_id": "101494484",
+            "brawlhalla_name": "Box",
+            "discord_id": null,
+            "own_legend": "random",
+            "mate_legend": "random"
         }
     ],
     "console_players": [
@@ -44,6 +51,13 @@
         {
             "brawlhalla_id": "607951",
             "brawlhalla_name": "Frost | Erg0"
+        },
+        {
+            "brawlhalla_id": 14081096,
+            "brawlhalla_name": "Box",
+            "discord_id": null,
+            "own_legend": "random",
+            "mate_legend": "random"
         }
     ],
     "legends_for_2v2": [
@@ -51,8 +65,8 @@
             "brawlhalla_id": 7364605,
             "brawlhalla_name": "crossychainsaw",
             "discord_id": 413070742591373314,
-            "own_legend": "asuri",
-            "mate_legend": "artemis"
+            "own_legend": "rayman",
+            "mate_legend": "sidra"
         },
         {
             "brawlhalla_id": 12974529,

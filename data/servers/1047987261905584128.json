@@ -30,7 +30,11 @@
             "discord_name": "crossychainsaw",
             "region": "EU",
             "country": "NL",
-            "ethnicity": "TR"
+            "ethnicity": "TR",
+            "legends_for_2v2": {
+                "own_legend": "rayman",
+                "mate_legend": "sidra"
+            }
         },
         {
             "brawlhalla_id": 23795559,
@@ -42,13 +46,17 @@
             "ethnicity": "TR"
         },
         {
-            "brawlhalla_id": 101494484,
-            "brawlhalla_name": "M30W | Box",
+            "brawlhalla_id": 14081096,
+            "brawlhalla_name": "SiB-Box",
             "discord_id": 883264391628353566,
             "discord_name": "box",
-            "region": "",
+            "region": "EU",
             "country": "NL",
-            "ethnicity": "DZ"
+            "ethnicity": "DZ",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
         },
         {
             "brawlhalla_id": 5053135,
@@ -147,7 +155,11 @@
             "discord_name": "Blaze",
             "region": "",
             "country": "NL",
-            "ethnicity": "NL"
+            "ethnicity": "NL",
+            "legends_for_2v2": {
+                "own_legend": "ulgrim",
+                "mate_legend": "wushang"
+            }
         },
         {
             "brawlhalla_id": 40375990,
@@ -156,7 +168,11 @@
             "discord_name": "Djessir",
             "region": "",
             "country": "NL",
-            "ethnicity": "IQ"
+            "ethnicity": "IQ",
+            "legends_for_2v2": {
+                "own_legend": "ulgrim",
+                "mate_legend": "teros"
+            }
         },
         {
             "brawlhalla_id": 54342801,
@@ -174,7 +190,11 @@
             "discord_name": "Mounirr",
             "region": "",
             "country": "NL",
-            "ethnicity": "MA"
+            "ethnicity": "MA",
+            "legends_for_2v2": {
+                "own_legend": "tezca",
+                "mate_legend": "ulgrim"
+            }
         },
         {
             "brawlhalla_id": 2432342,
@@ -309,7 +329,11 @@
             "discord_name": "Siebe",
             "region": "",
             "country": "NL",
-            "ethnicity": "NL"
+            "ethnicity": "NL",
+            "legends_for_2v2": {
+                "own_legend": "tezca",
+                "mate_legend": "rayman"
+            }
         },
         {
             "brawlhalla_id": 37129340,
@@ -453,7 +477,11 @@
             "discord_name": "HaciTCH",
             "region": "",
             "country": "NL",
-            "ethnicity": "TR"
+            "ethnicity": "TR",
+            "legends_for_2v2": {
+                "own_legend": "zariel",
+                "mate_legend": "ulgrim"
+            }
         },
         {
             "brawlhalla_id": 4163826,
@@ -462,7 +490,11 @@
             "discord_name": "Thorthrum",
             "region": "",
             "country": "NL",
-            "ethnicity": "NL"
+            "ethnicity": "NL",
+            "legends_for_2v2": {
+                "own_legend": "val",
+                "mate_legend": "random"
+            }
         },
         {
             "brawlhalla_id": 4446680,
@@ -967,6 +999,84 @@
             "region": "EU",
             "country": "NL",
             "ethnicity": "NL"
+        },
+        {
+            "brawlhalla_id": 23675516,
+            "brawlhalla_name": "< blank >",
+            "discord_id": 471361900362465290,
+            "discord_name": "noname_6",
+            "region": "EU",
+            "country": "BE",
+            "ethnicity": "BE",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 91769535,
+            "brawlhalla_name": "NotTonivic_",
+            "discord_id": 963773046634709002,
+            "discord_name": "tonivic_",
+            "region": "EU",
+            "country": "NL",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 55629292,
+            "brawlhalla_name": "Mythic_Ben",
+            "discord_id": 1165051355006775348,
+            "discord_name": "mythic_ben",
+            "region": "EU",
+            "country": "NL",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "koji",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 11866475,
+            "brawlhalla_name": "braychelon",
+            "discord_id": 390500933328568335,
+            "discord_name": "lontje010",
+            "region": "EU",
+            "country": "NL",
+            "ethnicity": "CW",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 17225224,
+            "brawlhalla_name": "",
+            "discord_id": 762671497223077898,
+            "discord_name": "jonathan027",
+            "region": "EU",
+            "country": "NL",
+            "ethnicity": "NL",
+            "legends_for_2v2": {
+                "own_legend": "brynn",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 14443581,
+            "brawlhalla_name": "D_vanio-GV",
+            "discord_id": 584477047762583562,
+            "discord_name": "d.vanio",
+            "region": "EU",
+            "country": "NL",
+            "ethnicity": "SR",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
         }
     ]
 }

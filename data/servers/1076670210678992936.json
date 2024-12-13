@@ -1,7 +1,7 @@
 {
     "id": 1076670210678992936,
     "name": "M30W",
-    "leaderboard_title": "meow meow meow",
+    "leaderboard_title": "meo meow meow \ud83d\ude3a\ud83d\ude3a",
     "sorting_method": "peak",
     "show_member_count": true,
     "show_no_elo_players": true,
@@ -91,13 +91,17 @@
             "ethnicity": ""
         },
         {
-            "brawlhalla_id": 101494484,
-            "brawlhalla_name": "M30W | Box",
+            "brawlhalla_id": 14081096,
+            "brawlhalla_name": "SiB-Box",
             "discord_id": 883264391628353566,
             "discord_name": "boxbh",
             "region": "EU",
-            "country": "",
-            "ethnicity": ""
+            "country": "NL",
+            "ethnicity": "NL",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
         },
         {
             "brawlhalla_id": 9279884,
@@ -777,6 +781,32 @@
             "ethnicity": "TR",
             "legends_for_2v2": {
                 "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 91535224,
+            "brawlhalla_name": "Nexus1239",
+            "discord_id": 991441469380493362,
+            "discord_name": "nexus1239",
+            "region": "EU",
+            "country": "FR",
+            "ethnicity": "FR",
+            "legends_for_2v2": {
+                "own_legend": "munin",
+                "mate_legend": "diana"
+            }
+        },
+        {
+            "brawlhalla_id": 359116162,
+            "brawlhalla_name": "",
+            "discord_id": 977962034870251550,
+            "discord_name": "deizz0409",
+            "region": "EU",
+            "country": "ES",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "rayman",
                 "mate_legend": "random"
             }
         }
