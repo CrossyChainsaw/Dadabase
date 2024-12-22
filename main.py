@@ -27,6 +27,10 @@ from Dadabase.modules.env import env_variable
 from Dadabase.modules.check_permission import has_permission
 from Dadabase.modules.data_management import FlagType
 from Dadabase.modules.keep_alive import keep_alive
+from Dadabase.modules.env import env_variable
+
+DADABASE_ACTIVE = env_variable("DADABASE_ACTIVE")
+DADABASE_TESTING = env_variable("DADABASE_TESTING")
 
 
 intents = discord.Intents.default()
@@ -244,7 +248,9 @@ async def on_ready():
     print(f'We have logged in as {client.user}')
 
 def run_dadabase():
-    keep_alive()
-    client.run(env_variable("DADABASE_BOT_TOKEN"))
-    #client.run(env_variable("RANKNIR_TESTING_BOT_TOKEN"))
-    return
+    if DADABASE_ACTIVE:
+        keep_alive()
+        client.run(env_variable("DADABASE_BOT_TOKEN"))
+    if DADABASE_TESTING:
+        keep_alive()
+        client.run(env_variable("RANKNIR_TESTING_BOT_TOKEN"))
