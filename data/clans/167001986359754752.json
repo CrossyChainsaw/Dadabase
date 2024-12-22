@@ -17,7 +17,8 @@
     "show_xp": true,
     "show_no_elo_players": true,
     "show_win_loss": true,
-    "show_legends": true,
+    "show_1v1_legends": true,
+    "show_2v2_legends": true,
     "account_linkers": [
         {
             "brawlhalla_id": "7013979",

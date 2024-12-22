@@ -17,7 +17,8 @@
     "show_xp": false,
     "show_no_elo_players": true,
     "show_win_loss": true,
-    "show_legends": true,
+    "show_1v1_legends": true,
+    "show_2v2_legends": false,
     "account_linkers": [],
     "console_players": [],
     "legends_for_2v2": []
