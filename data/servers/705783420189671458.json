@@ -12,7 +12,8 @@
     "color": "0xFFFFFF",
     "flag_type": "region",
     "show_win_loss": true,
-    "show_legends": true,
+    "show_1v1_legends": true,
+    "show_2v2_legends": true,
     "links": [
         {
             "brawlhalla_id": 1196822,
