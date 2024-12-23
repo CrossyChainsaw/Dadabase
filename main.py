@@ -118,21 +118,36 @@ async def console_player_list_command(interaction):
 @app_commands.describe(sorting_method="What elo should be prioritised?")
 @app_commands.choices(sorting_method=SORTING_METHOD_OPTIONS)
 async def edit_clan_command(interaction, 
+                            leaderboard_title:str=None,
                             color:str=None, 
                             image:str=None, 
                             channel_1v1_id:str=None, 
                             channel_2v2_id:str=None, 
+                            
                             channel_rotating_id:str = None,
-                            sorting_method:str=None, 
+                            sorting_method:app_commands.Choice[str]=None, 
                             show_member_count:bool=None, 
                             show_xp:bool=None, 
                             show_no_elo_players:bool=None,
                             show_win_loss:bool=None,
-                            show_legends:bool=None, 
+                            show_1v1_legends:bool=None, 
+                            show_2v2_legends:bool=None
                             ):
-    await edit_clan(interaction, channel_1v1_id, channel_2v2_id, 
-                    color, image, sorting_method, show_member_count, 
-                    show_xp, show_no_elo_players, channel_rotating_id, show_win_loss, show_legends)
+    await edit_clan(interaction, 
+                    leaderboard_title,
+                    sorting_method, 
+                    show_member_count, 
+                    show_no_elo_players, 
+                    
+                    channel_1v1_id, 
+                    channel_2v2_id, 
+                    channel_rotating_id, 
+                    image, 
+                    color, 
+                    show_xp, 
+                    show_win_loss, 
+                    show_1v1_legends,
+                    show_2v2_legends)
 
 
 @tree.command(name=EDIT_SERVER_COMMAND.name, description=EDIT_SERVER_COMMAND.description)
@@ -146,6 +161,7 @@ async def edit_server_command(interaction,
                               sorting_method:app_commands.Choice[str]=None, 
                               show_member_count:bool=None, 
                               show_no_elo_players:bool=None, 
+
                               channel_1v1_id:str=None, 
                               channel_2v2_id:str=None, 
                               channel_rotating_id:str = None, 
@@ -153,8 +169,24 @@ async def edit_server_command(interaction,
                               color:str=None, 
                               flag_type:app_commands.Choice[str]=None,
                               show_win_loss:bool=None,
-                              show_legends:bool=None):
-    await edit_server(interaction, leaderboard_title, sorting_method, show_member_count, show_no_elo_players, channel_1v1_id, channel_2v2_id, channel_rotating_id, image, color, flag_type, show_win_loss, show_legends)
+                              show_1v1_legends:bool=None,
+                              show_2v2_legends:bool=None,
+                              ):
+    await edit_server(interaction, 
+                      leaderboard_title, 
+                      sorting_method, 
+                      show_member_count, 
+                      show_no_elo_players, 
+                      
+                      channel_1v1_id, 
+                      channel_2v2_id, 
+                      channel_rotating_id, 
+                      image, 
+                      color, 
+                      flag_type, 
+                      show_win_loss, 
+                      show_1v1_legends,
+                      show_2v2_legends)
 
 
 @tree.command(name=HELP_COMMAND.name, description=HELP_COMMAND.description)

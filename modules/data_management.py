@@ -19,7 +19,9 @@ DATA_KEY_FOR_2V2_LEGENDS = 'legends_for_2v2'
 DATA_KEY_FOR_OWN_2V2_LEGEND = 'own_legend'
 DATA_KEY_FOR_MATE_2V2_LEGEND = 'mate_legend'
 DATA_KEY_FOR_SHOW_WIN_LOSS = 'show_win_loss'
-DATA_KEY_FOR_SHOW_LEGENDS = 'show_legends'
+DATA_KEY_FOR_SHOW_1V1_LEGENDS = 'show_1v1_legends'
+DATA_KEY_FOR_SHOW_2V2_LEGENDS = 'show_2v2_legends'
+
 # Server
 DATA_KEY_FOR_SERVER_ID = 'id'
 DATA_KEY_FOR_SERVER_NAME = "name"
