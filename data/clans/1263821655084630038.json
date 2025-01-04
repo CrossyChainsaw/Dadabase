@@ -1,0 +1,22 @@
+{
+    "server_name": "EISEN",
+    "clan_names": ["Eisen"],
+    "discord_server_id": "1263821655084630038",
+    "id_array": ["833565"],
+    "color": "0x000000",
+    "image": "https://cdn.discordapp.com/attachments/1058142341225009182/1322314178773389352/Eisen.png?ex=67706c8b&is=676f1b0b&hm=982cfc28aa726ec225d409ce8b1e13dfec0b693d8e6638ba52b93e6d374e7d86&",
+    "channel_1v1_id": 1292948091715981312,
+    "channel_2v2_id": 1322313571476181083,
+    "channel_rotating_id": null,
+    "sorting_method": "peak",
+    "show_member_count": true,
+    "show_xp": true,
+    "show_no_elo_players": true,
+    "show_win_loss": true,
+    "show_1v1_legends": true,
+    "show_2v2_legends": false,
+    "show_average_elo": true,
+    "account_linkers": [],
+    "console_players": [],
+    "legends_for_2v2": []
+}
