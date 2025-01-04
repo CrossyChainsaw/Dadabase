@@ -7,7 +7,7 @@ class Clan:
                  channel_2v2_id:int, clan_ids:str, color:str, image:str, 
                  server_id:str, sorting_method:str='current', show_member_count:bool=True, 
                  show_xp:bool=False, show_no_elo_players:bool=False, 
-                 channel_rotating_id:str = None, show_win_loss=True, show_1v1_legends=True, show_2v2_legends=True, 
+                 channel_rotating_id:str = None, show_win_loss=True, show_1v1_legends=True, show_2v2_legends=True, show_average_elo=True, 
                  account_linkers=[], console_players=[], legends_for_2v2=[]):
         
         # Convert Fields
@@ -38,6 +38,7 @@ class Clan:
         self.show_win_loss = show_win_loss
         self.show_1v1_legends = show_1v1_legends
         self.show_2v2_legends = show_2v2_legends
+        self.show_average_elo = show_average_elo
 
         # Empty Arrays
         self.account_linkers = account_linkers
