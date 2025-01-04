@@ -231,13 +231,17 @@
             "ethnicity": ""
         },
         {
-            "brawlhalla_id": 81888649,
-            "brawlhalla_name": "M3W | ZainTheVain",
+            "brawlhalla_id": 33612793,
+            "brawlhalla_name": "ZainTheVain",
             "discord_id": 681972514397618214,
             "discord_name": "zainthevain",
             "region": "USE",
             "country": "",
-            "ethnicity": ""
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
         },
         {
             "brawlhalla_id": 80675183,
@@ -808,6 +812,19 @@
             "ethnicity": "",
             "legends_for_2v2": {
                 "own_legend": "rayman",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 4813866,
+            "brawlhalla_name": "Mordex Player",
+            "discord_id": 303393184648658944,
+            "discord_name": "the_braziliandude",
+            "region": "USE",
+            "country": "CA",
+            "ethnicity": "BR",
+            "legends_for_2v2": {
+                "own_legend": "random",
                 "mate_legend": "random"
             }
         }

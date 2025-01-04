@@ -33,8 +33,8 @@
             "country": "NL",
             "ethnicity": "TR",
             "legends_for_2v2": {
-                "own_legend": "rayman",
-                "mate_legend": "sidra"
+                "own_legend": "brynn",
+                "mate_legend": "cassidy"
             }
         },
         {
@@ -1076,6 +1076,19 @@
             "ethnicity": "SR",
             "legends_for_2v2": {
                 "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 5178622,
+            "brawlhalla_name": "Cat with a Hat",
+            "discord_id": 378192155048542208,
+            "discord_name": "catwithahat",
+            "region": "EU",
+            "country": "NL",
+            "ethnicity": "NL",
+            "legends_for_2v2": {
+                "own_legend": "brynn",
                 "mate_legend": "random"
             }
         }
