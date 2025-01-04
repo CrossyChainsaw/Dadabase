@@ -131,7 +131,8 @@ async def edit_clan_command(interaction,
                             show_no_elo_players:bool=None,
                             show_win_loss:bool=None,
                             show_1v1_legends:bool=None, 
-                            show_2v2_legends:bool=None
+                            show_2v2_legends:bool=None,
+                            show_average_elo:bool=None
                             ):
     await edit_clan(interaction, 
                     leaderboard_title,
@@ -147,7 +148,8 @@ async def edit_clan_command(interaction,
                     show_xp, 
                     show_win_loss, 
                     show_1v1_legends,
-                    show_2v2_legends)
+                    show_2v2_legends,
+                    show_average_elo)
 
 
 @tree.command(name=EDIT_SERVER_COMMAND.name, description=EDIT_SERVER_COMMAND.description)

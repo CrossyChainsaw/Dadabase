@@ -1,4 +1,4 @@
-from Dadabase.modules.data_management import DATA_KEY_FOR_SHOW_1V1_LEGENDS, DATA_KEY_FOR_SHOW_2V2_LEGENDS, DATA_KEY_FOR_SHOW_WIN_LOSS, DATA_KEY_FOR_SHOW_MEMBER_COUNT, DATA_KEY_FOR_SHOW_NO_ELO_PLAYERS, read_data, CLANS_DATA_PATH, write_data, DATA_KEY_FOR_SHOW_XP
+from Dadabase.modules.data_management import DATA_KEY_FOR_SHOW_AVERAGE_ELO, DATA_KEY_FOR_SHOW_1V1_LEGENDS, DATA_KEY_FOR_SHOW_2V2_LEGENDS, DATA_KEY_FOR_SHOW_WIN_LOSS, DATA_KEY_FOR_SHOW_MEMBER_COUNT, DATA_KEY_FOR_SHOW_NO_ELO_PLAYERS, read_data, CLANS_DATA_PATH, write_data, DATA_KEY_FOR_SHOW_XP
 from Dadabase.modules.format import bool_to_show_hide, format_color
 from discord import Embed
 
@@ -17,7 +17,8 @@ async def edit_clan(interaction,
                     show_no_elo_players:bool, 
                     show_win_loss:bool, 
                     show_1v1_legends:bool, 
-                    show_2v2_legends:bool):
+                    show_2v2_legends:bool,
+                    show_average_elo:bool):
     # load data
     clan_data = read_data(CLANS_DATA_PATH, interaction.guild.id)
     # Check if any parameter has been filled in
@@ -34,7 +35,8 @@ async def edit_clan(interaction,
             show_no_elo_players is not None, 
             show_win_loss is not None, 
             show_1v1_legends is not None,
-            show_2v2_legends is not None]):
+            show_2v2_legends is not None,
+            show_average_elo is not None]):
 
         # Update clan_data with non-empty parameters
         variable_names = []
@@ -109,6 +111,11 @@ async def edit_clan(interaction,
             old_values.append(clan_data.get(DATA_KEY_FOR_SHOW_2V2_LEGENDS))
             new_values.append(show_2v2_legends)
             clan_data[DATA_KEY_FOR_SHOW_2V2_LEGENDS] = show_2v2_legends
+        if show_average_elo is not None:
+            variable_names.append(DATA_KEY_FOR_SHOW_AVERAGE_ELO)
+            old_values.append(clan_data.get(DATA_KEY_FOR_SHOW_AVERAGE_ELO))
+            new_values.append(show_average_elo)
+            clan_data[DATA_KEY_FOR_SHOW_AVERAGE_ELO] = show_average_elo
             
 
         write_data(CLANS_DATA_PATH, clan_data, interaction.guild.id)
