@@ -19,6 +19,7 @@
     "show_win_loss": true,
     "show_1v1_legends": true,
     "show_2v2_legends": true,
+    "show_average_elo": false,
     "account_linkers": [
         {
             "brawlhalla_id": "7013979",
@@ -82,7 +83,7 @@
             "brawlhalla_id": 7364605,
             "brawlhalla_name": "crossychainsaw",
             "discord_id": 413070742591373314,
-            "own_legend": "rayman",
+            "own_legend": "brynn",
             "mate_legend": "sidra"
         },
         {
