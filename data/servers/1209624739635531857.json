@@ -377,15 +377,15 @@
         },
         {
             "brawlhalla_id": 97639933,
-            "brawlhalla_name": "barou",
+            "brawlhalla_name": "",
             "discord_id": 920820686753267722,
             "discord_name": "csillagszemu",
             "region": "EU",
             "country": "",
             "ethnicity": "",
             "legends_for_2v2": {
-                "own_legend": "tezca",
-                "mate_legend": "random"
+                "own_legend": "ulgrim",
+                "mate_legend": "wu shang"
             }
         },
         {

@@ -1091,6 +1091,19 @@
                 "own_legend": "brynn",
                 "mate_legend": "random"
             }
+        },
+        {
+            "brawlhalla_id": 43624655,
+            "brawlhalla_name": "",
+            "discord_id": 670539393605566465,
+            "discord_name": "amethyst_deweytsie",
+            "region": "EU",
+            "country": "BE",
+            "ethnicity": "BE",
+            "legends_for_2v2": {
+                "own_legend": "seven",
+                "mate_legend": "random"
+            }
         }
     ]
 }
