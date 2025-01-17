@@ -20,6 +20,7 @@
     "show_1v1_legends": true,
     "show_2v2_legends": true,
     "show_average_elo": true,
+    "corehalla_links": true,
     "account_linkers": [
         {
             "brawlhalla_id": "7013979",
