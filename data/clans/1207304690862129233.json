@@ -20,6 +20,7 @@
     "show_1v1_legends": true,
     "show_2v2_legends": false,
     "show_average_elo": true,
+    "corehalla_links": true,
     "account_linkers": [],
     "console_players": [],
     "legends_for_2v2": [
