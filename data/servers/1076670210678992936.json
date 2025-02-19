@@ -827,6 +827,45 @@
                 "own_legend": "random",
                 "mate_legend": "random"
             }
+        },
+        {
+            "brawlhalla_id": 63841771,
+            "brawlhalla_name": "AiryWasThere",
+            "discord_id": 844545739153735720,
+            "discord_name": "airywasthere",
+            "region": "USE",
+            "country": "US",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 8830089,
+            "brawlhalla_name": "twitch.tv/underfoxx",
+            "discord_id": 343361847631675404,
+            "discord_name": "underfoxx",
+            "region": "EU",
+            "country": "FR",
+            "ethnicity": "FR",
+            "legends_for_2v2": {
+                "own_legend": "val",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 85647493,
+            "brawlhalla_name": "rjaguar3",
+            "discord_id": 390672080158457856,
+            "discord_name": "rjaguar3",
+            "region": "USW",
+            "country": "US",
+            "ethnicity": "US",
+            "legends_for_2v2": {
+                "own_legend": "hattori",
+                "mate_legend": "random"
+            }
         }
     ]
 }

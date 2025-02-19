@@ -26,15 +26,15 @@
         },
         {
             "brawlhalla_id": 7364605,
-            "brawlhalla_name": "CrossyChainsaw",
+            "brawlhalla_name": "DailyDiarrhea | CRO",
             "discord_id": 413070742591373314,
             "discord_name": "crossychainsaw",
             "region": "EU",
             "country": "NL",
             "ethnicity": "TR",
             "legends_for_2v2": {
-                "own_legend": "brynn",
-                "mate_legend": "cassidy"
+                "own_legend": "asuri",
+                "mate_legend": "artemis"
             }
         },
         {
@@ -1102,6 +1102,19 @@
             "ethnicity": "BE",
             "legends_for_2v2": {
                 "own_legend": "seven",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 39014873,
+            "brawlhalla_name": "Antwerpennn",
+            "discord_id": 924058778750554213,
+            "discord_name": "mdsociaal",
+            "region": "EU",
+            "country": "BE",
+            "ethnicity": "MA",
+            "legends_for_2v2": {
+                "own_legend": "random",
                 "mate_legend": "random"
             }
         }
