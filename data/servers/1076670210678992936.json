@@ -866,6 +866,32 @@
                 "own_legend": "hattori",
                 "mate_legend": "random"
             }
+        },
+        {
+            "brawlhalla_id": 19623265,
+            "brawlhalla_name": "k2z5",
+            "discord_id": 493157263679160321,
+            "discord_name": "poodaig",
+            "region": "USE",
+            "country": "US",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "onyx",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 65781772,
+            "brawlhalla_name": "M3W | Dynasty",
+            "discord_id": 553676449588969473,
+            "discord_name": "chr1ssy.",
+            "region": "USE",
+            "country": "US",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "onyx"
+            }
         }
     ]
 }

@@ -519,11 +519,24 @@
             }
         },
         {
-            "brawlhalla_id": 5992908,
-            "brawlhalla_name": ".Veky",
+            "brawlhalla_id": 2097151,
+            "brawlhalla_name": "",
             "discord_id": 197702033384538112,
             "discord_name": "1571.",
-            "region": "",
+            "region": "EU",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 58367575,
+            "brawlhalla_name": "AliveFox",
+            "discord_id": 507914620804136990,
+            "discord_name": "aliveefox",
+            "region": "EU",
             "country": "",
             "ethnicity": "",
             "legends_for_2v2": {

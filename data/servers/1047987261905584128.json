@@ -1117,6 +1117,19 @@
                 "own_legend": "random",
                 "mate_legend": "random"
             }
+        },
+        {
+            "brawlhalla_id": 11436209,
+            "brawlhalla_name": "Cemm010_",
+            "discord_id": 666035268813324288,
+            "discord_name": "cemm010_0102",
+            "region": "EU",
+            "country": "NL",
+            "ethnicity": "NL",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
         }
     ]
 }
