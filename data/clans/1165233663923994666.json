@@ -1,0 +1,23 @@
+{
+    "server_name": "Shaw Cool Thing",
+    "clan_names": ["Shaw Hammer Legends"],
+    "discord_server_id": "1165233663923994666",
+    "id_array": ["2501679"],
+    "color": "0x0000ff",
+    "image": "https://cdn.discordapp.com/attachments/864102882026455110/1356686618257391780/ham.png?ex=67ed785f&is=67ec26df&hm=70dc1c7f58cd847a54bc39f38d66f5e91f0de551b83dd17112f896e9f87ad1a5&",
+    "channel_1v1_id": 1166526510526631998,
+    "channel_2v2_id": 1173667369160298506,
+    "channel_rotating_id": null,
+    "sorting_method": "peak",
+    "show_member_count": true,
+    "show_xp": false,
+    "show_no_elo_players": false,
+    "show_win_loss": true,
+    "show_1v1_legends": true,
+    "show_2v2_legends": false,
+    "show_average_elo": true,
+    "corehalla_links": true,
+    "account_linkers": [],
+    "console_players": [],
+    "legends_for_2v2": []
+}

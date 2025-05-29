@@ -132,15 +132,6 @@
             "ethnicity": ""
         },
         {
-            "brawlhalla_id": 6504314,
-            "brawlhalla_name": "Duugu.",
-            "discord_id": 280028216457166849,
-            "discord_name": "duugu.",
-            "region": "EU",
-            "country": "",
-            "ethnicity": ""
-        },
-        {
             "brawlhalla_id": 19896714,
             "brawlhalla_name": "BIastahh",
             "discord_id": 601956411789803540,
@@ -204,15 +195,6 @@
             "ethnicity": ""
         },
         {
-            "brawlhalla_id": 2525343,
-            "brawlhalla_name": "Yeeto",
-            "discord_id": 268826654032265216,
-            "discord_name": "siebah",
-            "region": "EU",
-            "country": "",
-            "ethnicity": ""
-        },
-        {
             "brawlhalla_id": 9227241,
             "brawlhalla_name": "pwikoo",
             "discord_id": 282674296860442626,
@@ -248,15 +230,6 @@
             "brawlhalla_name": "M3W | 141Ghost",
             "discord_id": 875870227999633448,
             "discord_name": "ghost.3d",
-            "region": "",
-            "country": "",
-            "ethnicity": ""
-        },
-        {
-            "brawlhalla_id": 36601090,
-            "brawlhalla_name": "Cyclonix",
-            "discord_id": 392415551357714432,
-            "discord_name": "cyclonix",
             "region": "",
             "country": "",
             "ethnicity": ""
@@ -325,24 +298,6 @@
             "ethnicity": ""
         },
         {
-            "brawlhalla_id": 27492017,
-            "brawlhalla_name": "M30W|JiroToDeath\u00e2\u0084\u00a2",
-            "discord_id": 338427554895757312,
-            "discord_name": "jirotodeath",
-            "region": "",
-            "country": "",
-            "ethnicity": ""
-        },
-        {
-            "brawlhalla_id": 23470942,
-            "brawlhalla_name": "M30W | sirlagsalot",
-            "discord_id": 1005306380778995752,
-            "discord_name": "sirlagsop",
-            "region": "",
-            "country": "",
-            "ethnicity": ""
-        },
-        {
             "brawlhalla_id": 65620467,
             "brawlhalla_name": "ST | Senshi Haru <3",
             "discord_id": 546492201555722240,
@@ -368,15 +323,6 @@
             "region": "SEA",
             "country": "JP",
             "ethnicity": "JP"
-        },
-        {
-            "brawlhalla_id": 6560836,
-            "brawlhalla_name": "M30W | sphynx",
-            "discord_id": 295073416879407104,
-            "discord_name": "notsphynx",
-            "region": "",
-            "country": "",
-            "ethnicity": ""
         },
         {
             "brawlhalla_id": 84060148,
@@ -413,15 +359,6 @@
             "region": "",
             "country": "",
             "ethnicity": ""
-        },
-        {
-            "brawlhalla_id": 9777754,
-            "brawlhalla_name": "",
-            "discord_id": 844082157768540161,
-            "discord_name": "caxtun",
-            "region": "",
-            "country": "US",
-            "ethnicity": "US"
         },
         {
             "brawlhalla_id": 56373737,
@@ -477,15 +414,6 @@
             "brawlhalla_name": "ZiGZag",
             "discord_id": 567322399477989396,
             "discord_name": "shtepp",
-            "region": "EU",
-            "country": "",
-            "ethnicity": ""
-        },
-        {
-            "brawlhalla_id": 31376067,
-            "brawlhalla_name": "vshq",
-            "discord_id": 361886500520198146,
-            "discord_name": "queen.lexa",
             "region": "EU",
             "country": "",
             "ethnicity": ""
@@ -552,15 +480,6 @@
             "region": "USE",
             "country": "CA",
             "ethnicity": "SY"
-        },
-        {
-            "brawlhalla_id": 30470375,
-            "brawlhalla_name": "M3W SteeL | Seiya",
-            "discord_id": 726922911494963251,
-            "discord_name": "whoisseiya",
-            "region": "BRS",
-            "country": "BR",
-            "ethnicity": "BR"
         },
         {
             "brawlhalla_id": 6318907,
@@ -891,6 +810,97 @@
             "legends_for_2v2": {
                 "own_legend": "random",
                 "mate_legend": "onyx"
+            }
+        },
+        {
+            "brawlhalla_id": 54978885,
+            "brawlhalla_name": "Ch1ptuned",
+            "discord_id": 346598763369857025,
+            "discord_name": "ch1ptuned",
+            "region": "EU",
+            "country": "NL",
+            "ethnicity": "NL",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 33116656,
+            "brawlhalla_name": "megd",
+            "discord_id": 563550198681567243,
+            "discord_name": "megdyy",
+            "region": "",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 9144432,
+            "brawlhalla_name": "lores",
+            "discord_id": 1086349597380710551,
+            "discord_name": "loreszz",
+            "region": "",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 14711322,
+            "brawlhalla_name": "",
+            "discord_id": 275022548297842698,
+            "discord_name": "fiend09",
+            "region": "",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 104002853,
+            "brawlhalla_name": "M30W | Moni",
+            "discord_id": 777663893731934278,
+            "discord_name": "monihalla",
+            "region": "",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 42428674,
+            "brawlhalla_name": "",
+            "discord_id": 473516021911650325,
+            "discord_name": "guichabou",
+            "region": "",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 38183199,
+            "brawlhalla_name": "Matheus200k10",
+            "discord_id": 709229568241958933,
+            "discord_name": "matheus200k10",
+            "region": "",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
             }
         }
     ]

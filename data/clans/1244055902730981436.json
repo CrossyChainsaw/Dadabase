@@ -1,0 +1,22 @@
+{
+    "server_name": "Client eSports",
+    "clan_names": ["Client Org", "Client", "Client II"],
+    "discord_server_id": "1244055902730981436",
+    "id_array": ["2372717", "2376196", "2372721"],
+    "color": "0xff5858",
+    "image": "",
+    "channel_1v1_id": 1353757765746561155,
+    "channel_2v2_id": 1353757783253581908,
+    "channel_rotating_id": 0,
+    "sorting_method": "current",
+    "show_member_count": true,
+    "show_xp": true,
+    "show_no_elo_players": true,
+    "show_win_loss": true,
+    "show_1v1_legends": false,
+    "show_2v2_legends": false,
+    "show_average_elo": true,
+    "account_linkers": [],
+    "console_players": [],
+    "legends_for_2v2": []
+}

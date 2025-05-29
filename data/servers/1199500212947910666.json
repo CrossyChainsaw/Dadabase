@@ -1,0 +1,669 @@
+{
+    "id": 1199500212947910666,
+    "name": "Legion",
+    "leaderboard_title": "Legion Top 50",
+    "sorting_method": "current",
+    "show_member_count": false,
+    "show_no_elo_players": true,
+    "channel_1v1_id": 1360716247662330037,
+    "channel_2v2_id": 1360716407414985036,
+    "channel_rotating_id": 1360716631252275281,
+    "image": "",
+    "color": "000000",
+    "flag_type": "region",
+    "show_win_loss": true,
+    "show_1v1_legends": true,
+    "show_2v2_legends": true,
+    "links": [
+        {
+            "brawlhalla_id": 24573001,
+            "brawlhalla_name": "LGN | Bubba!",
+            "discord_id": 1320653841149984809,
+            "discord_name": "Hexo",
+            "region": "USE",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 8821632,
+            "brawlhalla_name": "LGN | AyoBlue",
+            "discord_id": 365499293357834240,
+            "discord_name": "AyoBlue",
+            "region": "USE",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 19710956,
+            "brawlhalla_name": "HaLoPrincE XII",
+            "discord_id": 588549546699784203,
+            "discord_name": "LGN | HaLo",
+            "region": "USE",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 10374431,
+            "brawlhalla_name": "TheLeo",
+            "discord_id": 496289008754622464,
+            "discord_name": "TheLeo",
+            "region": "EU",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 3138661,
+            "brawlhalla_name": "Legion | SQUAR2D",
+            "discord_id": 1135730551534387395,
+            "discord_name": "SQUAR2D",
+            "region": "USE",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 20778713,
+            "brawlhalla_name": "M30W | BBBalloonBoy",
+            "discord_id": 729711524851220490,
+            "discord_name": "Balloon",
+            "region": "USE",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 3540146,
+            "brawlhalla_name": "LGN | Fezaru80",
+            "discord_id": 285422838544990211,
+            "discord_name": "Fezaru80",
+            "region": "EU",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 71837320,
+            "brawlhalla_name": "yokey plays brawlhalla",
+            "discord_id": 946173033394094110,
+            "discord_name": "yokey",
+            "region": "USE",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 84060148,
+            "brawlhalla_name": "sea",
+            "discord_id": 1059138381696745512,
+            "discord_name": "sea",
+            "region": "BRS",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 6347429,
+            "brawlhalla_name": "LGN | Hybrid",
+            "discord_id": 541387068820160512,
+            "discord_name": "LGN | Hybrid",
+            "region": "USE",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 77600655,
+            "brawlhalla_name": "Legion | kaiser",
+            "discord_id": 664444618657759232,
+            "discord_name": "kaiser",
+            "region": "BRS",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 81539909,
+            "brawlhalla_name": "LGN | Mario",
+            "discord_id": 589425279970181140,
+            "discord_name": "genga199",
+            "region": "EU",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 75425365,
+            "brawlhalla_name": "LGN | ma nji",
+            "discord_id": 1267914054349881385,
+            "discord_name": "manji",
+            "region": "BRS",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 7672568,
+            "brawlhalla_name": "Legion | Thaiph",
+            "discord_id": 401422216421703690,
+            "discord_name": "Thaiph",
+            "region": "BRS",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 51453522,
+            "brawlhalla_name": "athena",
+            "discord_id": 270773105755029514,
+            "discord_name": "athena.irl",
+            "region": "USE",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 10238751,
+            "brawlhalla_name": "LGN | SpaceFGC",
+            "discord_id": 522039840850837518,
+            "discord_name": "ThisSpace",
+            "region": "BRS",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 63921575,
+            "brawlhalla_name": "vGosu--",
+            "discord_id": 1100257395088834620,
+            "discord_name": "vgosu",
+            "region": "USE",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 8868293,
+            "brawlhalla_name": "LGN | a2lol",
+            "discord_id": 568850808356208701,
+            "discord_name": "a2lol",
+            "region": "EU",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 6879048,
+            "brawlhalla_name": "LGN | Sim\u00c3\u00b8?.exe",
+            "discord_id": 517075058301337600,
+            "discord_name": "simo",
+            "region": "EU",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 83754938,
+            "brawlhalla_name": "LGN | plxnt",
+            "discord_id": 873751016493973504,
+            "discord_name": "dxplxnt",
+            "region": "USE",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 106712881,
+            "brawlhalla_name": "LGN | Luigi",
+            "discord_id": 788324270496546847,
+            "discord_name": "rosatz",
+            "region": "EU",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 86808996,
+            "brawlhalla_name": "Legion | Cr\u00c3\u00b8nus?",
+            "discord_id": 984809944668860456,
+            "discord_name": "cronus",
+            "region": "USE",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 59129149,
+            "brawlhalla_name": "seabass",
+            "discord_id": 893346351096692766,
+            "discord_name": "seabass",
+            "region": "USE",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 86980826,
+            "brawlhalla_name": "LGN | Pikadagod",
+            "discord_id": 1129852931601088563,
+            "discord_name": "pikadagod",
+            "region": "USE",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 3935531,
+            "brawlhalla_name": "Worse Then Console Setup",
+            "discord_id": 288819490081210370,
+            "discord_name": "thefaith",
+            "region": "USE",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 1207956,
+            "brawlhalla_name": "LGN | Kaz",
+            "discord_id": 268734132287176705,
+            "discord_name": "kazumi",
+            "region": "EU",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 9391317,
+            "brawlhalla_name": "LGN | Yellowflash",
+            "discord_id": 367992407398023169,
+            "discord_name": "iv11",
+            "region": "EU",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 91520268,
+            "brawlhalla_name": "LGN | Sweaty",
+            "discord_id": 477098526854348803,
+            "discord_name": "9s9._",
+            "region": "EU",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 36962309,
+            "brawlhalla_name": "LGN | Ayaojee",
+            "discord_id": 753392315258765402,
+            "discord_name": "ayaojee",
+            "region": "EU",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 37024867,
+            "brawlhalla_name": "Take_Down0812",
+            "discord_id": 1250672306779459617,
+            "discord_name": "kazuto",
+            "region": "USE",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 45989623,
+            "brawlhalla_name": "Quakeroni",
+            "discord_id": 251186922288840704,
+            "discord_name": "quakeroni",
+            "region": "USE",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 9614655,
+            "brawlhalla_name": "Loyalty & Kin.",
+            "discord_id": 933269259168137236,
+            "discord_name": "rip.dlr",
+            "region": "USE",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 77279932,
+            "brawlhalla_name": "LGN | tak",
+            "discord_id": 755468572041674832,
+            "discord_name": "bestnaki",
+            "region": "BRS",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 100474016,
+            "brawlhalla_name": "Legion | Kay?",
+            "discord_id": 549280668241362944,
+            "discord_name": "yshyz",
+            "region": "BRS",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 48765833,
+            "brawlhalla_name": "LGN | folgax<3",
+            "discord_id": 773683213309575178,
+            "discord_name": "folgax",
+            "region": "EU",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 7683419,
+            "brawlhalla_name": "LGN | Valley",
+            "discord_id": 1231971039739908199,
+            "discord_name": "valleyzadaa",
+            "region": "BRS",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 39768578,
+            "brawlhalla_name": "LGN  | Subaa",
+            "discord_id": 640606113481359360,
+            "discord_name": "subaabh",
+            "region": "EU",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 6804303,
+            "brawlhalla_name": "LGN | VoiD",
+            "discord_id": 744386272101007431,
+            "discord_name": "fake.void",
+            "region": "EU",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 42491460,
+            "brawlhalla_name": "june",
+            "discord_id": 683455146067230802,
+            "discord_name": "hxdesxd",
+            "region": "USE",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 35307329,
+            "brawlhalla_name": "Dark_Zeus_Enzo_2",
+            "discord_id": 1156548545629925407,
+            "discord_name": "adio _dark",
+            "region": "EU",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 8649268,
+            "brawlhalla_name": "Legion | lightz",
+            "discord_id": 921188003903324221,
+            "discord_name": "lightzbh",
+            "region": "BRS",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 26868453,
+            "brawlhalla_name": "CaueNinja2807",
+            "discord_id": 702929152419823636,
+            "discord_name": "Caueninja2807",
+            "region": "BRS",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 69564269,
+            "brawlhalla_name": "LGN | G_O_C",
+            "discord_id": 332297762928459777,
+            "discord_name": "Glace_o_caramel",
+            "region": "EU",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 95513711,
+            "brawlhalla_name": "Kyrios",
+            "discord_id": 744158431438569562,
+            "discord_name": "Kyrios",
+            "region": "BRS",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 56623652,
+            "brawlhalla_name": "LGN | Panzer",
+            "discord_id": 700547664986505217,
+            "discord_name": "panzer0_0",
+            "region": "USE",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 92980284,
+            "brawlhalla_name": "LGN | franc?",
+            "discord_id": 1323168253127950337,
+            "discord_name": "franc.0299",
+            "region": "BRS",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 2738992,
+            "brawlhalla_name": "LGN | Al\u00c3\u00bccard",
+            "discord_id": 527935642445807617,
+            "discord_name": "alucard_xvii",
+            "region": "BRS",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 30310159,
+            "brawlhalla_name": "X for Xara",
+            "discord_id": 209871691310956544,
+            "discord_name": "aleksxara",
+            "region": "USE",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 16225942,
+            "brawlhalla_name": "DraconicEND",
+            "discord_id": 482613084859531267,
+            "discord_name": "DraconicEND",
+            "region": "USE",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 77922922,
+            "brawlhalla_name": "Poison",
+            "discord_id": 714541533252026421,
+            "discord_name": "poisonta",
+            "region": "USE",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        }
+    ]
+}

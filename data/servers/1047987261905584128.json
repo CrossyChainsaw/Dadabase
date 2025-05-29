@@ -31,10 +31,10 @@
             "discord_name": "crossychainsaw",
             "region": "EU",
             "country": "NL",
-            "ethnicity": "TR",
+            "ethnicity": "AZ",
             "legends_for_2v2": {
                 "own_legend": "asuri",
-                "mate_legend": "artemis"
+                "mate_legend": "random"
             }
         },
         {
@@ -159,7 +159,7 @@
             "ethnicity": "NL",
             "legends_for_2v2": {
                 "own_legend": "ulgrim",
-                "mate_legend": "wushang"
+                "mate_legend": "kaya"
             }
         },
         {
@@ -172,7 +172,7 @@
             "ethnicity": "IQ",
             "legends_for_2v2": {
                 "own_legend": "ulgrim",
-                "mate_legend": "teros"
+                "mate_legend": "brynn"
             }
         },
         {
@@ -193,8 +193,8 @@
             "country": "NL",
             "ethnicity": "MA",
             "legends_for_2v2": {
-                "own_legend": "tezca",
-                "mate_legend": "ulgrim"
+                "own_legend": "wushang",
+                "mate_legend": "onyx"
             }
         },
         {
@@ -1129,6 +1129,97 @@
             "legends_for_2v2": {
                 "own_legend": "random",
                 "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 37265417,
+            "brawlhalla_name": "Espresso",
+            "discord_id": 1138670901378957372,
+            "discord_name": "melkpan",
+            "region": "EU",
+            "country": "NL",
+            "ethnicity": "NL",
+            "legends_for_2v2": {
+                "own_legend": "teros",
+                "mate_legend": "ulgrim"
+            }
+        },
+        {
+            "brawlhalla_id": 101597501,
+            "brawlhalla_name": "TRIX | M\u00c5\u0082ntyhzz'",
+            "discord_id": 1054116115925717073,
+            "discord_name": "mintyhzz123",
+            "region": "EU",
+            "country": "NL",
+            "ethnicity": "NL",
+            "legends_for_2v2": {
+                "own_legend": "linfei",
+                "mate_legend": "mirage"
+            }
+        },
+        {
+            "brawlhalla_id": 41068683,
+            "brawlhalla_name": "MrLobbie",
+            "discord_id": 479939527415431168,
+            "discord_name": "mrlobbie",
+            "region": "EU",
+            "country": "BE",
+            "ethnicity": "BE",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 8301816,
+            "brawlhalla_name": "Straalman",
+            "discord_id": 352153639902773269,
+            "discord_name": "jarendd",
+            "region": "EU",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 40836635,
+            "brawlhalla_name": "Phlonk",
+            "discord_id": 508716472596692993,
+            "discord_name": ".phlonk",
+            "region": "EU",
+            "country": "NL",
+            "ethnicity": "NL",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 24266002,
+            "brawlhalla_name": "Woes",
+            "discord_id": 298833425660379137,
+            "discord_name": "_reindetrein_",
+            "region": "EU",
+            "country": "NL",
+            "ethnicity": "NL",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 10334601,
+            "brawlhalla_name": "Oelewappert",
+            "discord_id": 341555795353141249,
+            "discord_name": "oelewappert",
+            "region": "EU",
+            "country": "NL",
+            "ethnicity": "NL",
+            "legends_for_2v2": {
+                "own_legend": "val",
+                "mate_legend": "asuri"
             }
         }
     ]
