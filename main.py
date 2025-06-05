@@ -28,6 +28,7 @@ from Dadabase.modules.check_permission import has_permission
 from Dadabase.modules.data_management import FlagType
 from Dadabase.modules.keep_alive import keep_alive
 from Dadabase.modules.env import env_variable
+from Dadabase.modules.decorators import is_admin_or_crossy
 
 DADABASE_ACTIVE = env_variable("DADABASE_ACTIVE")
 DADABASE_TESTING = env_variable("DADABASE_TESTING")
@@ -49,19 +50,21 @@ async def account_linker_list_command(interaction):
 
 
 @tree.command(name=ADD_ACCOUNT_LINKER_COMMAND.name, description=ADD_ACCOUNT_LINKER_COMMAND.description)
-@app_commands.checks.has_permissions(administrator=True)
-async def add_account_linker_command(interaction, brawlhalla_id:int, brawlhalla_name:str):
-    await add_account_linker(interaction, brawlhalla_id, brawlhalla_name)
+@is_admin_or_crossy()
+@app_commands.describe(clan_index="First clan is 0, second clan is 1 etc, third is 2 etc.")
+async def add_account_linker_command(interaction, brawlhalla_id:int, brawlhalla_name:str, clan_index:str):
+    await add_account_linker(interaction, brawlhalla_id, brawlhalla_name, clan_index)
 
 
 @tree.command(name=ADD_CONSOLE_PLAYER_COMMAND.name, description=ADD_CONSOLE_PLAYER_COMMAND.description)
-@app_commands.checks.has_permissions(administrator=True)
-async def add_console_player_command(interaction, brawlhalla_id:int, brawlhalla_name:str):
-    await add_console_player(interaction, brawlhalla_id, brawlhalla_name)
+@is_admin_or_crossy()
+@app_commands.describe(clan_index="First clan is 0, second clan is 1 etc, third is 2 etc.")
+async def add_console_player_command(interaction, brawlhalla_id:int, brawlhalla_name:str, clan_index:int):
+    await add_console_player(interaction, brawlhalla_id, brawlhalla_name, clan_index)
 
 
 @tree.command(name=ADD_SERVER_PLAYER_COMMAND.name, description=ADD_SERVER_PLAYER_COMMAND.description)
-@app_commands.checks.has_permissions(administrator=True)
+@is_admin_or_crossy()
 @app_commands.describe(region="What server do you play on?")
 @app_commands.choices(region=BRAWL_SERVERS)
 @app_commands.describe(country_of_residence="Which country does the player live in?")
@@ -114,7 +117,7 @@ async def console_player_list_command(interaction):
 
 
 @tree.command(name=EDIT_CLAN_COMMAND.name, description=EDIT_CLAN_COMMAND.description)
-@app_commands.checks.has_permissions(administrator=True)
+@is_admin_or_crossy()
 @app_commands.describe(sorting_method="What elo should be prioritised?")
 @app_commands.choices(sorting_method=SORTING_METHOD_OPTIONS)
 async def edit_clan_command(interaction, 
@@ -153,7 +156,7 @@ async def edit_clan_command(interaction,
 
 
 @tree.command(name=EDIT_SERVER_COMMAND.name, description=EDIT_SERVER_COMMAND.description)
-@app_commands.checks.has_permissions(administrator=True)
+@is_admin_or_crossy()
 @app_commands.describe(sorting_method="What elo should be prioritised?")
 @app_commands.choices(sorting_method=SORTING_METHOD_OPTIONS)
 @app_commands.describe(flag_type="What flag should be shown next to each player?")
@@ -197,7 +200,7 @@ async def help_command(interaction):
 
 
 @tree.command(name=INITIALISE_CLAN_COMMAND.name, description=INITIALISE_CLAN_COMMAND.description)
-@app_commands.checks.has_permissions(administrator=True)
+@is_admin_or_crossy()
 @app_commands.describe(sorting_method="What elo should be prioritised?")
 @app_commands.choices(sorting_method=SORTING_METHOD_OPTIONS)
 @app_commands.describe(color = "Provide a Hex color code")
@@ -220,7 +223,7 @@ async def initialise_clan_command(interaction,
 
 
 @tree.command(name=INITIALISE_SERVER_COMMAND.name, description=INITIALISE_SERVER_COMMAND.description)
-@app_commands.checks.has_permissions(administrator=True)
+@is_admin_or_crossy()
 @app_commands.describe(sorting_method="What elo should be prioritised?")
 @app_commands.choices(sorting_method=SORTING_METHOD_OPTIONS)
 @app_commands.describe(flag_type="What flag should be shown next to each player?")
@@ -246,30 +249,30 @@ async def ping_command(interaction):
 
 
 @tree.command(name=REMOVE_ACCOUNT_LINKER_COMMAND.name, description=REMOVE_ACCOUNT_LINKER_COMMAND.description)
-@app_commands.checks.has_permissions(administrator=True)
+@is_admin_or_crossy()
 async def remove_account_linker_command(interaction, brawlhalla_id:int):
     await remove_account_linker(interaction, brawlhalla_id)
 
 
 @tree.command(name=REMOVE_CONSOLE_PLAYER_COMMAND.name, description=REMOVE_CONSOLE_PLAYER_COMMAND.description)
-@app_commands.checks.has_permissions(administrator=True)
+@is_admin_or_crossy()
 async def remove_console_player_command(interaction, brawlhalla_id:int):
     await remove_console_player(interaction, brawlhalla_id)
 
 
 @tree.command(name=REMOVE_SERVER_PLAYER_COMMAND.name, description=REMOVE_SERVER_PLAYER_COMMAND.description)
-@app_commands.checks.has_permissions(administrator=True)
+@is_admin_or_crossy()
 async def remove_server_player_command(interaction, brawlhalla_id:int):
     await remove_server_player(interaction, brawlhalla_id)
 
 
 @tree.command(name=SERVER_PLAYER_LIST.name, description=SERVER_PLAYER_LIST.description)
-@app_commands.checks.has_permissions(administrator=True)
+@is_admin_or_crossy()
 async def server_player_list_command(interaction):
     await server_player_list(interaction)
 
 @tree.command(name=VIEW_CLAN_DATA.name, description=VIEW_CLAN_DATA.description)
-@app_commands.checks.has_permissions(administrator=True)
+@is_admin_or_crossy()
 async def view_clan_data_command(interaction):
     await view_clan_data(interaction)
 

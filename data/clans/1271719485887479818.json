@@ -1,9 +1,9 @@
 {
-    "server_name": "aura",
-    "clan_names": ["Aura"],
+    "server_name": "Halloween",
+    "clan_names": ["Halloween"],
     "discord_server_id": "1200332328052998144",
-    "id_array": ["2446783"],
-    "color": "0xdb0c3c",
+    "id_array": ["2503351"],
+    "color": "0xe66c2c",
     "image": "https://cdn.discordapp.com/attachments/1272923179307761706/1273472339081691178/ranking.jpg?ex=66bebd09&is=66bd6b89&hm=535b31a7af8901f834924c74e9264edd4da83553b52d1833e4ac5ab15e5775e9&",
     "channel_1v1_id": 1200340736642666557,
     "channel_2v2_id": 1354757930368630979,
