@@ -699,6 +699,19 @@
                 "own_legend": "random",
                 "mate_legend": "random"
             }
+        },
+        {
+            "brawlhalla_id": 127414887,
+            "brawlhalla_name": "UNIVERSAL",
+            "discord_id": 934500914323157087,
+            "discord_name": "psx145",
+            "region": "",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
         }
     ]
 }
