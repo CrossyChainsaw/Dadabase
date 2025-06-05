@@ -4,7 +4,7 @@ from Dadabase.classes.BrawlhallaAccount import BrawlhallaAccount
 from discord import Interaction, Embed
 
 async def claim_2v2_legend(interaction:Interaction, brawlhalla_id:int, your_legend_input:str, teammate_legend_input:str):
-    acc = BrawlhallaAccount(brawlhalla_id, interaction.user.name, interaction.user.id)
+    acc = BrawlhallaAccount(brawlhalla_id, interaction.user.name, interaction.user.id, clan_index=-1)
     your_legend = (your_legend_input.replace(" ", "")).lower()
     teammate_legend = (teammate_legend_input.replace(" ", "")).lower()
     if your_legend in BRAWLHALLA_LEGENDS and teammate_legend in BRAWLHALLA_LEGENDS:
