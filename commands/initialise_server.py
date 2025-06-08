@@ -8,7 +8,7 @@ async def initialise_server(interaction, leaderboard_title, sorting_method, show
     # Logic
     server = Server(interaction.guild.id, interaction.guild.name, leaderboard_title, sorting_method, show_member_count, show_no_elo_players, channel_1v1_id, channel_2v2_id, channel_rotating_id, color, image, flag_type)
     if os.path.exists(f"{SERVERS_DATA_PATH}{interaction.guild.id}.json"):
-        await interaction.response.send_message(f"Oops! This server already exists. Consider running `{EDIT_SERVER_COMMAND}` to update data.")
+        await interaction.response.send_message(f"Oops! This server already exists. Consider running `{EDIT_SERVER_COMMAND.name}` to update data.")
     else:
         __create_data_file(interaction, server)
         await interaction.response.send_message(f"Succes! Created data for {interaction.guild.name}")

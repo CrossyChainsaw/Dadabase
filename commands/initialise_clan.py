@@ -12,7 +12,7 @@ async def initialise_clan(interaction, clan_names: str, channel_1v1_id:str, chan
     # Logic
     clan = Clan(server_name, clan_names, channel_1v1_id, channel_2v2_id, clan_id, color, image, str(server_id), sorting_method, show_member_count, show_xp, show_no_elo_players, channel_rotating_id)
     if os.path.exists(f"{CLANS_DATA_PATH}{server_id}.json"):
-        await interaction.response.send_message(f"Oops! This server already exists. Consider running `{EDIT_CLAN_COMMAND}` to update data.")
+        await interaction.response.send_message(f"Oops! This server already exists. Consider running `{EDIT_CLAN_COMMAND.name}` to update data.")
     else:
         __create_data_file(server_id, clan)
         await interaction.response.send_message(f"Succes! Created data for {server_name}")

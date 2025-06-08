@@ -17,4 +17,4 @@ async def server_player_list(interaction):
 
 
 def __create_embed(msg):
-    return discord.Embed(title="Server Players", description=f"The following players will be added to the leaderboard. To add another run: `{ADD_SERVER_PLAYER_COMMAND}`. To remove one run: `{REMOVE_SERVER_PLAYER_COMMAND}`\n" + msg, color=0x00ff00)
+    return discord.Embed(title="Server Players", description=f"The following players will be added to the leaderboard. To add another run: `{ADD_SERVER_PLAYER_COMMAND.name}`. To remove one run: `{REMOVE_SERVER_PLAYER_COMMAND.name}`\n" + msg, color=0x00ff00)

@@ -13,4 +13,4 @@ async def account_linker_list(interaction:Interaction):
 
 
 def __create_embed(msg) -> Embed:
-    return Embed(title="Account Linkers", description=f"The following players will be removed from the clan leaderboard, if you wish to make them appear in the leaderboard again, run `{REMOVE_SERVER_PLAYER_COMMAND}`\n" + msg, color=0x00ff00)
+    return Embed(title="Account Linkers", description=f"The following players will be removed from the clan leaderboard, if you wish to make them appear in the leaderboard again, run `{REMOVE_SERVER_PLAYER_COMMAND.name}`\n" + msg, color=0x00ff00)
