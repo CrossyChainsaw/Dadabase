@@ -32,21 +32,24 @@
          "brawlhalla_name":"Shira",
          "discord_id":null,
          "own_legend":"random",
-         "mate_legend":"random"
+         "mate_legend":"random",
+         "clan_index":0
       },
       {
          "brawlhalla_id":123685828,
          "brawlhalla_name":"Fornas",
          "discord_id":null,
          "own_legend":"random",
-         "mate_legend":"random"
+         "mate_legend":"random",
+         "clan_index":0
       },
       {
          "brawlhalla_id":125608222,
          "brawlhalla_name":"Kiickle",
          "discord_id":null,
          "own_legend":"random",
-         "mate_legend":"random"
+         "mate_legend":"random",
+         "clan_index":0
       }
    ],
    "console_players":[
