@@ -13,4 +13,4 @@ async def console_player_list(interaction):
 
 
 def __create_embed(msg):
-    return discord.Embed(title="Console Players", description=f"The following players will be added to the leaderboard manually. To add another run: `{CONSOLE_PLAYER_LIST}`. To remove one run: `/remove_console_player`\n" + msg, color=0x00ff00)
+    return discord.Embed(title="Console Players", description=f"The following players will be added to the leaderboard manually. To add another run: `{CONSOLE_PLAYER_LIST.name}`. To remove one run: `/remove_console_player`\n" + msg, color=0x00ff00)
