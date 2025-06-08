@@ -1,12 +1,8 @@
 {
-    "server_name": "Adding and Removing Console Players and Account Linkers",
-    "clan_names": [
-        "Skyward"
-    ],
+    "server_name": "Console Player and Account Linker Lists",
+    "clan_names": ["Skyward"],
     "discord_server_id": "705783420189671458",
-    "id_array": [
-        "84648"
-    ],
+    "id_array": ["84648"],
     "color": "0x00ECFF",
     "image": "",
     "channel_1v1_id": 1131552899378466887,
@@ -20,7 +16,19 @@
     "show_1v1_legends": true,
     "show_2v2_legends": false,
     "show_average_elo": true,
-    "account_linkers": [],
-    "console_players": [],
+    "account_linkers": [
+        {
+            "brawlhalla_id": "2",
+            "brawlhalla_name": "TEST_PLAYER",
+            "clan_index": 0
+        }
+    ],
+    "console_players": [
+        {
+            "brawlhalla_id": "2",
+            "brawlhalla_name": "TEST_PLAYER",
+            "clan_index": 0
+        }
+    ],
     "legends_for_2v2": []
 }
