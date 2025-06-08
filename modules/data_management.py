@@ -129,7 +129,7 @@ def remove_player_from_clan_data(interaction, brawlhalla_id, data, key):
         if str(player['brawlhalla_id']) == str(brawlhalla_id):
             bh_name = data[key].pop(index)['brawlhalla_name']
             with open(CLANS_DATA_PATH + str(interaction.guild.id) + '.json', 'w') as file:
-                json.dump(data, file)
+                json.dump(data, file, indent=4)
                 removed_player = True
             break
     return bh_name, removed_player
