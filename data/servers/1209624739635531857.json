@@ -11,6 +11,7 @@
     "image": "https://cdn.discordapp.com/attachments/1314314546860658689/1314951107113648148/leaderboard.gif?ex=6755a326&is=675451a6&hm=44b1286d6232948c81c77d4847e2e73ca575a6d448ce827b8001d54c391088a9&",
     "color": "F2D320",
     "flag_type": "no_flags",
+    "default_flag": "HU",
     "show_win_loss": true,
     "show_1v1_legends": true,
     "show_2v2_legends": false,

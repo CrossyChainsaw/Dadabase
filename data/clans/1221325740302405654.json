@@ -11,7 +11,7 @@
     "image": "",
     "channel_1v1_id": 1381690430923472907,
     "channel_2v2_id": 1381690512792092702,
-    "channel_rotating_id": 0,
+    "channel_rotating_id": null,
     "sorting_method": "current",
     "show_member_count": true,
     "show_xp": false,

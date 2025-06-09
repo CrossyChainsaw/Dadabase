@@ -20,6 +20,7 @@
     "show_player_win_loss": true,
     "show_player_legends": true,
     "flag_type": "region",
+    "default_flag": "NL",
     "account_linkers": [],
     "console_players": [],
     "legends_for_2v2": [
