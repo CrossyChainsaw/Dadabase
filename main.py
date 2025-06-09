@@ -67,6 +67,13 @@ async def add_console_player_command(interaction, brawlhalla_id:int, brawlhalla_
 
 
 
+async def autocomplete_country(interaction: discord.Interaction, current: str) -> List[app_commands.Choice[str]]:
+    matches = [
+        app_commands.Choice(name=country, value=code)
+        for country, code in COUNTRIES_DICT.items()
+        if current.lower() in country.lower()
+    ]
+    return matches[:25]  # Discord max limit for shown results
 
 @tree.command(
     name=ADD_SERVER_PLAYER_COMMAND.name,
