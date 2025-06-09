@@ -68,4 +68,4 @@ def format_color(color:str):
     elif __check_hex_string_without_hashtag(color):
         return "0x" + color[0:]
     else:
-        return None
+        return "0x000000"

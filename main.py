@@ -119,6 +119,7 @@ async def console_player_list_command(interaction):
 @tree.command(name=EDIT_CLAN_COMMAND.name, description=EDIT_CLAN_COMMAND.description)
 @is_admin_or_crossy()
 @app_commands.describe(sorting_method="What elo should be prioritised?")
+@app_commands.describe(color="Example: #5e357a")
 @app_commands.choices(sorting_method=SORTING_METHOD_OPTIONS)
 async def edit_clan_command(interaction, 
                             leaderboard_title:str=None,
