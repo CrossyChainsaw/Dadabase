@@ -1,0 +1,26 @@
+{
+    "server_name": "Imperio Anonimo",
+    "clan_names": [
+        "Imperio Anonimo"
+    ],
+    "discord_server_id": "1221325740302405654",
+    "id_array": [
+        "2330742"
+    ],
+    "color": "0x0096FF",
+    "image": "",
+    "channel_1v1_id": 1381690430923472907,
+    "channel_2v2_id": 1381690512792092702,
+    "channel_rotating_id": 0,
+    "sorting_method": "current",
+    "show_member_count": true,
+    "show_xp": false,
+    "show_no_elo_players": true,
+    "show_win_loss": true,
+    "show_1v1_legends": true,
+    "show_2v2_legends": false,
+    "show_average_elo": true,
+    "account_linkers": [],
+    "console_players": [],
+    "legends_for_2v2": []
+}
