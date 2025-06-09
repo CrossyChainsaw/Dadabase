@@ -1,115 +1,131 @@
 {
-   "server_name":"Pandation",
-   "clan_names":[
-      "Pandation",
-      "Pandace",
-      "PanhaIIa",
-      "Panhalla"
-   ],
-   "discord_server_id":"889594104873377812",
-   "id_array":[
-      "1702413",
-      "1868949",
-      "1722822",
-      "1709279"
-   ],
-   "color":"0xfaf9f9",
-   "image":"https://media.discordapp.net/attachments/958131738503155714/958141534455337031/standard.gif",
-   "channel_1v1_id":1356927556296638585,
-   "channel_2v2_id":1356927577851428950,
-   "channel_rotating_id":1356927591575195648,
-   "sorting_method":"peak",
-   "show_member_count":true,
-   "show_xp":false,
-   "show_no_elo_players":true,
-   "show_win_loss":true,
-   "show_1v1_legends":true,
-   "show_2v2_legends":false,
-   "show_average_elo":true,
-   "account_linkers":[
-      {
-         "brawlhalla_id":122047984,
-         "brawlhalla_name":"Shira",
-         "discord_id":null,
-         "own_legend":"random",
-         "mate_legend":"random",
-         "clan_index":0
-      },
-      {
-         "brawlhalla_id":123685828,
-         "brawlhalla_name":"Fornas",
-         "discord_id":null,
-         "own_legend":"random",
-         "mate_legend":"random",
-         "clan_index":0
-      },
-      {
-         "brawlhalla_id":125608222,
-         "brawlhalla_name":"Kiickle",
-         "discord_id":null,
-         "own_legend":"random",
-         "mate_legend":"random",
-         "clan_index":0
-      }
-   ],
-   "console_players":[
-      {
-         "brawlhalla_id":"12496336",
-         "brawlhalla_name":"tenshii",
-         "clan_index":0
-      },
-      {
-         "brawlhalla_id":"42454540",
-         "brawlhalla_name":"Brian_-V11",
-         "clan_index":0
-      },
-      {
-         "brawlhalla_id":37235364,
-         "brawlhalla_name":"Shira",
-         "clan_index":0,
-         "discord_id":null,
-         "own_legend":"random",
-         "mate_legend":"random"
-      },
-      {
-         "brawlhalla_id":32538860,
-         "brawlhalla_name":"Nabressoooo",
-         "clan_index":0,
-         "discord_id":null,
-         "own_legend":"random",
-         "mate_legend":"random"
-      },
-      {
-         "brawlhalla_id":30787751,
-         "brawlhalla_name":"NocturNsShira",
-         "clan_index":0,
-         "discord_id":null,
-         "own_legend":"random",
-         "mate_legend":"random"
-      },
-      {
-         "brawlhalla_id":17799877,
-         "brawlhalla_name":"kawa",
-         "clan_index":0,
-         "discord_id":null,
-         "own_legend":"random",
-         "mate_legend":"random"
-      }
-   ],
-   "legends_for_2v2":[
-      {
-         "brawlhalla_id":10330876,
-         "brawlhalla_name":"pandaze",
-         "discord_id":447767065437274121,
-         "own_legend":"val",
-         "mate_legend":"teros"
-      },
-      {
-         "brawlhalla_id":25276512,
-         "brawlhalla_name":"jesustendo",
-         "discord_id":944369896148566077,
-         "own_legend":"koji",
-         "mate_legend":"sidra"
-      }
-   ]
+    "server_name": "Pandation",
+    "clan_names": [
+        "Pandation",
+        "Pandace",
+        "PanhaIIa",
+        "Panhalla"
+    ],
+    "discord_server_id": "889594104873377812",
+    "id_array": [
+        "1702413",
+        "1868949",
+        "1722822",
+        "1709279"
+    ],
+    "color": "0xfaf9f9",
+    "image": "https://media.discordapp.net/attachments/958131738503155714/958141534455337031/standard.gif",
+    "channel_1v1_id": 1356927556296638585,
+    "channel_2v2_id": 1356927577851428950,
+    "channel_rotating_id": 1356927591575195648,
+    "sorting_method": "peak",
+    "show_member_count": true,
+    "show_xp": false,
+    "show_no_elo_players": true,
+    "show_win_loss": true,
+    "show_1v1_legends": true,
+    "show_2v2_legends": false,
+    "show_average_elo": true,
+    "account_linkers": [
+        {
+            "brawlhalla_id": 122047984,
+            "brawlhalla_name": "Shira",
+            "discord_id": null,
+            "own_legend": "random",
+            "mate_legend": "random",
+            "clan_index": 0
+        },
+        {
+            "brawlhalla_id": 123685828,
+            "brawlhalla_name": "Fornas",
+            "discord_id": null,
+            "own_legend": "random",
+            "mate_legend": "random",
+            "clan_index": 0
+        },
+        {
+            "brawlhalla_id": 125608222,
+            "brawlhalla_name": "Kiickle",
+            "discord_id": null,
+            "own_legend": "random",
+            "mate_legend": "random",
+            "clan_index": 0
+        },
+        {
+            "brawlhalla_id": 114379057,
+            "brawlhalla_name": "Fayno",
+            "clan_index": "0",
+            "discord_id": null,
+            "own_legend": "random",
+            "mate_legend": "random"
+        }
+    ],
+    "console_players": [
+        {
+            "brawlhalla_id": "12496336",
+            "brawlhalla_name": "tenshii",
+            "clan_index": 0
+        },
+        {
+            "brawlhalla_id": "42454540",
+            "brawlhalla_name": "Brian_-V11",
+            "clan_index": 0
+        },
+        {
+            "brawlhalla_id": 37235364,
+            "brawlhalla_name": "Shira",
+            "clan_index": 0,
+            "discord_id": null,
+            "own_legend": "random",
+            "mate_legend": "random"
+        },
+        {
+            "brawlhalla_id": 32538860,
+            "brawlhalla_name": "Nabressoooo",
+            "clan_index": 0,
+            "discord_id": null,
+            "own_legend": "random",
+            "mate_legend": "random"
+        },
+        {
+            "brawlhalla_id": 30787751,
+            "brawlhalla_name": "NocturNsShira",
+            "clan_index": 0,
+            "discord_id": null,
+            "own_legend": "random",
+            "mate_legend": "random"
+        },
+        {
+            "brawlhalla_id": 17799877,
+            "brawlhalla_name": "kawa",
+            "clan_index": 0,
+            "discord_id": null,
+            "own_legend": "random",
+            "mate_legend": "random"
+        },
+        {
+            "brawlhalla_id": 14675621,
+            "brawlhalla_name": "Fayno",
+            "clan_index": 0,
+            "discord_id": null,
+            "own_legend": "random",
+            "mate_legend": "random"
+        }
+    ],
+    "legends_for_2v2": [
+        {
+            "brawlhalla_id": 10330876,
+            "brawlhalla_name": "pandaze",
+            "discord_id": 447767065437274121,
+            "own_legend": "val",
+            "mate_legend": "teros"
+        },
+        {
+            "brawlhalla_id": 25276512,
+            "brawlhalla_name": "jesustendo",
+            "discord_id": 944369896148566077,
+            "own_legend": "koji",
+            "mate_legend": "sidra"
+        }
+    ]
 }

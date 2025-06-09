@@ -712,6 +712,19 @@
                 "own_legend": "random",
                 "mate_legend": "random"
             }
+        },
+        {
+            "brawlhalla_id": 9843367,
+            "brawlhalla_name": "Seraphine<3",
+            "discord_id": 549985887035850766,
+            "discord_name": "Seraphine",
+            "region": "",
+            "country": "",
+            "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
         }
     ]
 }
