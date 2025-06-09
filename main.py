@@ -104,11 +104,11 @@ async def claim_command(interaction,
         await interaction.response.send_message(f'{interaction.user.name} does not have permission to use this command')
 
 
-@tree.command(name=CLAIM_2V2_LEGEND.name, description=CLAIM_2V2_LEGEND.description)
-@app_commands.describe(your_legend="Type the legend you play in 2v2")
-@app_commands.describe(teammate_legend="Type the legend your teammate plays in 2v2")
-async def claim_2v2_legend_command(interaction, brawlhalla_id:int, your_legend:str, teammate_legend:str):
-    await claim_2v2_legend(interaction, brawlhalla_id, your_legend, teammate_legend)
+# @tree.command(name=CLAIM_2V2_LEGEND.name, description=CLAIM_2V2_LEGEND.description)
+# @app_commands.describe(your_legend="Type the legend you play in 2v2")
+# @app_commands.describe(teammate_legend="Type the legend your teammate plays in 2v2")
+# async def claim_2v2_legend_command(interaction, brawlhalla_id:int, your_legend:str, teammate_legend:str):
+#     await claim_2v2_legend(interaction, brawlhalla_id, your_legend, teammate_legend)
 
 
 @tree.command(name=CONSOLE_PLAYER_LIST.name, description=CONSOLE_PLAYER_LIST.description)
