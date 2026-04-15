@@ -8,7 +8,7 @@ CHECK_COMMAND = Command(name='check', description='Check your linked Brawlhalla 
 CLAIM_COMMAND = Command(name='claim', description='Link your Brawlhalla account to Discord')
 CLAIM_2V2_LEGEND = Command(name='claim_2v2_legend_for_clans', description='(deprecated) Tell Ranknir what legend you play in 2v2')
 HELP_COMMAND = Command(name='help', description='Help Command (This one)')
-LEADERBOARD_CLAN_ADD_CONSOLE_PLAYER = Command(name='clan_lb_add_console_player', description='Add a console player to the leaderboard (or any other aditional player that is not originally in the in-game clan)')
+LEADERBOARD_CLAN_ADD_CONSOLE_PLAYER = Command(name='clan_lb_add_console_player', description='Add a console player to the leaderboard')
 LEADERBOARD_CLAN_DATA = Command(name='clan_lb_data', description='List all the fields that are being used in the leaderboard')
 LEADERBOARD_CLAN_EDIT_DATA = Command(name='clan_lb_edit_data', description='Edit clan data')
 LEADERBOARD_CLAN_HIDE_PLAYER = Command(name='clan_lb_hide_player', description='Specify a player to hide from the leaderboard')
