@@ -1,7 +1,7 @@
 import pytest
 import random
-from Dadabase.commands.add_console_player import add_console_player
-from Dadabase.commands.console_player_list import console_player_list
+from Dadabase.commands.add_console_player import leaderboard_clan_add_console_player
+from Dadabase.commands.console_player_list import leaderboard_clan_list_console_players
 from Dadabase.modules.data_management import read_data, CLANS_DATA_PATH
 
 class MockGuild:
@@ -29,7 +29,7 @@ async def test_console_player_list_includes_expected_fields():
     mock_clan_index = 0
 
     # Act: run the list command
-    await console_player_list(mock_interaction)
+    await leaderboard_clan_list_console_players(mock_interaction)
 
     # Assert: check the message sent in the embed
     embed = mock_interaction.response.sent_embed

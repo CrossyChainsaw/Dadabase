@@ -1,6 +1,6 @@
 import pytest
-from Dadabase.commands.add_account_linker import add_account_linker
-from Dadabase.commands.account_linker_list import account_linker_list
+from Dadabase.commands.add_account_linker import leaderboard_clan_hide_players
+from Dadabase.commands.account_linker_list import leaderboard_clan_list_hidden_players
 from Dadabase.modules.data_management import read_data, CLANS_DATA_PATH
 
 class MockGuild:
@@ -28,7 +28,7 @@ async def test_account_linker_list_includes_expected_fields():
     mock_clan_index = 0
 
     # Act: run the list command
-    await account_linker_list(mock_interaction)
+    await leaderboard_clan_list_hidden_players(mock_interaction)
 
     # Assert: check the message sent in the embed
     embed = mock_interaction.response.sent_embed

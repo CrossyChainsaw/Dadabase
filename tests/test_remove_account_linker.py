@@ -4,7 +4,7 @@
 
 import random
 import pytest
-from Dadabase.commands.remove_account_linker import remove_account_linker
+from Dadabase.commands.remove_account_linker import leaderboard_clan_unhide_player
 from Dadabase.modules.data_management import CLANS_DATA_PATH, read_data
 
 class MockGuild:
@@ -32,7 +32,7 @@ async def test_remove_account_linker_integration(tmp_path):
     mock_clan_index = 0
     
     # Act - remove the linker
-    await remove_account_linker(mock_interaction, mock_brawlhalla_id)
+    await leaderboard_clan_unhide_player(mock_interaction, mock_brawlhalla_id)
 
     # Assert - ensure it's gone
     updated_data = read_data(CLANS_DATA_PATH, mock_interaction.guild.id)

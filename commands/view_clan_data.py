@@ -1,7 +1,7 @@
 from Dadabase.modules.data_management import read_data, CLANS_DATA_PATH
 from discord import Interaction, Embed
 
-async def view_clan_data(interaction:Interaction):
+async def leaderboard_clan_data(interaction:Interaction):
     clan_data = read_data(CLANS_DATA_PATH, interaction.guild.id)
     embed = Embed(title="Clan Information", description="To edit any of the following fields run `/edit_clan`", color=int(clan_data['color'], 16))  # Convert hex color to int
     

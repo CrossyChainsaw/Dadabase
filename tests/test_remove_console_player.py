@@ -1,5 +1,5 @@
 import pytest
-from Dadabase.commands.remove_console_player import remove_console_player
+from Dadabase.commands.remove_console_player import leaderboard_clan_remove_console_player
 from Dadabase.modules.data_management import CLANS_DATA_PATH, read_data
 
 class MockGuild:
@@ -27,7 +27,7 @@ async def test_remove_console_player_integration():
     mock_clan_index = 0
 
     # Action - call remove_console_player (assuming signature is similar)
-    await remove_console_player(mock_interaction, mock_brawlhalla_id)
+    await leaderboard_clan_remove_console_player(mock_interaction, mock_brawlhalla_id)
 
     # Assert - check that the user with that brawlhalla_id no longer exists
     clan_data = read_data(CLANS_DATA_PATH, mock_interaction.guild.id)

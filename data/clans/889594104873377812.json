@@ -15,9 +15,9 @@
     ],
     "color": "0xfaf9f9",
     "image": "https://media.discordapp.net/attachments/958131738503155714/958141534455337031/standard.gif",
-    "channel_1v1_id": 1356927556296638585,
-    "channel_2v2_id": 1356927577851428950,
-    "channel_rotating_id": 1356927591575195648,
+    "channel_1v1_id": 1420393066853961788,
+    "channel_2v2_id": 1420393282428600350,
+    "channel_rotating_id": 1420393416281296929,
     "sorting_method": "peak",
     "show_member_count": true,
     "show_xp": false,
@@ -58,35 +58,25 @@
             "discord_id": null,
             "own_legend": "random",
             "mate_legend": "random"
+        },
+        {
+            "brawlhalla_id": 106247284,
+            "brawlhalla_name": "Yavierrr",
+            "clan_index": "0",
+            "discord_id": null,
+            "own_legend": "random",
+            "mate_legend": "random"
+        },
+        {
+            "brawlhalla_id": 120458691,
+            "brawlhalla_name": "Butterfly | Rafinha",
+            "clan_index": "0",
+            "discord_id": null,
+            "own_legend": "random",
+            "mate_legend": "random"
         }
     ],
     "console_players": [
-        {
-            "brawlhalla_id": "12496336",
-            "brawlhalla_name": "tenshii",
-            "clan_index": 0
-        },
-        {
-            "brawlhalla_id": "42454540",
-            "brawlhalla_name": "Brian_-V11",
-            "clan_index": 0
-        },
-        {
-            "brawlhalla_id": 37235364,
-            "brawlhalla_name": "Shira",
-            "clan_index": 0,
-            "discord_id": null,
-            "own_legend": "random",
-            "mate_legend": "random"
-        },
-        {
-            "brawlhalla_id": 32538860,
-            "brawlhalla_name": "Nabressoooo",
-            "clan_index": 0,
-            "discord_id": null,
-            "own_legend": "random",
-            "mate_legend": "random"
-        },
         {
             "brawlhalla_id": 30787751,
             "brawlhalla_name": "NocturNsShira",
@@ -96,16 +86,32 @@
             "mate_legend": "random"
         },
         {
-            "brawlhalla_id": 17799877,
-            "brawlhalla_name": "kawa",
+            "brawlhalla_id": 40939915,
+            "brawlhalla_name": "xMoDz-RiiiP__-X",
             "clan_index": 0,
             "discord_id": null,
             "own_legend": "random",
             "mate_legend": "random"
         },
         {
-            "brawlhalla_id": 14675621,
-            "brawlhalla_name": "Fayno",
+            "brawlhalla_id": 32394242,
+            "brawlhalla_name": "Yavierrr",
+            "clan_index": 0,
+            "discord_id": null,
+            "own_legend": "random",
+            "mate_legend": "random"
+        },
+        {
+            "brawlhalla_id": 34238844,
+            "brawlhalla_name": "c a r l i t u s",
+            "clan_index": 0,
+            "discord_id": null,
+            "own_legend": "random",
+            "mate_legend": "random"
+        },
+        {
+            "brawlhalla_id": 39220587,
+            "brawlhalla_name": "Balin",
             "clan_index": 0,
             "discord_id": null,
             "own_legend": "random",

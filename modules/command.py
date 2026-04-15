@@ -4,46 +4,47 @@ from Dadabase.classes.Command import Command
 from Dadabase.modules.data_management import FlagType
 
 # Defining all commands
-ACCOUNT_LINKER_LIST_COMMAND = Command(name='account_linker_list', description='List all Account Linkers (Account Linker: player that should be removed from leaderboard manually)')
-ADD_ACCOUNT_LINKER_COMMAND = Command(name='add_account_linker', description='Specify a player to remove from the leaderboard')
-ADD_CONSOLE_PLAYER_COMMAND = Command(name='add_console_player', description='Add a console player')
-ADD_SERVER_PLAYER_COMMAND = Command(name='add_server_player', description="(You aren't supposed to run this) Manually add a player to the server leaderboard")
 CHECK_COMMAND = Command(name='check', description='Check your linked Brawlhalla account')
 CLAIM_COMMAND = Command(name='claim', description='Link your Brawlhalla account to Discord')
-CLAIM_2V2_LEGEND = Command(name='claim_2v2_legend_for_clans', description='Tell Ranknir what legend you play in 2v2')
-CONSOLE_PLAYER_LIST = Command(name='console_player_list', description='List all console players')
-EDIT_SERVER_COMMAND = Command(name='edit_server', description='Edit server data')
-EDIT_CLAN_COMMAND = Command(name='edit_clan', description='Edit clan data')
+CLAIM_2V2_LEGEND = Command(name='claim_2v2_legend_for_clans', description='(deprecated) Tell Ranknir what legend you play in 2v2')
 HELP_COMMAND = Command(name='help', description='Help Command (This one)')
-INITIALISE_CLAN_COMMAND = Command(name='initialise_clan', description="(You aren't supposed to run this) Generate a file with clan data for the current clan server")
-INITIALISE_SERVER_COMMAND = Command(name='initialise_server', description="(You aren't supposed to run this) Generate a file with clan data for the current server")
+LEADERBOARD_CLAN_ADD_CONSOLE_PLAYER = Command(name='leaderboard_clan_add_console_player', description='Add a console player to the leaderboard (or any other aditional player that is not originally in the in-game clan)')
+LEADERBOARD_CLAN_DATA = Command(name='leaderboard_clan_data', description='List all the fields that are being used in the leaderboard')
+LEADERBOARD_CLAN_EDIT_DATA = Command(name='leaderboard_clan_edit_data', description='Edit clan data')
+LEADERBOARD_CLAN_HIDE_PLAYER = Command(name='leaderboard_clan_hide_player', description='Specify a player to hide from the leaderboard')
+LEADERBOARD_CLAN_INIT = Command(name='leaderboard_clan_init', description="(You aren't supposed to run this) Generate a file with clan data for the current clan server")
+LEADERBOARD_CLAN_LIST_HIDDEN_PLAYERS = Command(name='leaderboard_clan_list_hidden_players', description='List all players that are hidden from the leaderboard')
+LEADERBOARD_CLAN_LIST_CONSOLE_PLAYERS = Command(name='leaderboard_clan_list_console_players', description='List all console players')
+LEADERBOARD_CLAN_UNHIDE_PLAYER = Command(name='leaderboard_clan_unhide_player', description='Unhide a previously hidden player from the leaderboard')
+LEADERBOARD_CLAN_REMOVE_CONSOLE_PLAYER = Command(name='leaderboard_clan_remove_console_player', description='Remove a console player')
+LEADERBOARD_COMMUNITY_ADD_PLAYER = Command(name='leaderboard_community_add_player', description="(You are not supposed to run this) Manually add a player to the community leaderboard")
+LEADERBOARD_COMMUNITY_EDIT_DATA = Command(name='leaderboard_community_edit_data', description='Edit server data')
+LEADERBOARD_COMMUNITY_INIT = Command(name='leaderboard_community_init', description="(You aren't supposed to run this) Generate a file with clan data for the current community server")
+LEADERBOARD_COMMUNITY_LIST_PLAYERS = Command(name='leaderboard_community_list_players', description='List all community players')
+LEADERBOARD_COMMUNITY_REMOVE_PLAYER = Command(name='leaderboard_community_remove_player', description="(You aren't supposed to run this) Manually remove a player from the server leaderboard")
 PING_COMMAND = Command(name='ping', description='Check server response time')
-REMOVE_ACCOUNT_LINKER_COMMAND = Command(name='remove_account_linker', description='Remove an Account Linker')
-REMOVE_CONSOLE_PLAYER_COMMAND = Command(name='remove_console_player', description='Remove a console player')
-REMOVE_SERVER_PLAYER_COMMAND = Command(name='remove_server_player', description="(You aren't supposed to run this) Manually remove a player from the server leaderboard")
-SERVER_PLAYER_LIST = Command(name='server_player_list', description='List all server players')
-VIEW_CLAN_DATA = Command(name='view_clan_data', description='List all the fields that are being used in the leaderboard')
+
 
 ALL_COMMANDS = [
-    ACCOUNT_LINKER_LIST_COMMAND,
-    ADD_ACCOUNT_LINKER_COMMAND,
-    ADD_CONSOLE_PLAYER_COMMAND,
-    ADD_SERVER_PLAYER_COMMAND,
+    LEADERBOARD_CLAN_LIST_HIDDEN_PLAYERS,
+    LEADERBOARD_CLAN_HIDE_PLAYER,
+    LEADERBOARD_CLAN_ADD_CONSOLE_PLAYER,
+    LEADERBOARD_COMMUNITY_ADD_PLAYER,
     CHECK_COMMAND,
     CLAIM_COMMAND,
     CLAIM_2V2_LEGEND,
-    CONSOLE_PLAYER_LIST,
-    EDIT_SERVER_COMMAND,
-    EDIT_CLAN_COMMAND,
+    LEADERBOARD_CLAN_LIST_CONSOLE_PLAYERS,
+    LEADERBOARD_COMMUNITY_EDIT_DATA,
+    LEADERBOARD_CLAN_EDIT_DATA,
     HELP_COMMAND,
-    INITIALISE_CLAN_COMMAND,
-    INITIALISE_SERVER_COMMAND,
+    LEADERBOARD_CLAN_INIT,
+    LEADERBOARD_COMMUNITY_INIT,
     PING_COMMAND,
-    REMOVE_ACCOUNT_LINKER_COMMAND,
-    REMOVE_CONSOLE_PLAYER_COMMAND,
-    REMOVE_SERVER_PLAYER_COMMAND,
-    SERVER_PLAYER_LIST,
-    VIEW_CLAN_DATA
+    LEADERBOARD_CLAN_UNHIDE_PLAYER,
+    LEADERBOARD_CLAN_REMOVE_CONSOLE_PLAYER,
+    LEADERBOARD_COMMUNITY_REMOVE_PLAYER,
+    LEADERBOARD_COMMUNITY_LIST_PLAYERS,
+    LEADERBOARD_CLAN_DATA
 ]
 
 def get_country_code(country_name: str) -> str:

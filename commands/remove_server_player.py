@@ -1,7 +1,7 @@
 import json
 from Dadabase.modules.data_management import read_data, write_data, SERVERS_DATA_PATH
 
-async def remove_server_player(interaction, brawlhalla_id):
+async def leaderboard_community_remove_player(interaction, brawlhalla_id):
     server_id = interaction.guild.id
     brawlhalla_name = ""
     server_data = read_data(SERVERS_DATA_PATH, server_id)

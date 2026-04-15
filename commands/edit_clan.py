@@ -3,7 +3,7 @@ from Dadabase.modules.format import bool_to_show_hide, format_color
 from discord import Embed
 
 
-async def edit_clan(interaction, 
+async def leaderboard_clan_edit_data(interaction, 
                     leaderboard_title:str, 
                     color:str,
                     image, 

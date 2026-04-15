@@ -4,26 +4,26 @@
 import discord
 from discord import app_commands
 from typing import List
-from Dadabase.commands.account_linker_list import account_linker_list
-from Dadabase.commands.add_account_linker import add_account_linker
-from Dadabase.commands.add_console_player import add_console_player
-from Dadabase.commands.add_server_player import add_server_player
-from Dadabase.commands.console_player_list import console_player_list
+from Dadabase.commands.account_linker_list import leaderboard_clan_list_hidden_players
+from Dadabase.commands.add_account_linker import leaderboard_clan_hide_players
+from Dadabase.commands.add_console_player import leaderboard_clan_add_console_player
+from Dadabase.commands.add_server_player import leaderboard_community_add_player
+from Dadabase.commands.console_player_list import leaderboard_clan_list_console_players
 from Dadabase.commands.check import check
 from Dadabase.commands.claim import claim
 from Dadabase.commands.claim_2v2_legend import claim_2v2_legend
-from Dadabase.commands.edit_clan import edit_clan
-from Dadabase.commands.edit_server import edit_server
+from Dadabase.commands.edit_clan import leaderboard_clan_edit_data
+from Dadabase.commands.edit_server import leaderboard_community_edit_data
 from Dadabase.commands.help import help
-from Dadabase.commands.initialise_clan import initialise_clan
-from Dadabase.commands.initialise_server import initialise_server
+from Dadabase.commands.initialise_clan import leaderboard_clan_init
+from Dadabase.commands.initialise_server import leaderboard_community_init
 from Dadabase.commands.ping import ping
-from Dadabase.commands.remove_account_linker import remove_account_linker
-from Dadabase.commands.remove_console_player import remove_console_player
-from Dadabase.commands.remove_server_player import remove_server_player
-from Dadabase.commands.server_player_list import server_player_list
-from Dadabase.commands.view_clan_data import view_clan_data
-from Dadabase.modules.command import ALL_COUNTRIES, COUNTRIES_DICT, VIEW_CLAN_DATA, BRAWL_SERVERS, HELP_COMMAND, CHECK_COMMAND, CLAIM_COMMAND, CLAIM_2V2_LEGEND, INITIALISE_CLAN_COMMAND, INITIALISE_SERVER_COMMAND, CONSOLE_PLAYER_LIST, FLAG_TYPE_OPTIONS, REMOVE_ACCOUNT_LINKER_COMMAND, SERVER_PLAYER_LIST, SORTING_METHOD_OPTIONS, ACCOUNT_LINKER_LIST_COMMAND, ADD_ACCOUNT_LINKER_COMMAND, PING_COMMAND, EDIT_CLAN_COMMAND, ADD_SERVER_PLAYER_COMMAND, EDIT_SERVER_COMMAND, ADD_CONSOLE_PLAYER_COMMAND, REMOVE_SERVER_PLAYER_COMMAND, REMOVE_CONSOLE_PLAYER_COMMAND
+from Dadabase.commands.remove_account_linker import leaderboard_clan_unhide_player
+from Dadabase.commands.remove_console_player import leaderboard_clan_remove_console_player
+from Dadabase.commands.remove_server_player import leaderboard_community_remove_player
+from Dadabase.commands.server_player_list import leaderboard_community_list_players
+from Dadabase.commands.view_clan_data import leaderboard_clan_data
+from Dadabase.modules.command import ALL_COUNTRIES, COUNTRIES_DICT, LEADERBOARD_CLAN_DATA, BRAWL_SERVERS, HELP_COMMAND, CHECK_COMMAND, CLAIM_COMMAND, CLAIM_2V2_LEGEND, LEADERBOARD_CLAN_INIT, LEADERBOARD_COMMUNITY_INIT, LEADERBOARD_CLAN_LIST_CONSOLE_PLAYERS, FLAG_TYPE_OPTIONS, LEADERBOARD_CLAN_UNHIDE_PLAYER, LEADERBOARD_COMMUNITY_LIST_PLAYERS, SORTING_METHOD_OPTIONS, LEADERBOARD_CLAN_LIST_HIDDEN_PLAYERS, LEADERBOARD_CLAN_HIDE_PLAYER, PING_COMMAND, LEADERBOARD_CLAN_EDIT_DATA, LEADERBOARD_COMMUNITY_ADD_PLAYER, LEADERBOARD_COMMUNITY_EDIT_DATA, LEADERBOARD_CLAN_ADD_CONSOLE_PLAYER, LEADERBOARD_COMMUNITY_REMOVE_PLAYER, LEADERBOARD_CLAN_REMOVE_CONSOLE_PLAYER
 from Dadabase.modules.env import env_variable
 from Dadabase.modules.check_permission import has_permission
 from Dadabase.modules.data_management import FlagType
@@ -45,23 +45,23 @@ async def on_ready():
     print(f'We have logged in as {client.user}')
 
 
-@tree.command(name=ACCOUNT_LINKER_LIST_COMMAND.name, description=ACCOUNT_LINKER_LIST_COMMAND.description)
-async def account_linker_list_command(interaction):
-    await account_linker_list(interaction)
+@tree.command(name=LEADERBOARD_CLAN_LIST_HIDDEN_PLAYERS.name, description=LEADERBOARD_CLAN_LIST_HIDDEN_PLAYERS.description)
+async def leaderboard_clan_list_hidden_players_command(interaction):
+    await leaderboard_clan_list_hidden_players(interaction)
 
 
-@tree.command(name=ADD_ACCOUNT_LINKER_COMMAND.name, description=ADD_ACCOUNT_LINKER_COMMAND.description)
+@tree.command(name=LEADERBOARD_CLAN_HIDE_PLAYER.name, description=LEADERBOARD_CLAN_HIDE_PLAYER.description)
 @is_admin_or_crossy()
 @app_commands.describe(clan_index="First clan is 0, second clan is 1 etc, third is 2 etc.")
-async def add_account_linker_command(interaction, brawlhalla_id:int, brawlhalla_name:str, clan_index:str):
-    await add_account_linker(interaction, brawlhalla_id, brawlhalla_name, clan_index)
+async def leaderboard_clan_hide_players_command(interaction, brawlhalla_id:int, brawlhalla_name:str, clan_index:str):
+    await leaderboard_clan_hide_players(interaction, brawlhalla_id, brawlhalla_name, clan_index)
 
 
-@tree.command(name=ADD_CONSOLE_PLAYER_COMMAND.name, description=ADD_CONSOLE_PLAYER_COMMAND.description)
+@tree.command(name=LEADERBOARD_CLAN_ADD_CONSOLE_PLAYER.name, description=LEADERBOARD_CLAN_ADD_CONSOLE_PLAYER.description)
 @is_admin_or_crossy()
 @app_commands.describe(clan_index="First clan is 0, second clan is 1 etc, third is 2 etc.")
-async def add_console_player_command(interaction, brawlhalla_id:int, brawlhalla_name:str, clan_index:int):
-    await add_console_player(interaction, brawlhalla_id, brawlhalla_name, clan_index)
+async def leaderboard_clan_add_console_player_command(interaction, brawlhalla_id:int, brawlhalla_name:str, clan_index:int):
+    await leaderboard_clan_add_console_player(interaction, brawlhalla_id, brawlhalla_name, clan_index)
 
 
 
@@ -76,8 +76,8 @@ async def autocomplete_country(interaction: discord.Interaction, current: str) -
     return matches[:25]  # Discord max limit for shown results
 
 @tree.command(
-    name=ADD_SERVER_PLAYER_COMMAND.name,
-    description=ADD_SERVER_PLAYER_COMMAND.description
+    name=LEADERBOARD_COMMUNITY_ADD_PLAYER.name,
+    description=LEADERBOARD_COMMUNITY_ADD_PLAYER.description
 )
 @is_admin_or_crossy()
 @app_commands.describe(region="What server do you play on?")
@@ -88,7 +88,7 @@ async def autocomplete_country(interaction: discord.Interaction, current: str) -
     country_of_residence=autocomplete_country,
     ethnicity=autocomplete_country
 )
-async def add_server_player_command(
+async def leaderboard_community_add_player_command(
     interaction,
     brawlhalla_id: int,
     discord_id: str,
@@ -126,7 +126,7 @@ async def add_server_player_command(
         return
     
     discord_id = int(discord_id)
-    await add_server_player(
+    await leaderboard_community_add_player(
         interaction,
         brawlhalla_id,
         discord_id,
@@ -218,17 +218,17 @@ async def claim_command(interaction,
 #     await claim_2v2_legend(interaction, brawlhalla_id, your_legend, teammate_legend)
 
 
-@tree.command(name=CONSOLE_PLAYER_LIST.name, description=CONSOLE_PLAYER_LIST.description)
-async def console_player_list_command(interaction):
-    await console_player_list(interaction)
+@tree.command(name=LEADERBOARD_CLAN_LIST_CONSOLE_PLAYERS.name, description=LEADERBOARD_CLAN_LIST_CONSOLE_PLAYERS.description)
+async def leaderboard_clan_list_console_players_command(interaction):
+    await leaderboard_clan_list_console_players(interaction)
 
 
-@tree.command(name=EDIT_CLAN_COMMAND.name, description=EDIT_CLAN_COMMAND.description)
+@tree.command(name=LEADERBOARD_CLAN_EDIT_DATA.name, description=LEADERBOARD_CLAN_EDIT_DATA.description)
 @is_admin_or_crossy()
 @app_commands.describe(sorting_method="What elo should be prioritised?")
 @app_commands.describe(color="Example: #5e357a")
 @app_commands.choices(sorting_method=SORTING_METHOD_OPTIONS)
-async def edit_clan_command(interaction, 
+async def leaderboard_clan_edit_data_command(interaction, 
                             leaderboard_title:str=None,
                             color:str=None, 
                             image:str=None, 
@@ -245,7 +245,7 @@ async def edit_clan_command(interaction,
                             show_2v2_legends:bool=None,
                             show_average_elo:bool=None
                             ):
-    await edit_clan(interaction, 
+    await leaderboard_clan_edit_data(interaction, 
                     leaderboard_title,
                     color, 
                     image, 
@@ -263,13 +263,13 @@ async def edit_clan_command(interaction,
                     show_average_elo)
 
 
-@tree.command(name=EDIT_SERVER_COMMAND.name, description=EDIT_SERVER_COMMAND.description)
+@tree.command(name=LEADERBOARD_COMMUNITY_EDIT_DATA.name, description=LEADERBOARD_COMMUNITY_EDIT_DATA.description)
 @is_admin_or_crossy()
 @app_commands.describe(sorting_method="What elo should be prioritised?")
 @app_commands.choices(sorting_method=SORTING_METHOD_OPTIONS)
 @app_commands.describe(flag_type="What flag should be shown next to each player?")
 @app_commands.choices(flag_type=FLAG_TYPE_OPTIONS)
-async def edit_server_command(interaction, 
+async def leaderboard_community_edit_data_command(interaction, 
                               leaderboard_title:str=None, 
                               sorting_method:app_commands.Choice[str]=None, 
                               show_member_count:bool=None, 
@@ -285,7 +285,7 @@ async def edit_server_command(interaction,
                               show_1v1_legends:bool=None,
                               show_2v2_legends:bool=None,
                               ):
-    await edit_server(interaction, 
+    await leaderboard_community_edit_data(interaction, 
                       leaderboard_title, 
                       sorting_method, 
                       show_member_count, 
@@ -307,12 +307,12 @@ async def help_command(interaction):
     await help(interaction)
 
 
-@tree.command(name=INITIALISE_CLAN_COMMAND.name, description=INITIALISE_CLAN_COMMAND.description)
+@tree.command(name=LEADERBOARD_CLAN_INIT.name, description=LEADERBOARD_CLAN_INIT.description)
 @is_admin_or_crossy()
 @app_commands.describe(sorting_method="What elo should be prioritised?")
 @app_commands.choices(sorting_method=SORTING_METHOD_OPTIONS)
 @app_commands.describe(color = "Provide a Hex color code")
-async def initialise_clan_command(interaction, 
+async def leaderboard_clan_init_command(interaction, 
                                   clan_names:str, 
                                   channel_1v1_id:str, 
                                   channel_2v2_id:str, 
@@ -326,18 +326,18 @@ async def initialise_clan_command(interaction,
                                   image:str="", 
                                   server_id:str=None, 
                                   server_name:str=None):
-    await initialise_clan(interaction, clan_names, channel_1v1_id, channel_2v2_id, clan_id, color, image, 
+    await leaderboard_clan_init(interaction, clan_names, channel_1v1_id, channel_2v2_id, clan_id, color, image, 
                          sorting_method.value, show_member_count, show_xp, show_no_elo_players, channel_rotating_id, server_id, server_name)
 
 
-@tree.command(name=INITIALISE_SERVER_COMMAND.name, description=INITIALISE_SERVER_COMMAND.description)
+@tree.command(name=LEADERBOARD_COMMUNITY_INIT.name, description=LEADERBOARD_COMMUNITY_INIT.description)
 @is_admin_or_crossy()
 @app_commands.describe(sorting_method="What elo should be prioritised?")
 @app_commands.choices(sorting_method=SORTING_METHOD_OPTIONS)
 @app_commands.describe(flag_type="What flag should be shown next to each player?")
 @app_commands.choices(flag_type=FLAG_TYPE_OPTIONS)
 @app_commands.describe(color = "Provide a Hex color code")
-async def initialise_server_command(interaction, 
+async def leaderboard_community_init_command(interaction, 
                                    leaderboard_title:str,
                                    sorting_method: app_commands.Choice[str], 
                                    show_member_count: bool,
@@ -348,7 +348,7 @@ async def initialise_server_command(interaction,
                                    flag_type:app_commands.Choice[str],
                                    color:str="0xFFFFFF",
                                    image:str=""):
-    await initialise_server(interaction, leaderboard_title, sorting_method.value, show_member_count, show_no_elo_players, channel_1v1_id, channel_2v2_id, channel_rotating_id, color, image, flag_type.value)
+    await leaderboard_community_init(interaction, leaderboard_title, sorting_method.value, show_member_count, show_no_elo_players, channel_1v1_id, channel_2v2_id, channel_rotating_id, color, image, flag_type.value)
 
 
 @tree.command(name=PING_COMMAND.name)
@@ -356,33 +356,33 @@ async def ping_command(interaction):
     await ping(interaction)
 
 
-@tree.command(name=REMOVE_ACCOUNT_LINKER_COMMAND.name, description=REMOVE_ACCOUNT_LINKER_COMMAND.description)
+@tree.command(name=LEADERBOARD_CLAN_UNHIDE_PLAYER.name, description=LEADERBOARD_CLAN_UNHIDE_PLAYER.description)
 @is_admin_or_crossy()
-async def remove_account_linker_command(interaction, brawlhalla_id:int):
-    await remove_account_linker(interaction, brawlhalla_id)
+async def leaderboard_clan_unhide_player_command(interaction, brawlhalla_id:int):
+    await leaderboard_clan_unhide_player(interaction, brawlhalla_id)
 
 
-@tree.command(name=REMOVE_CONSOLE_PLAYER_COMMAND.name, description=REMOVE_CONSOLE_PLAYER_COMMAND.description)
+@tree.command(name=LEADERBOARD_CLAN_REMOVE_CONSOLE_PLAYER.name, description=LEADERBOARD_CLAN_REMOVE_CONSOLE_PLAYER.description)
 @is_admin_or_crossy()
-async def remove_console_player_command(interaction, brawlhalla_id:int):
-    await remove_console_player(interaction, brawlhalla_id)
+async def leaderboard_clan_remove_console_player_command(interaction, brawlhalla_id:int):
+    await leaderboard_clan_remove_console_player(interaction, brawlhalla_id)
 
 
-@tree.command(name=REMOVE_SERVER_PLAYER_COMMAND.name, description=REMOVE_SERVER_PLAYER_COMMAND.description)
+@tree.command(name=LEADERBOARD_COMMUNITY_REMOVE_PLAYER.name, description=LEADERBOARD_COMMUNITY_REMOVE_PLAYER.description)
 @is_admin_or_crossy()
-async def remove_server_player_command(interaction, brawlhalla_id:int):
-    await remove_server_player(interaction, brawlhalla_id)
+async def leaderboard_community_remove_player_command(interaction, brawlhalla_id:int):
+    await leaderboard_community_remove_player(interaction, brawlhalla_id)
 
 
-@tree.command(name=SERVER_PLAYER_LIST.name, description=SERVER_PLAYER_LIST.description)
+@tree.command(name=LEADERBOARD_COMMUNITY_LIST_PLAYERS.name, description=LEADERBOARD_COMMUNITY_LIST_PLAYERS.description)
 @is_admin_or_crossy()
-async def server_player_list_command(interaction):
-    await server_player_list(interaction)
+async def leaderboard_community_list_players_command(interaction):
+    await leaderboard_community_list_players(interaction)
 
-@tree.command(name=VIEW_CLAN_DATA.name, description=VIEW_CLAN_DATA.description)
+@tree.command(name=LEADERBOARD_CLAN_DATA.name, description=LEADERBOARD_CLAN_DATA.description)
 @is_admin_or_crossy()
-async def view_clan_data_command(interaction):
-    await view_clan_data(interaction)
+async def leaderboard_clan_data_command(interaction):
+    await leaderboard_clan_data(interaction)
 
     
 

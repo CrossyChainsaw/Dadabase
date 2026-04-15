@@ -7,7 +7,7 @@
     "id_array": [
         "12"
     ],
-    "color": "0x30cff1",
+    "color": "0xBDDEEC",
     "image": "",
     "channel_1v1_id": 1093898006299934781,
     "channel_2v2_id": 1093898340657275040,
@@ -38,9 +38,20 @@
             "clan_index": 0
         },
         {
-            "brawlhalla_id": "106660614",
-            "brawlhalla_name": "Shima",
-            "clan_index": 0
+            "brawlhalla_id": "106745692",
+            "brawlhalla_name": "Acryl",
+            "clan_index": "0",
+            "discord_id": null,
+            "own_legend": "random",
+            "mate_legend": "random"
+        },
+        {
+            "brawlhalla_id": "101338331",
+            "brawlhalla_name": "Whale",
+            "clan_index": "12",
+            "discord_id": null,
+            "own_legend": "random",
+            "mate_legend": "random"
         }
     ],
     "console_players": [
@@ -60,9 +71,12 @@
             "clan_index": 0
         },
         {
-            "brawlhalla_id": "18553773",
-            "brawlhalla_name": "Shima",
-            "clan_index": 0
+            "brawlhalla_id": "35712412",
+            "brawlhalla_name": "Acryl",
+            "clan_index": 0,
+            "discord_id": null,
+            "own_legend": "random",
+            "mate_legend": "random"
         }
     ],
     "legends_for_2v2": [

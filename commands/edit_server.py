@@ -4,7 +4,7 @@ from Dadabase.classes.Server import Server
 from discord import Embed
 
 
-async def edit_server(interaction, 
+async def leaderboard_community_edit_data(interaction, 
                       leaderboard_title:str, 
                       sorting_method:str, 
                       show_member_count:bool,

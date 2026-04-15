@@ -8,7 +8,7 @@ import os
 import json
 import random
 import pytest
-from Dadabase.commands.add_console_player import add_console_player
+from Dadabase.commands.add_console_player import leaderboard_clan_add_console_player
 from Dadabase.modules.data_management import CLANS_DATA_PATH, read_data
 from Dadabase.classes.BrawlhallaAccount import BrawlhallaAccount
 
@@ -37,7 +37,7 @@ async def test_add_console_player_integration(tmp_path):
     mock_clan_index = 0
 
     # Action
-    await add_console_player(mock_interaction, mock_brawlhalla_id, mock_brawlhalla_name, mock_clan_index)
+    await leaderboard_clan_add_console_player(mock_interaction, mock_brawlhalla_id, mock_brawlhalla_name, mock_clan_index)
 
     # Assert
     clan_data = read_data(CLANS_DATA_PATH, mock_interaction.guild.id)

@@ -1,0 +1,27 @@
+{
+    "server_name": "Cerise",
+    "clan_names": [
+        "Cerise"
+    ],
+    "leaderboard_title": "Cerise",
+    "discord_server_id": "1450999983292682325",
+    "id_array": [
+        "2606751"
+    ],
+    "color": "0xe1002a",
+    "image": "https://cdn.discordapp.com/attachments/722800357348081744/1455191321756041247/giphy.gif?ex=6953d407&is=69528287&hm=a1de9f72ca58f47695c01eac2dd864d16cfac7aa0dced53a5c68ce2d79995554&",
+    "channel_1v1_id": 1453669129855827968,
+    "channel_2v2_id": 1455189686514614396,
+    "channel_rotating_id": 0,
+    "sorting_method": "current",
+    "show_member_count": true,
+    "show_xp": true,
+    "show_no_elo_players": true,
+    "show_win_loss": true,
+    "show_1v1_legends": true,
+    "show_2v2_legends": false,
+    "show_average_elo": true,
+    "account_linkers": [],
+    "console_players": [],
+    "legends_for_2v2": []
+}

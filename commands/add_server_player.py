@@ -7,7 +7,7 @@ from Dadabase.modules.data_management import add_link, codeblock_with_link_data,
 # Quick Fixed this command but it can be done cleaner
 # already claimed function might be able to be imported from data manag.
 
-async def add_server_player(interaction, brawlhalla_id, discord_id, discord_name, region, country_of_residence, ethnicity):
+async def leaderboard_community_add_player(interaction, brawlhalla_id, discord_id, discord_name, region, country_of_residence, ethnicity):
     region = __structure_option_if_empty(region)
     country_of_residence = __structure_option_if_empty(country_of_residence)
     ethnicity = __structure_option_if_empty(ethnicity)
