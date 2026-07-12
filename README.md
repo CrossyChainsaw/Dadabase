@@ -1,4 +1,4 @@
-> **IMPORTANT**: Ranknir has been discontinued as of 12 July 2026. The source code is still available. 
+> **IMPORTANT**: Dadabase has been discontinued as of 12 July 2026. The source code is still available. 
 
 ---
 
