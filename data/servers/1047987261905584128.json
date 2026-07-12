@@ -1,7 +1,7 @@
 {
     "id": 1047987261905584128,
     "name": "Brawlhalla Nederland",
-    "leaderboard_title": "Brawlhalla Benelux Leaderboard",
+    "leaderboard_title": "Community Leaderboard",
     "sorting_method": "current",
     "show_member_count": false,
     "show_no_elo_players": true,
@@ -1300,6 +1300,58 @@
             "region": "",
             "country": "",
             "ethnicity": "",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 18014084,
+            "brawlhalla_name": "JaivyB2010",
+            "discord_id": 1095653600287543348,
+            "discord_name": "jaivy_",
+            "region": "EU",
+            "country": "NL",
+            "ethnicity": "NL",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 53242747,
+            "brawlhalla_name": "",
+            "discord_id": 719995482255917162,
+            "discord_name": "atajan_",
+            "region": "EU",
+            "country": "NL",
+            "ethnicity": "TM",
+            "legends_for_2v2": {
+                "own_legend": "random",
+                "mate_legend": "random"
+            }
+        },
+        {
+            "brawlhalla_id": 6129153,
+            "brawlhalla_name": "",
+            "discord_id": 281503096876826627,
+            "discord_name": "dnacious",
+            "region": "EU",
+            "country": "NL",
+            "ethnicity": "NL",
+            "legends_for_2v2": {
+                "own_legend": "priya",
+                "mate_legend": "tezca"
+            }
+        },
+        {
+            "brawlhalla_id": 4597885,
+            "brawlhalla_name": "",
+            "discord_id": 1340051768083484835,
+            "discord_name": "amsterdam020xxx",
+            "region": "EU",
+            "country": "NL",
+            "ethnicity": "SR",
             "legends_for_2v2": {
                 "own_legend": "random",
                 "mate_legend": "random"
