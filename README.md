@@ -1,3 +1,7 @@
+> **IMPORTANT**: Ranknir has been discontinued as of 12 July 2026. The source code is still available. 
+
+---
+
 # Dadabase
 Discord bot that collects data for Ranknir using Brawlhalla API and discord users. Dadabase is a Flask server with a REST controller whereover Ranknir requests data
 
